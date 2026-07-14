@@ -1,30 +1,33 @@
 import pandas as pd
 
-def get_monthly_averages(row: pd.Series, df: pd.DataFrame) -> list:
-    """Her ay için o üniversitenin günlük değerlerinin ortalamasını hesaplar."""
-    date_cols = df.columns[1:]
-    dates = pd.to_datetime(date_cols, format='%d.%m.%Y')
-    df_dates = pd.DataFrame({'col': date_cols, 'date': dates})
-    df_dates['year_month'] = df_dates['date'].dt.to_period('M')
+def load_gunluk_ozet(filepath: str = "data/gunluk_ozet.csv") -> pd.DataFrame:
+    # günlük özet verisini okur, tarihi gerçek tarih tipine çevirir
+    df = pd.read_csv(filepath)
+    df["date"] = pd.to_datetime(df["date"])
+    return df
+
+
+def get_monthly_averages(df: pd.DataFrame, university_name: str) -> list:
+    # bir üniversitenin ay ay ortalama değerini hesaplar
+    uni_df = df[df["university"] == university_name].copy()
+    uni_df["year_month"] = uni_df["date"].dt.to_period("M")
 
     averages = []
-    for period, group in df_dates.groupby('year_month'):
-        cols = group['col']
-        avg_val = row[cols].astype(float).mean()
+    for period, group in uni_df.groupby("year_month"):
+        avg_val = group["value"].mean()
         averages.append({
             "month": str(period),
             "avg_value": float(round(avg_val, 2)),
-            "day_count": int(len(cols)),
+            "day_count": int(len(group)),
         })
-    return averages  # groupby period'a göre otomatik kronolojik sıralı gelir
+    return averages
 
 
-def calculate_change_pct(row: pd.Series, df: pd.DataFrame, months_back: int = 3) -> dict:
-    """Aylık ortalamalara göre, months_back kadar ay önceki durum ile şimdiki durumu kıyaslar."""
-    monthly = get_monthly_averages(row, df)
+def calculate_change_pct(df: pd.DataFrame, university_name: str, months_back: int = 3) -> dict:
+    monthly = get_monthly_averages(df, university_name)
 
     if len(monthly) <= months_back:
-        old = monthly[0]  # yeterli ay yoksa elimizdeki en eski ayı kullan
+        old = monthly[0]
     else:
         old = monthly[-(months_back + 1)]
     new = monthly[-1]
@@ -34,7 +37,7 @@ def calculate_change_pct(row: pd.Series, df: pd.DataFrame, months_back: int = 3)
     change_pct = (new_val - old_val) / old_val * 100 if old_val else 0.0
 
     return {
-        "university": row[df.columns[0]],
+        "university": university_name,
         "old_month": old["month"],
         "old_value": old_val,
         "new_month": new["month"],
@@ -45,13 +48,11 @@ def calculate_change_pct(row: pd.Series, df: pd.DataFrame, months_back: int = 3)
 
 
 def generate_report(df: pd.DataFrame, months_back: int = 3) -> dict:
-    """Tüm üniversiteler için rapor üretir, en çok/az artanları da ekler."""
-    from data import get_university_row
+    university_names = df["university"].unique()
 
     results = []
-    for uni_name in df[df.columns[0]]:
-        row = get_university_row(df, uni_name)
-        result = calculate_change_pct(row, df, months_back)
+    for uni in university_names:
+        result = calculate_change_pct(df, uni, months_back)
         results.append(result)
 
     ranked = sorted(results, key=lambda r: r["change_pct"], reverse=True)
