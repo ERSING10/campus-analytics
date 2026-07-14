@@ -1,0 +1,458 @@
+{
+  "universities": [
+    {
+      "university": "Adnan Menderes University",
+      "old_month": "2026-07",
+      "old_value": 165.0,
+      "new_month": "2026-07",
+      "new_value": 165.0,
+      "change_pct": 0.0,
+      "monthly_breakdown": [
+        {
+          "month": "2026-07",
+          "avg_value": 165.0,
+          "day_count": 1
+        }
+      ]
+    },
+    {
+      "university": "Ahi Evran University",
+      "old_month": "2026-07",
+      "old_value": 151.0,
+      "new_month": "2026-07",
+      "new_value": 151.0,
+      "change_pct": 0.0,
+      "monthly_breakdown": [
+        {
+          "month": "2026-07",
+          "avg_value": 151.0,
+          "day_count": 1
+        }
+      ]
+    },
+    {
+      "university": "Akdeniz University",
+      "old_month": "2026-07",
+      "old_value": 149.0,
+      "new_month": "2026-07",
+      "new_value": 149.0,
+      "change_pct": 0.0,
+      "monthly_breakdown": [
+        {
+          "month": "2026-07",
+          "avg_value": 149.0,
+          "day_count": 1
+        }
+      ]
+    },
+    {
+      "university": "Anadolu University",
+      "old_month": "2026-07",
+      "old_value": 145.0,
+      "new_month": "2026-07",
+      "new_value": 145.0,
+      "change_pct": 0.0,
+      "monthly_breakdown": [
+        {
+          "month": "2026-07",
+          "avg_value": 145.0,
+          "day_count": 1
+        }
+      ]
+    },
+    {
+      "university": "Ankara University",
+      "old_month": "2026-07",
+      "old_value": 167.0,
+      "new_month": "2026-07",
+      "new_value": 167.0,
+      "change_pct": 0.0,
+      "monthly_breakdown": [
+        {
+          "month": "2026-07",
+          "avg_value": 167.0,
+          "day_count": 1
+        }
+      ]
+    },
+    {
+      "university": "Istanbul Arel University",
+      "old_month": "2026-07",
+      "old_value": 351.0,
+      "new_month": "2026-07",
+      "new_value": 351.0,
+      "change_pct": 0.0,
+      "monthly_breakdown": [
+        {
+          "month": "2026-07",
+          "avg_value": 351.0,
+          "day_count": 1
+        }
+      ]
+    },
+    {
+      "university": "Atatürk University",
+      "old_month": "2026-07",
+      "old_value": 347.0,
+      "new_month": "2026-07",
+      "new_value": 347.0,
+      "change_pct": 0.0,
+      "monthly_breakdown": [
+        {
+          "month": "2026-07",
+          "avg_value": 347.0,
+          "day_count": 1
+        }
+      ]
+    },
+    {
+      "university": "University of Kyrenia",
+      "old_month": "2026-07",
+      "old_value": 162.0,
+      "new_month": "2026-07",
+      "new_value": 162.0,
+      "change_pct": 0.0,
+      "monthly_breakdown": [
+        {
+          "month": "2026-07",
+          "avg_value": 162.0,
+          "day_count": 1
+        }
+      ]
+    },
+    {
+      "university": "Atilim University",
+      "old_month": "2026-07",
+      "old_value": 385.0,
+      "new_month": "2026-07",
+      "new_value": 385.0,
+      "change_pct": 0.0,
+      "monthly_breakdown": [
+        {
+          "month": "2026-07",
+          "avg_value": 385.0,
+          "day_count": 1
+        }
+      ]
+    },
+    {
+      "university": "Bahcesehir University",
+      "old_month": "2026-07",
+      "old_value": 162.0,
+      "new_month": "2026-07",
+      "new_value": 162.0,
+      "change_pct": 0.0,
+      "monthly_breakdown": [
+        {
+          "month": "2026-07",
+          "avg_value": 162.0,
+          "day_count": 1
+        }
+      ]
+    },
+    {
+      "university": "Balikesir University",
+      "old_month": "2026-07",
+      "old_value": 263.0,
+      "new_month": "2026-07",
+      "new_value": 263.0,
+      "change_pct": 0.0,
+      "monthly_breakdown": [
+        {
+          "month": "2026-07",
+          "avg_value": 263.0,
+          "day_count": 1
+        }
+      ]
+    },
+    {
+      "university": "Baskent University",
+      "old_month": "2026-07",
+      "old_value": 376.0,
+      "new_month": "2026-07",
+      "new_value": 376.0,
+      "change_pct": 0.0,
+      "monthly_breakdown": [
+        {
+          "month": "2026-07",
+          "avg_value": 376.0,
+          "day_count": 1
+        }
+      ]
+    },
+    {
+      "university": "Celal Bayar University",
+      "old_month": "2026-07",
+      "old_value": 404.0,
+      "new_month": "2026-07",
+      "new_value": 404.0,
+      "change_pct": 0.0,
+      "monthly_breakdown": [
+        {
+          "month": "2026-07",
+          "avg_value": 404.0,
+          "day_count": 1
+        }
+      ]
+    },
+    {
+      "university": "Beykent University",
+      "old_month": "2026-07",
+      "old_value": 365.0,
+      "new_month": "2026-07",
+      "new_value": 365.0,
+      "change_pct": 0.0,
+      "monthly_breakdown": [
+        {
+          "month": "2026-07",
+          "avg_value": 365.0,
+          "day_count": 1
+        }
+      ]
+    },
+    {
+      "university": "Bilecik University",
+      "old_month": "2026-07",
+      "old_value": 152.0,
+      "new_month": "2026-07",
+      "new_value": 152.0,
+      "change_pct": 0.0,
+      "monthly_breakdown": [
+        {
+          "month": "2026-07",
+          "avg_value": 152.0,
+          "day_count": 1
+        }
+      ]
+    },
+    {
+      "university": "Istanbul Bilgi University",
+      "old_month": "2026-07",
+      "old_value": 360.0,
+      "new_month": "2026-07",
+      "new_value": 360.0,
+      "change_pct": 0.0,
+      "monthly_breakdown": [
+        {
+          "month": "2026-07",
+          "avg_value": 360.0,
+          "day_count": 1
+        }
+      ]
+    },
+    {
+      "university": "Bilkent University",
+      "old_month": "2026-07",
+      "old_value": 203.0,
+      "new_month": "2026-07",
+      "new_value": 203.0,
+      "change_pct": 0.0,
+      "monthly_breakdown": [
+        {
+          "month": "2026-07",
+          "avg_value": 203.0,
+          "day_count": 1
+        }
+      ]
+    },
+    {
+      "university": "Boğaziçi University",
+      "old_month": "2026-07",
+      "old_value": 349.0,
+      "new_month": "2026-07",
+      "new_value": 349.0,
+      "change_pct": 0.0,
+      "monthly_breakdown": [
+        {
+          "month": "2026-07",
+          "avg_value": 349.0,
+          "day_count": 1
+        }
+      ]
+    },
+    {
+      "university": "Cag University",
+      "old_month": "2026-07",
+      "old_value": 102.0,
+      "new_month": "2026-07",
+      "new_value": 102.0,
+      "change_pct": 0.0,
+      "monthly_breakdown": [
+        {
+          "month": "2026-07",
+          "avg_value": 102.0,
+          "day_count": 1
+        }
+      ]
+    },
+    {
+      "university": "Cankaya University",
+      "old_month": "2026-07",
+      "old_value": 224.0,
+      "new_month": "2026-07",
+      "new_value": 224.0,
+      "change_pct": 0.0,
+      "monthly_breakdown": [
+        {
+          "month": "2026-07",
+          "avg_value": 224.0,
+          "day_count": 1
+        }
+      ]
+    }
+  ],
+  "top_gainers": [
+    {
+      "university": "Adnan Menderes University",
+      "old_month": "2026-07",
+      "old_value": 165.0,
+      "new_month": "2026-07",
+      "new_value": 165.0,
+      "change_pct": 0.0,
+      "monthly_breakdown": [
+        {
+          "month": "2026-07",
+          "avg_value": 165.0,
+          "day_count": 1
+        }
+      ]
+    },
+    {
+      "university": "Ahi Evran University",
+      "old_month": "2026-07",
+      "old_value": 151.0,
+      "new_month": "2026-07",
+      "new_value": 151.0,
+      "change_pct": 0.0,
+      "monthly_breakdown": [
+        {
+          "month": "2026-07",
+          "avg_value": 151.0,
+          "day_count": 1
+        }
+      ]
+    },
+    {
+      "university": "Akdeniz University",
+      "old_month": "2026-07",
+      "old_value": 149.0,
+      "new_month": "2026-07",
+      "new_value": 149.0,
+      "change_pct": 0.0,
+      "monthly_breakdown": [
+        {
+          "month": "2026-07",
+          "avg_value": 149.0,
+          "day_count": 1
+        }
+      ]
+    },
+    {
+      "university": "Anadolu University",
+      "old_month": "2026-07",
+      "old_value": 145.0,
+      "new_month": "2026-07",
+      "new_value": 145.0,
+      "change_pct": 0.0,
+      "monthly_breakdown": [
+        {
+          "month": "2026-07",
+          "avg_value": 145.0,
+          "day_count": 1
+        }
+      ]
+    },
+    {
+      "university": "Ankara University",
+      "old_month": "2026-07",
+      "old_value": 167.0,
+      "new_month": "2026-07",
+      "new_value": 167.0,
+      "change_pct": 0.0,
+      "monthly_breakdown": [
+        {
+          "month": "2026-07",
+          "avg_value": 167.0,
+          "day_count": 1
+        }
+      ]
+    }
+  ],
+  "bottom_gainers": [
+    {
+      "university": "Istanbul Bilgi University",
+      "old_month": "2026-07",
+      "old_value": 360.0,
+      "new_month": "2026-07",
+      "new_value": 360.0,
+      "change_pct": 0.0,
+      "monthly_breakdown": [
+        {
+          "month": "2026-07",
+          "avg_value": 360.0,
+          "day_count": 1
+        }
+      ]
+    },
+    {
+      "university": "Bilkent University",
+      "old_month": "2026-07",
+      "old_value": 203.0,
+      "new_month": "2026-07",
+      "new_value": 203.0,
+      "change_pct": 0.0,
+      "monthly_breakdown": [
+        {
+          "month": "2026-07",
+          "avg_value": 203.0,
+          "day_count": 1
+        }
+      ]
+    },
+    {
+      "university": "Boğaziçi University",
+      "old_month": "2026-07",
+      "old_value": 349.0,
+      "new_month": "2026-07",
+      "new_value": 349.0,
+      "change_pct": 0.0,
+      "monthly_breakdown": [
+        {
+          "month": "2026-07",
+          "avg_value": 349.0,
+          "day_count": 1
+        }
+      ]
+    },
+    {
+      "university": "Cag University",
+      "old_month": "2026-07",
+      "old_value": 102.0,
+      "new_month": "2026-07",
+      "new_value": 102.0,
+      "change_pct": 0.0,
+      "monthly_breakdown": [
+        {
+          "month": "2026-07",
+          "avg_value": 102.0,
+          "day_count": 1
+        }
+      ]
+    },
+    {
+      "university": "Cankaya University",
+      "old_month": "2026-07",
+      "old_value": 224.0,
+      "new_month": "2026-07",
+      "new_value": 224.0,
+      "change_pct": 0.0,
+      "monthly_breakdown": [
+        {
+          "month": "2026-07",
+          "avg_value": 224.0,
+          "day_count": 1
+        }
+      ]
+    }
+  ]
+}
