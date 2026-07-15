@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex, nofollow">
+<title>Üniversite Raporu</title>
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    color: #1e293b;
+    margin: 40px;
+  }
+  h1 {
+    color: #1e3a5f;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    background: white;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  }
+  th, td {
+    padding: 10px 14px;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+  }
+  th {
+    background: #1e3a5f;
+    color: white;
+  }
+  tr:hover {
+    background: #f0f4f8;
+  }
+</style>
+
+</head>
+<body>
+
+<h1>Üniversite Değişim Raporu</h1>
+<table border="1" id="rapor-tablosu">
+  <thead>
+    <tr><th>Üniversite</th><th>Eski Ay</th><th>Eski Ortalama</th><th>Yeni Ay</th><th>Yeni Ortalama</th><th>% Değişim</th></tr>
+  </thead>
+  <tbody id="tablo-govdesi"></tbody>
+</table>
+
+<script>
+fetch("report.json")
+  .then(response => response.json())
+  .then(rapor => {
+    const govde = document.getElementById("tablo-govdesi");
+    rapor.universities.forEach(uni => {
+      const satir = document.createElement("tr");
+      satir.innerHTML = `
+        <td>${uni.university}</td>
+        <td>${uni.old_month}</td>
+        <td>${uni.old_value}</td>
+        <td>${uni.new_month}</td>
+        <td>${uni.new_value}</td>
+        <td>%${uni.change_pct}</td>
+      `;
+      govde.appendChild(satir);
+    });
+  });
+</script>
+
+</body>
+</html>
