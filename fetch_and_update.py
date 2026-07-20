@@ -8,6 +8,7 @@ GUNLUK_OZET_PATH = "data/gunluk_ozet.csv"
 
 def get_university_names(limit: int = 20) -> list:
     # hipolabs API'den Türkiye'deki üniversitelerin isimlerini çeker
+    # gercek veriler geldikten sonra o apiye istek atacaz. simdilik burdayız
     url = "http://universities.hipolabs.com/search?country=Turkiye"
     response = requests.get(url)
     data = response.json()
