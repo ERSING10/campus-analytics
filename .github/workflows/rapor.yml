@@ -24,6 +24,8 @@ jobs:
         run: pip install pandas requests reportlab
 
       - name: Veriyi guncelle
+        env:
+          SCOPUS_API_KEY: ${{ secrets.SCOPUS_API_KEY }}
         run: python fetch_and_update.py
 
       - name: Raporu uret

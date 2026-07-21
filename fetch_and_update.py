@@ -1,40 +1,31 @@
 import requests
 import pandas as pd
-import random
+import os
 from datetime import datetime
 
 HAM_LOG_PATH = "data/ham_log.csv"
 GUNLUK_OZET_PATH = "data/gunluk_ozet.csv"
 
-def get_university_names(limit: int = 20) -> list:
-    # hipolabs API'den Türkiye'deki üniversitelerin isimlerini çeker
-    # gercek veriler geldikten sonra o apiye istek atacaz. simdilik burdayız
-    url = "http://universities.hipolabs.com/search?country=Turkiye"
-    response = requests.get(url)
+def get_scopus_universities(api_key: str, limit: int = 20) -> list:
+    # Scopus Affiliation Search API'den Türkiye üniversitelerini (isim + yayın sayısı) çeker
+    url = "https://api.elsevier.com/content/search/affiliation"
+    params = {
+        "query": "affil(university) AND affilcountry(Turkey)",
+        "count": limit,
+        "apiKey": api_key,
+        "httpAccept": "application/json"
+    }
+    response = requests.get(url, params=params)
     data = response.json()
-    names = []
-    for uni in data[:limit]:
-      names.append(uni["name"])
 
-    return names
-
-
-def load_last_values(gunluk_df: pd.DataFrame, university_names: list) -> dict:
-    # her üniversite için şu ana kadarki en son (en yüksek) değeri bulur
-    last_values = {}
-    for uni in university_names:
-        uni_rows = gunluk_df[gunluk_df["university"] == uni]
-        if uni_rows.empty:
-            last_values[uni] = random.randint(80, 400)  # ilk kayıt, rastgele başlangıç
-        else:
-            last_values[uni] = uni_rows["value"].max()
-    return last_values
-
-
-def generate_new_value(last_value: int) -> int:
-    # değeri asla azaltmadan, küçük rastgele bir artış ekler
-    increment = random.randint(0, 5)
-    return int(last_value + increment)
+    universities = []
+    entries = data["search-results"]["entry"]
+    for entry in entries:
+        universities.append({
+            "name": entry["affiliation-name"],
+            "value": int(entry["document-count"])
+        })
+    return universities
 
 
 def append_to_ham_log(records: list) -> None:
@@ -59,21 +50,19 @@ def update_gunluk_ozet(records: list, today: str) -> None:
     combined.to_csv(GUNLUK_OZET_PATH, index=False)
 
 if __name__ == "__main__":
-    names = get_university_names()
-    gunluk_df = pd.read_csv(GUNLUK_OZET_PATH)
-    last_values = load_last_values(gunluk_df, names)
+    api_key = os.environ["SCOPUS_API_KEY"]
+    universities = get_scopus_universities(api_key, limit=20)
 
     now = datetime.now()
     today_str = now.strftime("%Y-%m-%d")
     timestamp_str = now.strftime("%Y-%m-%d %H:%M:%S")
 
     records = []
-    for uni in names:
-        new_value = generate_new_value(last_values[uni])
+    for uni in universities:
         records.append({
             "timestamp": timestamp_str,
-            "university": uni,
-            "value": new_value,
+            "university": uni["name"],
+            "value": uni["value"],
         })
 
     append_to_ham_log(records)

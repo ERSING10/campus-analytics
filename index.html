@@ -44,7 +44,7 @@
 </a>
 <table border="1" id="rapor-tablosu">
   <thead>
-    <tr><th>Üniversite</th><th>Eski Ay</th><th>Eski Ortalama</th><th>Yeni Ay</th><th>Yeni Ortalama</th><th>% Değişim</th></tr>
+    <tr><th>Üniversite</th><th>Toplam Yayın</th><th>10G Değişim</th><th>30G Değişim</th><th>Momentum</th><th>Yıl Sonu Tahmini</th></tr>
   </thead>
   <tbody id="tablo-govdesi"></tbody>
 </table>
@@ -55,14 +55,19 @@ fetch("report.json")
   .then(rapor => {
     const govde = document.getElementById("tablo-govdesi");
     rapor.universities.forEach(uni => {
+      const change10 = uni.change_10d.change_pct !== null ? uni.change_10d.change_pct + "%" : "yetersiz veri";
+      const change30 = uni.change_30d.change_pct !== null ? uni.change_30d.change_pct + "%" : "yetersiz veri";
+      const momentum = uni.momentum.momentum !== null ? uni.momentum.momentum : "yetersiz veri";
+      const estimate = uni.year_end_estimate.estimate !== null ? uni.year_end_estimate.estimate : "yetersiz veri";
+
       const satir = document.createElement("tr");
       satir.innerHTML = `
         <td>${uni.university}</td>
-        <td>${uni.old_month}</td>
-        <td>${uni.old_value}</td>
-        <td>${uni.new_month}</td>
         <td>${uni.new_value}</td>
-        <td>%${uni.change_pct}</td>
+        <td>${change10}</td>
+        <td>${change30}</td>
+        <td>${momentum}</td>
+        <td>${estimate}</td>
       `;
       govde.appendChild(satir);
     });
