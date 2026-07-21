@@ -19,6 +19,7 @@ def get_scopus_universities(api_key: str, limit: int = 20) -> list:
     data = response.json()
 
     universities = []
+    print(data)
     entries = data["search-results"]["entry"]
     for entry in entries:
         universities.append({
