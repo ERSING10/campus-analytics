@@ -4,70 +4,195 @@
 <meta charset="UTF-8">
 <meta name="robots" content="noindex, nofollow">
 <title>Üniversite Raporu</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
 
 <style>
+  * { box-sizing: border-box; }
   body {
-    font-family: Arial, sans-serif;
-    background: #f4f6f8;
+    font-family: -apple-system, "Segoe UI", Arial, sans-serif;
+    background: #f1f5f9;
     color: #1e293b;
-    margin: 40px;
+    margin: 0;
+    padding: 32px;
   }
-  h1 {
-    color: #1e3a5f;
-  }
-  table {
-    border-collapse: collapse;
-    width: 100%;
-    background: white;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
-  }
-  th, td {
-    padding: 10px 14px;
-    text-align: left;
-    border-bottom: 1px solid #e2e8f0;
-  }
-  th {
-    background: #1e3a5f;
-    color: white;
-  }
-  tr:hover {
-    background: #f0f4f8;
-  }
-</style>
+  .container { max-width: 1200px; margin: 0 auto; }
 
+  h1 { color: #1e3a5f; margin-bottom: 4px; }
+  .subtitle { color: #64748b; font-size: 14px; margin-bottom: 24px; }
+
+  .btn-indir {
+    display: inline-block; margin-bottom: 24px; padding: 10px 20px;
+    background: #1e3a5f; color: white; text-decoration: none;
+    border-radius: 8px; font-weight: 600; font-size: 14px;
+  }
+  .btn-indir:hover { background: #16304d; }
+
+  .kart-satiri {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px; margin-bottom: 28px;
+  }
+  .kart {
+    background: white; padding: 18px 20px; border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08); border-left: 4px solid #1e3a5f;
+  }
+  .kart-baslik { font-size: 12px; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; }
+  .kart-deger { font-size: 22px; font-weight: 700; color: #1e3a5f; margin-top: 4px; }
+
+  .grid-2 {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 28px;
+  }
+  @media (max-width: 900px) { .grid-2 { grid-template-columns: 1fr; } }
+
+  .panel {
+    background: white; border-radius: 12px; padding: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  }
+  .panel h2 { margin-top: 0; font-size: 16px; color: #1e3a5f; }
+
+  .top-list { list-style: none; padding: 0; margin: 0; }
+  .top-list li {
+    display: flex; justify-content: space-between; padding: 10px 0;
+    border-bottom: 1px solid #eef2f6; font-size: 14px;
+  }
+  .top-list li:last-child { border-bottom: none; }
+  .top-list .rozet {
+    background: #ecfdf5; color: #16a34a; padding: 2px 8px;
+    border-radius: 6px; font-weight: 600; font-size: 13px;
+  }
+
+  table {
+    border-collapse: collapse; width: 100%; background: white;
+    border-radius: 12px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  }
+  th, td { padding: 12px 16px; text-align: left; font-size: 14px; }
+  th {
+    background: #1e3a5f; color: white; font-weight: 600;
+    position: sticky; top: 0;
+  }
+  tbody tr:nth-child(even) { background: #f8fafc; }
+  tbody tr:hover { background: #eef4fb; }
+  td.sayi { font-variant-numeric: tabular-nums; }
+  .yetersiz { color: #94a3b8; font-style: italic; font-size: 13px; }
+</style>
 </head>
 <body>
+<div class="container">
 
-<h1>Üniversite Değişim Raporu</h1>
-<a href="report.pdf" download style="display:inline-block; margin-bottom:20px; padding:10px 18px; background:#1e3a5f; color:white; text-decoration:none; border-radius:6px; font-family:Arial, sans-serif;">
-  📄 PDF Raporu İndir
-</a>
-<table border="1" id="rapor-tablosu">
-  <thead>
-    <tr><th>Üniversite</th><th>Toplam Yayın</th><th>10G Değişim</th><th>30G Değişim</th><th>Momentum</th><th>Yıl Sonu Tahmini</th></tr>
-  </thead>
-  <tbody id="tablo-govdesi"></tbody>
-</table>
+  <h1>Üniversite Değişim Raporu</h1>
+  <div class="subtitle" id="alt-baslik">Yükleniyor...</div>
+
+  <a href="report.pdf" download class="btn-indir">📄 PDF Raporu İndir</a>
+
+  <div class="kart-satiri" id="kart-satiri"></div>
+
+  <div class="grid-2">
+    <div class="panel">
+      <h2>Yayın Dağılımı (İlk 10)</h2>
+      <canvas id="pastaGrafik" height="260"></canvas>
+    </div>
+    <div class="panel">
+      <h2>En Çok Artan 5 Üniversite</h2>
+      <ul class="top-list" id="top-liste"></ul>
+    </div>
+  </div>
+
+  <table id="rapor-tablosu">
+    <thead>
+      <tr>
+        <th>Üniversite</th><th>Toplam Yayın</th><th>10G Değişim</th>
+        <th>30G Değişim</th><th>Momentum</th><th>Yıl Sonu Tahmini</th>
+      </tr>
+    </thead>
+    <tbody id="tablo-govdesi"></tbody>
+  </table>
+
+</div>
 
 <script>
-fetch("report.json")
+function formatDegisim(obj, birim) {
+  if (obj.change_pct === null && obj.momentum === undefined) {
+    return '<span class="yetersiz">yetersiz veri</span>';
+  }
+  return obj.change_pct + birim;
+}
+
+fetch("report.json?t=" + Date.now())
   .then(response => response.json())
   .then(rapor => {
+    const unis = rapor.universities;
+
+    // Alt başlık
+    document.getElementById("alt-baslik").innerText =
+      unis.length + " üniversite izleniyor · Son güncelleme: " + new Date().toLocaleString("tr-TR");
+
+    // Özet kartlar
+    const enYuksek = unis.reduce((a, b) => a.new_value > b.new_value ? a : b);
+    const toplamYayin = unis.reduce((sum, u) => sum + u.new_value, 0);
+    const kartSatiri = document.getElementById("kart-satiri");
+    kartSatiri.innerHTML = `
+      <div class="kart">
+        <div class="kart-baslik">Toplam Üniversite</div>
+        <div class="kart-deger">${unis.length}</div>
+      </div>
+      <div class="kart">
+        <div class="kart-baslik">Toplam Yayın (İzlenen)</div>
+        <div class="kart-deger">${toplamYayin.toLocaleString("tr-TR")}</div>
+      </div>
+      <div class="kart">
+        <div class="kart-baslik">En Yüksek Yayın Sayısı</div>
+        <div class="kart-deger">${enYuksek.new_value.toLocaleString("tr-TR")}</div>
+        <div style="font-size:12px; color:#64748b; margin-top:2px;">${enYuksek.university}</div>
+      </div>
+    `;
+
+    // En çok artan 5 listesi
+    const topListe = document.getElementById("top-liste");
+    rapor.top_gainers.forEach(g => {
+      const li = document.createElement("li");
+      const rozetMetin = g.change_pct !== null ? "%" + g.change_pct : "—";
+      li.innerHTML = `<span>${g.university}</span><span class="rozet">${rozetMetin}</span>`;
+      topListe.appendChild(li);
+    });
+
+    // Pasta grafiği (ilk 10 üniversite)
+    const ilk10 = [...unis].sort((a, b) => b.new_value - a.new_value).slice(0, 10);
+    new Chart(document.getElementById("pastaGrafik"), {
+      type: "doughnut",
+      data: {
+        labels: ilk10.map(u => u.university),
+        datasets: [{
+          data: ilk10.map(u => u.new_value),
+          backgroundColor: [
+            "#1e3a5f", "#2563eb", "#3b82f6", "#60a5fa", "#93c5fd",
+            "#0ea5e9", "#0891b2", "#06b6d4", "#22d3ee", "#67e8f9"
+          ]
+        }]
+      },
+      options: {
+        plugins: { legend: { position: "right", labels: { boxWidth: 12, font: { size: 11 } } } }
+      }
+    });
+
+    // Tablo
     const govde = document.getElementById("tablo-govdesi");
-    rapor.universities.forEach(uni => {
-      const change10 = uni.change_10d.change_pct !== null ? uni.change_10d.change_pct + "%" : "yetersiz veri";
-      const change30 = uni.change_30d.change_pct !== null ? uni.change_30d.change_pct + "%" : "yetersiz veri";
-      const momentum = uni.momentum.momentum !== null ? uni.momentum.momentum : "yetersiz veri";
-      const estimate = uni.year_end_estimate.estimate !== null ? uni.year_end_estimate.estimate : "yetersiz veri";
+    unis.forEach(uni => {
+      const change10 = uni.change_10d.change_pct !== null
+        ? uni.change_10d.change_pct + "%" : '<span class="yetersiz">yetersiz veri</span>';
+      const change30 = uni.change_30d.change_pct !== null
+        ? uni.change_30d.change_pct + "%" : '<span class="yetersiz">yetersiz veri</span>';
+      const momentum = uni.momentum.momentum !== null
+        ? uni.momentum.momentum : '<span class="yetersiz">yetersiz veri</span>';
+      const estimate = uni.year_end_estimate.estimate !== null
+        ? uni.year_end_estimate.estimate.toLocaleString("tr-TR") : '<span class="yetersiz">yetersiz veri</span>';
 
       const satir = document.createElement("tr");
       satir.innerHTML = `
         <td>${uni.university}</td>
-        <td>${uni.new_value}</td>
-        <td>${change10}</td>
-        <td>${change30}</td>
-        <td>${momentum}</td>
-        <td>${estimate}</td>
+        <td class="sayi">${uni.new_value.toLocaleString("tr-TR")}</td>
+        <td class="sayi">${change10}</td>
+        <td class="sayi">${change30}</td>
+        <td class="sayi">${momentum}</td>
+        <td class="sayi">${estimate}</td>
       `;
       govde.appendChild(satir);
     });
