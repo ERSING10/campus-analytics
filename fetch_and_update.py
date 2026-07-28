@@ -6,31 +6,31 @@ from datetime import datetime
 HAM_LOG_PATH = "data/ham_log.csv"
 GUNLUK_OZET_PATH = "data/gunluk_ozet.csv"
 
-def get_scopus_universities(api_key: str, limit: int = 20) -> list:
-    # Scopus Affiliation Search API'den Türkiye üniversitelerini (isim + yayın sayısı) çeker
-    url = "https://api.elsevier.com/content/search/affiliation"
+# Dün Affiliation Search'ten çektiğimiz üniversite ID'leri
+UNIVERSITY_IDS = {
+    "Hacettepe Üniversitesi": "60020484",
+    "Ankara Üniversitesi": "60012603",
+    "İstanbul Teknik Üniversitesi": "60022002",
+    "Istanbul Üniversitesi": "60028502",
+    "Middle East Technical University (METU)": "60004305",
+    "Kocaeli Üniversitesi": "60028583",
+}
+
+
+def get_scopus_publication_count_for_year(affiliation_id: str, year: str, api_key: str) -> int:
+    url = "https://api.elsevier.com/content/search/scopus"
     params = {
-        "query": "affil(university) AND affilcountry(Turkey)",
-        "count": limit,
+        "query": f"AF-ID({affiliation_id}) AND PUBYEAR IS {year}",
         "apiKey": api_key,
         "httpAccept": "application/json"
     }
     response = requests.get(url, params=params)
     data = response.json()
-
-    universities = []
-    print(data)
-    entries = data["search-results"]["entry"]
-    for entry in entries:
-        universities.append({
-            "name": entry["affiliation-name"],
-            "value": int(entry["document-count"])
-        })
-    return universities
+    print(data)  # debug için, sorunu görmek adına
+    return int(data["search-results"]["opensearch:totalResults"])
 
 
 def append_to_ham_log(records: list) -> None:
-    # yeni ölçümleri ham_log.csv'nin sonuna ekler
     new_rows = pd.DataFrame(records)
     existing = pd.read_csv(HAM_LOG_PATH)
     combined = pd.concat([existing, new_rows], ignore_index=True)
@@ -38,7 +38,6 @@ def append_to_ham_log(records: list) -> None:
 
 
 def update_gunluk_ozet(records: list, today: str) -> None:
-    # bugüne ait satırları günceller, geçmiş günlere dokunmaz
     existing = pd.read_csv(GUNLUK_OZET_PATH)
     existing_without_today = existing[existing["date"] != today]
 
@@ -50,20 +49,21 @@ def update_gunluk_ozet(records: list, today: str) -> None:
     combined = pd.concat([existing_without_today, today_df], ignore_index=True)
     combined.to_csv(GUNLUK_OZET_PATH, index=False)
 
+
 if __name__ == "__main__":
     api_key = os.environ["SCOPUS_API_KEY"]
-    universities = get_scopus_universities(api_key, limit=20)
 
     now = datetime.now()
     today_str = now.strftime("%Y-%m-%d")
     timestamp_str = now.strftime("%Y-%m-%d %H:%M:%S")
 
     records = []
-    for uni in universities:
+    for uni_name, affiliation_id in UNIVERSITY_IDS.items():
+        count = get_scopus_publication_count_for_year(affiliation_id, "2026", api_key)
         records.append({
             "timestamp": timestamp_str,
-            "university": uni["name"],
-            "value": uni["value"],
+            "university": uni_name,
+            "value": count,
         })
 
     append_to_ham_log(records)
