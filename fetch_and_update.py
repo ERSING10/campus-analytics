@@ -6,16 +6,12 @@ from datetime import datetime
 HAM_LOG_PATH = "data/ham_log.csv"
 GUNLUK_OZET_PATH = "data/gunluk_ozet.csv"
 
-# Dün Affiliation Search'ten çektiğimiz üniversite ID'leri
-UNIVERSITY_IDS = {
-    "Hacettepe Üniversitesi": "60020484",
-    "Ankara Üniversitesi": "60012603",
-    "İstanbul Teknik Üniversitesi": "60022002",
-    "Istanbul Üniversitesi": "60028502",
-    "Middle East Technical University (METU)": "60004305",
-    "Kocaeli Üniversitesi": "60028583",
-}
-
+def load_university_ids(filepath: str = "data/university_ids.csv") -> dict:
+    df = pd.read_csv(filepath)
+    university_ids = {}
+    for _, row in df.iterrows():
+        university_ids[row["name"]] = str(row["affiliation_id"])
+    return university_ids
 
 def get_scopus_publication_count_for_year(affiliation_id: str, year: str, api_key: str) -> int:
     url = "https://api.elsevier.com/content/search/scopus"
@@ -52,13 +48,14 @@ def update_gunluk_ozet(records: list, today: str) -> None:
 
 if __name__ == "__main__":
     api_key = os.environ["SCOPUS_API_KEY"]
+    university_ids = load_university_ids()
 
     now = datetime.now()
     today_str = now.strftime("%Y-%m-%d")
     timestamp_str = now.strftime("%Y-%m-%d %H:%M:%S")
 
     records = []
-    for uni_name, affiliation_id in UNIVERSITY_IDS.items():
+    for uni_name, affiliation_id in university_ids.items():
         count = get_scopus_publication_count_for_year(affiliation_id, "2026", api_key)
         records.append({
             "timestamp": timestamp_str,
