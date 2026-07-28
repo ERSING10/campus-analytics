@@ -3,15 +3,15 @@
     {
       "university": "Hacettepe Üniversitesi",
       "old_month": "2026-07",
-      "old_value": 65629.0,
+      "old_value": 34210.0,
       "new_month": "2026-07",
-      "new_value": 65629.0,
+      "new_value": 34210.0,
       "change_pct": 0.0,
       "monthly_breakdown": [
         {
           "month": "2026-07",
-          "avg_value": 65629.0,
-          "day_count": 1
+          "avg_value": 34210.0,
+          "day_count": 2
         }
       ],
       "change_10d": {
@@ -23,8 +23,8 @@
         "note": "30 günlük veri henüz yetersiz"
       },
       "year_end_estimate": {
-        "estimate": null,
-        "note": "yeterli veri yok"
+        "estimate": -1397598.71,
+        "daily_avg_increase": -8976.8571
       },
       "momentum": {
         "momentum": null,
@@ -34,15 +34,15 @@
     {
       "university": "Ankara Üniversitesi",
       "old_month": "2026-07",
-      "old_value": 50052.0,
+      "old_value": 26283.0,
       "new_month": "2026-07",
-      "new_value": 50052.0,
+      "new_value": 26283.0,
       "change_pct": 0.0,
       "monthly_breakdown": [
         {
           "month": "2026-07",
-          "avg_value": 50052.0,
-          "day_count": 1
+          "avg_value": 26283.0,
+          "day_count": 2
         }
       ],
       "change_10d": {
@@ -54,8 +54,8 @@
         "note": "30 günlük veri henüz yetersiz"
       },
       "year_end_estimate": {
-        "estimate": null,
-        "note": "yeterli veri yok"
+        "estimate": -1056904.29,
+        "daily_avg_increase": -6791.1429
       },
       "momentum": {
         "momentum": null,
@@ -65,15 +65,15 @@
     {
       "university": "İstanbul Teknik Üniversitesi",
       "old_month": "2026-07",
-      "old_value": 47672.0,
+      "old_value": 24826.0,
       "new_month": "2026-07",
-      "new_value": 47672.0,
+      "new_value": 24826.0,
       "change_pct": 0.0,
       "monthly_breakdown": [
         {
           "month": "2026-07",
-          "avg_value": 47672.0,
-          "day_count": 1
+          "avg_value": 24826.0,
+          "day_count": 2
         }
       ],
       "change_10d": {
@@ -85,8 +85,8 @@
         "note": "30 günlük veri henüz yetersiz"
       },
       "year_end_estimate": {
-        "estimate": null,
-        "note": "yeterli veri yok"
+        "estimate": -1016298.86,
+        "daily_avg_increase": -6527.4286
       },
       "momentum": {
         "momentum": null,
@@ -96,15 +96,15 @@
     {
       "university": "Istanbul Üniversitesi",
       "old_month": "2026-07",
-      "old_value": 46280.0,
+      "old_value": 24092.5,
       "new_month": "2026-07",
-      "new_value": 46280.0,
+      "new_value": 24092.5,
       "change_pct": 0.0,
       "monthly_breakdown": [
         {
           "month": "2026-07",
-          "avg_value": 46280.0,
-          "day_count": 1
+          "avg_value": 24092.5,
+          "day_count": 2
         }
       ],
       "change_10d": {
@@ -116,8 +116,8 @@
         "note": "30 günlük veri henüz yetersiz"
       },
       "year_end_estimate": {
-        "estimate": null,
-        "note": "yeterli veri yok"
+        "estimate": -987023.57,
+        "daily_avg_increase": -6339.2857
       },
       "momentum": {
         "momentum": null,
@@ -127,15 +127,15 @@
     {
       "university": "Middle East Technical University (METU)",
       "old_month": "2026-07",
-      "old_value": 44484.0,
+      "old_value": 22764.0,
       "new_month": "2026-07",
-      "new_value": 44484.0,
+      "new_value": 22764.0,
       "change_pct": 0.0,
       "monthly_breakdown": [
         {
           "month": "2026-07",
-          "avg_value": 44484.0,
-          "day_count": 1
+          "avg_value": 22764.0,
+          "day_count": 2
         }
       ],
       "change_10d": {
@@ -147,8 +147,8 @@
         "note": "30 günlük veri henüz yetersiz"
       },
       "year_end_estimate": {
-        "estimate": null,
-        "note": "yeterli veri yok"
+        "estimate": -967047.43,
+        "daily_avg_increase": -6205.7143
       },
       "momentum": {
         "momentum": null,
@@ -619,20 +619,18 @@
         "momentum": null,
         "note": "yetersiz veri"
       }
-    }
-  ],
-  "top_gainers": [
+    },
     {
-      "university": "Hacettepe Üniversitesi",
+      "university": "Kocaeli Üniversitesi",
       "old_month": "2026-07",
-      "old_value": 65629.0,
+      "old_value": 1196.0,
       "new_month": "2026-07",
-      "new_value": 65629.0,
+      "new_value": 1196.0,
       "change_pct": 0.0,
       "monthly_breakdown": [
         {
           "month": "2026-07",
-          "avg_value": 65629.0,
+          "avg_value": 1196.0,
           "day_count": 1
         }
       ],
@@ -647,6 +645,39 @@
       "year_end_estimate": {
         "estimate": null,
         "note": "yeterli veri yok"
+      },
+      "momentum": {
+        "momentum": null,
+        "note": "yetersiz veri"
+      }
+    }
+  ],
+  "top_gainers": [
+    {
+      "university": "Hacettepe Üniversitesi",
+      "old_month": "2026-07",
+      "old_value": 34210.0,
+      "new_month": "2026-07",
+      "new_value": 34210.0,
+      "change_pct": 0.0,
+      "monthly_breakdown": [
+        {
+          "month": "2026-07",
+          "avg_value": 34210.0,
+          "day_count": 2
+        }
+      ],
+      "change_10d": {
+        "change_pct": null,
+        "note": "10 günlük veri henüz yetersiz"
+      },
+      "change_30d": {
+        "change_pct": null,
+        "note": "30 günlük veri henüz yetersiz"
+      },
+      "year_end_estimate": {
+        "estimate": -1397598.71,
+        "daily_avg_increase": -8976.8571
       },
       "momentum": {
         "momentum": null,
@@ -656,15 +687,15 @@
     {
       "university": "Ankara Üniversitesi",
       "old_month": "2026-07",
-      "old_value": 50052.0,
+      "old_value": 26283.0,
       "new_month": "2026-07",
-      "new_value": 50052.0,
+      "new_value": 26283.0,
       "change_pct": 0.0,
       "monthly_breakdown": [
         {
           "month": "2026-07",
-          "avg_value": 50052.0,
-          "day_count": 1
+          "avg_value": 26283.0,
+          "day_count": 2
         }
       ],
       "change_10d": {
@@ -676,8 +707,8 @@
         "note": "30 günlük veri henüz yetersiz"
       },
       "year_end_estimate": {
-        "estimate": null,
-        "note": "yeterli veri yok"
+        "estimate": -1056904.29,
+        "daily_avg_increase": -6791.1429
       },
       "momentum": {
         "momentum": null,
@@ -687,15 +718,15 @@
     {
       "university": "İstanbul Teknik Üniversitesi",
       "old_month": "2026-07",
-      "old_value": 47672.0,
+      "old_value": 24826.0,
       "new_month": "2026-07",
-      "new_value": 47672.0,
+      "new_value": 24826.0,
       "change_pct": 0.0,
       "monthly_breakdown": [
         {
           "month": "2026-07",
-          "avg_value": 47672.0,
-          "day_count": 1
+          "avg_value": 24826.0,
+          "day_count": 2
         }
       ],
       "change_10d": {
@@ -707,8 +738,8 @@
         "note": "30 günlük veri henüz yetersiz"
       },
       "year_end_estimate": {
-        "estimate": null,
-        "note": "yeterli veri yok"
+        "estimate": -1016298.86,
+        "daily_avg_increase": -6527.4286
       },
       "momentum": {
         "momentum": null,
@@ -718,15 +749,15 @@
     {
       "university": "Istanbul Üniversitesi",
       "old_month": "2026-07",
-      "old_value": 46280.0,
+      "old_value": 24092.5,
       "new_month": "2026-07",
-      "new_value": 46280.0,
+      "new_value": 24092.5,
       "change_pct": 0.0,
       "monthly_breakdown": [
         {
           "month": "2026-07",
-          "avg_value": 46280.0,
-          "day_count": 1
+          "avg_value": 24092.5,
+          "day_count": 2
         }
       ],
       "change_10d": {
@@ -738,8 +769,8 @@
         "note": "30 günlük veri henüz yetersiz"
       },
       "year_end_estimate": {
-        "estimate": null,
-        "note": "yeterli veri yok"
+        "estimate": -987023.57,
+        "daily_avg_increase": -6339.2857
       },
       "momentum": {
         "momentum": null,
@@ -749,15 +780,15 @@
     {
       "university": "Middle East Technical University (METU)",
       "old_month": "2026-07",
-      "old_value": 44484.0,
+      "old_value": 22764.0,
       "new_month": "2026-07",
-      "new_value": 44484.0,
+      "new_value": 22764.0,
       "change_pct": 0.0,
       "monthly_breakdown": [
         {
           "month": "2026-07",
-          "avg_value": 44484.0,
-          "day_count": 1
+          "avg_value": 22764.0,
+          "day_count": 2
         }
       ],
       "change_10d": {
@@ -769,8 +800,8 @@
         "note": "30 günlük veri henüz yetersiz"
       },
       "year_end_estimate": {
-        "estimate": null,
-        "note": "yeterli veri yok"
+        "estimate": -967047.43,
+        "daily_avg_increase": -6205.7143
       },
       "momentum": {
         "momentum": null,
@@ -779,37 +810,6 @@
     }
   ],
   "bottom_gainers": [
-    {
-      "university": "Çukurova Üniversitesi",
-      "old_month": "2026-07",
-      "old_value": 22126.0,
-      "new_month": "2026-07",
-      "new_value": 22126.0,
-      "change_pct": 0.0,
-      "monthly_breakdown": [
-        {
-          "month": "2026-07",
-          "avg_value": 22126.0,
-          "day_count": 1
-        }
-      ],
-      "change_10d": {
-        "change_pct": null,
-        "note": "10 günlük veri henüz yetersiz"
-      },
-      "change_30d": {
-        "change_pct": null,
-        "note": "30 günlük veri henüz yetersiz"
-      },
-      "year_end_estimate": {
-        "estimate": null,
-        "note": "yeterli veri yok"
-      },
-      "momentum": {
-        "momentum": null,
-        "note": "yetersiz veri"
-      }
-    },
     {
       "university": "Ondokuz Mayis Üniversitesi",
       "old_month": "2026-07",
@@ -914,6 +914,37 @@
         {
           "month": "2026-07",
           "avg_value": 20390.0,
+          "day_count": 1
+        }
+      ],
+      "change_10d": {
+        "change_pct": null,
+        "note": "10 günlük veri henüz yetersiz"
+      },
+      "change_30d": {
+        "change_pct": null,
+        "note": "30 günlük veri henüz yetersiz"
+      },
+      "year_end_estimate": {
+        "estimate": null,
+        "note": "yeterli veri yok"
+      },
+      "momentum": {
+        "momentum": null,
+        "note": "yetersiz veri"
+      }
+    },
+    {
+      "university": "Kocaeli Üniversitesi",
+      "old_month": "2026-07",
+      "old_value": 1196.0,
+      "new_month": "2026-07",
+      "new_value": 1196.0,
+      "change_pct": 0.0,
+      "monthly_breakdown": [
+        {
+          "month": "2026-07",
+          "avg_value": 1196.0,
           "day_count": 1
         }
       ],
