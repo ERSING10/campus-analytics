@@ -13,6 +13,15 @@ h1 { color: #1e3a5f; margin-bottom: 4px; }
 }
 .btn-indir:hover { background: #16304d; }
 
+.tarih-secici-satiri {
+  display: flex; align-items: center; gap: 10px; margin-bottom: 20px;
+  font-size: 14px; color: #64748b;
+}
+.tarih-secici-satiri select {
+  padding: 8px 12px; border-radius: 8px; border: 1px solid #cbd5e1;
+  font-size: 14px; color: #1e3a5f; font-weight: 600; background: white;
+}
+
 .kart-satiri {
   display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 16px; margin-bottom: 28px;

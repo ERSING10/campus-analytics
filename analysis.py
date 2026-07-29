@@ -85,31 +85,13 @@ def calculate_n_day_change(df: pd.DataFrame, university_name: str, n: int) -> di
     }
 
 
-def estimate_year_end(df: pd.DataFrame, university_name: str) -> dict:
-    # günlük ortalama artışa göre yıl sonu tahmini
-    uni_df = df[df["university"] == university_name]
-    uni_df_sorted = uni_df.sort_values("date")
-
-    if len(uni_df_sorted) < 2:
-        return {"estimate": None, "note": "yeterli veri yok"}
-
-    first_row = uni_df_sorted.iloc[0]
-    last_row = uni_df_sorted.iloc[-1]
-
-    days_elapsed = (last_row["date"] - first_row["date"]).days
-    if days_elapsed == 0:
-        return {"estimate": None, "note": "yeterli veri yok"}
-
-    total_increase = last_row["value"] - first_row["value"]
-    daily_avg_increase = total_increase / days_elapsed
-
-    year_end_date = pd.Timestamp(year=last_row["date"].year, month=12, day=31)
-    days_remaining = (year_end_date - last_row["date"]).days
-
-    estimate = last_row["value"] + (daily_avg_increase * days_remaining)
+def get_latest_raw_value(df: pd.DataFrame, university_name: str) -> dict:
+    # ortalama değil, o üniversitenin en son çekilen ham (gerçek) sayısı
+    uni_df = df[df["university"] == university_name].sort_values("date")
+    last_row = uni_df.iloc[-1]
     return {
-        "estimate": float(round(estimate, 2)),
-        "daily_avg_increase": float(round(daily_avg_increase, 4)),
+        "date": str(last_row["date"].date()),
+        "value": int(last_row["value"]),
     }
 
 
@@ -131,8 +113,8 @@ def generate_report(df: pd.DataFrame, months_back: int = 3) -> dict:
         result = calculate_change_pct(df, uni, months_back)
         result["change_10d"] = calculate_n_day_change(df, uni, 10)
         result["change_30d"] = calculate_n_day_change(df, uni, 30)
-        result["year_end_estimate"] = estimate_year_end(df, uni)
         result["momentum"] = calculate_momentum(result["change_10d"], result["change_30d"])
+        result["latest"] = get_latest_raw_value(df, uni)
         results.append(result)
 
     ranked = sorted(results, key=lambda r: r["change_pct"], reverse=True)

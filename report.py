@@ -28,7 +28,7 @@ def save_report_json(report: dict, filepath: str = "report.json") -> None:
 
 
 def build_pasta_grafik(universities: list) -> Drawing:
-    ilk_10 = sorted(universities, key=lambda u: u["new_value"], reverse=True)[:10]
+    ilk_10 = sorted(universities, key=lambda u: u["latest"]["value"], reverse=True)[:10]
 
     drawing = Drawing(400, 220)
     pie = Pie()
@@ -36,7 +36,7 @@ def build_pasta_grafik(universities: list) -> Drawing:
     pie.y = 10
     pie.width = 160
     pie.height = 160
-    pie.data = [u["new_value"] for u in ilk_10]
+    pie.data = [u["latest"]["value"] for u in ilk_10]
     pie.labels = None
     pie.sideLabels = False
 
@@ -83,8 +83,8 @@ def save_report_pdf(report: dict, filepath: str = "report.pdf", months_back: int
 
     universities = report["universities"]
     toplam_uni = len(universities)
-    toplam_yayin = sum(u["new_value"] for u in universities)
-    en_yuksek = max(universities, key=lambda u: u["new_value"])
+    toplam_yayin = sum(u["latest"]["value"] for u in universities)
+    en_yuksek = max(universities, key=lambda u: u["latest"]["value"])
     simdi = datetime.now().strftime("%d.%m.%Y %H:%M")
 
     # Başlık
@@ -101,7 +101,7 @@ def save_report_pdf(report: dict, filepath: str = "report.pdf", months_back: int
     ozet_data = [[
         [Paragraph("TOPLAM ÜNİVERSİTE", ozet_style), Paragraph(str(toplam_uni), ozet_deger_style)],
         [Paragraph("TOPLAM YAYIN (İZLENEN)", ozet_style), Paragraph(f"{toplam_yayin:,}".replace(",", "."), ozet_deger_style)],
-        [Paragraph("EN YÜKSEK YAYIN SAYISI", ozet_style), Paragraph(f"{en_yuksek['new_value']:,}".replace(",", ".") + " - " + en_yuksek["university"][:22], ozet_deger_style)],
+        [Paragraph("EN YÜKSEK YAYIN SAYISI", ozet_style), Paragraph(f"{en_yuksek['latest']['value']:,}".replace(",", ".") + " - " + en_yuksek["university"][:22], ozet_deger_style)],
     ]]
     ozet_table = Table(ozet_data, colWidths=[5.7 * cm, 5.7 * cm, 5.7 * cm])
     ozet_table.setStyle(TableStyle([
@@ -137,23 +137,21 @@ def save_report_pdf(report: dict, filepath: str = "report.pdf", months_back: int
         ("BOTTOMPADDING", (0, 0), (-1, -1), 5),
     ]
 
-    table_data = [["Üniversite", "Toplam Yayın", "10G Değişim", "30G Değişim", "Momentum", "Yıl Sonu Tahmini"]]
+    table_data = [["Üniversite", "Toplam Yayın", "10G Değişim", "30G Değişim", "Momentum"]]
     for r in universities:
         change_10 = r["change_10d"]["change_pct"]
         change_30 = r["change_30d"]["change_pct"]
         momentum = r["momentum"]["momentum"]
-        estimate = r["year_end_estimate"]["estimate"]
 
         table_data.append([
             r["university"],
-            f"{r['new_value']:,}".replace(",", "."),
+            f"{r['latest']['value']:,}".replace(",", "."),
             f"%{change_10}" if change_10 is not None else "yetersiz veri",
             f"%{change_30}" if change_30 is not None else "yetersiz veri",
             f"{momentum}" if momentum is not None else "yetersiz veri",
-            f"{estimate:,.0f}".replace(",", ".") if estimate is not None else "yetersiz veri",
         ])
 
-    table = Table(table_data, repeatRows=1, colWidths=[4.2*cm, 2.4*cm, 2.4*cm, 2.4*cm, 2.2*cm, 3*cm])
+    table = Table(table_data, repeatRows=1, colWidths=[5*cm, 2.6*cm, 2.6*cm, 2.6*cm, 2.4*cm])
     table.setStyle(TableStyle(base_style))
     elements.append(table)
 
