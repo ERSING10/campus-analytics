@@ -2,6 +2,38 @@ const KOCAELI_ADI = "Kocaeli Üniversitesi";
 const RENK_KOCAELI = "#16a34a";
 const RENK_DIGER = ["#1e3a5f", "#2563eb", "#3b82f6", "#60a5fa", "#93c5fd", "#0ea5e9", "#0891b2", "#06b6d4", "#22d3ee"];
 
+const UNI_RENKLERI = {
+  "Boğaziçi Üniversitesi": "#0f2a52",
+  "Koç Üniversitesi": "#a6192e",
+  "Bilkent Üniversitesi": "#00205b",
+  "Hacettepe Üniversitesi": "#f7b500",
+  "Ankara Üniversitesi": "#c8102e",
+  "İstanbul Teknik Üniversitesi": "#00325a",
+  "Istanbul Üniversitesi": "#c8102e",
+  "Orta Doğu Teknik Üniversitesi (ODTÜ)": "#00543c",
+  "Gazi Üniversitesi": "#c8102e",
+  "Sağlık Bilimleri Üniversitesi": "#d21f3c",
+  "Ege Üniversitesi": "#003865",
+  "Atatürk Üniversitesi": "#00274d",
+  "Dokuz Eylül Üniversitesi": "#002d56",
+  "Marmara Üniversitesi": "#00337a",
+  "Yıldız Teknik Üniversitesi": "#d21f3c",
+  "Selçuk Üniversitesi": "#1a7a3c",
+  "Erciyes Üniversitesi": "#c8102e",
+  "Çukurova Üniversitesi": "#1a7a3c",
+  "Ondokuz Mayıs Üniversitesi": "#c8102e",
+  "Karadeniz Teknik Üniversitesi": "#0a6e6e",
+  "Bursa Uludağ Üniversitesi": "#1a7a3c",
+  "Akdeniz Üniversitesi": "#0e8a9c",
+  "Fırat Üniversitesi": "#1f4e8c",
+  "İstanbul Üniversitesi-Cerrahpaşa": "#8c1c2e",
+};
+
+function uniRengi(universityName, yedekIndex) {
+  if (universityName === KOCAELI_ADI) return RENK_KOCAELI;
+  if (UNI_RENKLERI[universityName]) return UNI_RENKLERI[universityName];
+  return RENK_DIGER[yedekIndex % RENK_DIGER.length];
+}
 let pastaChart = null;
 let raporVerisi = null;    // report.json (10G/30G/momentum burdan gelir, seçilen tarihten etkilenmez)
 let gunlukVeri = {};        // { "2026-07-29": { "Kocaeli Üniversitesi": 1234, ... }, ... }
@@ -51,16 +83,22 @@ function tabloyuCiz(secilenTarih) {
     topListe.appendChild(li);
   });
 
-  const ilk10 = siraliListe.slice(0, 10);
-  let renkIndex = 0;
-  const renkler = ilk10.map(u => {
-    if (u.university === KOCAELI_ADI) return RENK_KOCAELI;
-    return RENK_DIGER[(renkIndex++) % RENK_DIGER.length];
-  });
+  // Pasta grafiği: Kocaeli + Kocaeli'den yüksek olan üniversiteler (farkı görmek için)
+  let pastaVerisi;
+  if (kocaeli && kocaeli.gosterilen_deger !== null) {
+    const ustteki = gecerliUnis
+      .filter(u => u.university !== KOCAELI_ADI && u.gosterilen_deger > kocaeli.gosterilen_deger)
+      .sort((a, b) => b.gosterilen_deger - a.gosterilen_deger);
+    pastaVerisi = [...ustteki, kocaeli];
+  } else {
+    pastaVerisi = siraliListe.slice(0, 10);
+  }
+
+  const renkler = pastaVerisi.map((u, i) => uniRengi(u.university, i));
   if (pastaChart) pastaChart.destroy();
   pastaChart = new Chart(document.getElementById("pastaGrafik"), {
     type: "doughnut",
-    data: { labels: ilk10.map(u => u.university), datasets: [{ data: ilk10.map(u => u.gosterilen_deger), backgroundColor: renkler }] },
+    data: { labels: pastaVerisi.map(u => u.university), datasets: [{ data: pastaVerisi.map(u => u.gosterilen_deger), backgroundColor: renkler }] },
     options: { plugins: { legend: { position: "right", labels: { boxWidth: 12, font: { size: 11 } } } } }
   });
 
