@@ -66,11 +66,6 @@ function tabloyuCiz(secilenTarih) {
       <div class="kart-deger">${kocaeli && kocaeli.gosterilen_deger !== null ? kocaeli.gosterilen_deger.toLocaleString("tr-TR") : "-"}</div>
       <div class="kart-alt">${kocaeliSira > 0 ? unis.length + " üniversite arasında " + kocaeliSira + ". sırada" : "bu tarihte veri yok"}</div>
     </div>
-    <div class="kart">
-      <div class="kart-baslik">En Yüksek Yayın Sayısı</div>
-      <div class="kart-deger">${enYuksek ? enYuksek.gosterilen_deger.toLocaleString("tr-TR") : "-"}</div>
-      <div class="kart-alt">${enYuksek ? enYuksek.university : ""}</div>
-    </div>
   `;
 
   const topListe = document.getElementById("top-liste");
@@ -104,7 +99,12 @@ function tabloyuCiz(secilenTarih) {
 
   const govde = document.getElementById("tablo-govdesi");
   govde.innerHTML = "";
-  unis.forEach(uni => {
+  const tabloSirali = [...unis].sort((a, b) => {
+    if (a.gosterilen_deger === null) return 1;
+    if (b.gosterilen_deger === null) return -1;
+    return b.gosterilen_deger - a.gosterilen_deger;
+  });
+  tabloSirali.forEach(uni => {
     const c10 = uni.change_10d.change_pct !== null ? uni.change_10d.change_pct + "%" : '<span class="yetersiz">yetersiz veri</span>';
     const c30 = uni.change_30d.change_pct !== null ? uni.change_30d.change_pct + "%" : '<span class="yetersiz">yetersiz veri</span>';
     const mom = uni.momentum.momentum !== null ? uni.momentum.momentum : '<span class="yetersiz">yetersiz veri</span>';
