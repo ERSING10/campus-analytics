@@ -103,6 +103,27 @@ def calculate_momentum(change_10: dict, change_30: dict) -> dict:
     return {"momentum": float(round(momentum, 4))}
 
 
+def get_closest_rivals(universities: list, n: int = 3) -> dict:
+    kocaeli = next((u for u in universities if u["university"] == "Kocaeli Üniversitesi"), None)
+    if kocaeli is None:
+        return {"kocaeli": None, "above": [], "below": []}
+
+    sirali = sorted(universities, key=lambda u: u["new_value"], reverse=True)
+    kocaeli_index = next(i for i, u in enumerate(sirali) if u["university"] == "Kocaeli Üniversitesi")
+
+    ustundekiler = sirali[max(0, kocaeli_index - n):kocaeli_index]
+    altındakiler = sirali[kocaeli_index + 1: kocaeli_index + 1 + n]
+
+    return {
+        "kocaeli": kocaeli,
+        "above": list(reversed(ustundekiler)),  # en yakın üstteki en başta
+        "below": altındakiler,
+        "sira": kocaeli_index + 1,
+        "toplam": len(sirali),
+    }
+
+
+
 # rapor
 
 def generate_report(df: pd.DataFrame, months_back: int = 3) -> dict:
@@ -118,9 +139,12 @@ def generate_report(df: pd.DataFrame, months_back: int = 3) -> dict:
         results.append(result)
 
     ranked = sorted(results, key=lambda r: r["change_pct"], reverse=True)
+    closest_rivals = get_closest_rivals(results, n=3)
+
 
     return {
         "universities": results,
         "top_gainers": ranked[:5],
         "bottom_gainers": ranked[-5:],
+        "closest_rivals": closest_rivals,
     }
