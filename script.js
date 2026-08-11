@@ -178,6 +178,30 @@ function tabloyuDoldur(unis) {
   }
 }
 
+function rakipleriDoldur(rakipler) {
+  if (!rakipler || !rakipler.kocaeli) return;
+
+  const rakipListe = document.getElementById("rakip-liste");
+  rakipListe.innerHTML = "";
+
+  for (const uni of rakipler.above) {
+    const satir = document.createElement("li");
+    satir.innerHTML = `<span>${uni.university}</span><span class="rozet-notr">${uni.new_value.toLocaleString("tr-TR")}</span>`;
+    rakipListe.appendChild(satir);
+  }
+
+  const kocaeliSatir = document.createElement("li");
+  kocaeliSatir.className = "kocaeli-satir";
+  kocaeliSatir.innerHTML = `<span>Kocaeli Üniversitesi (${rakipler.sira}. sıra)</span><span class="rozet">${rakipler.kocaeli.new_value.toLocaleString("tr-TR")}</span>`;
+  rakipListe.appendChild(kocaeliSatir);
+
+  for (const uni of rakipler.below) {
+    const satir = document.createElement("li");
+    satir.innerHTML = `<span>${uni.university}</span><span class="rozet-notr">${uni.new_value.toLocaleString("tr-TR")}</span>`;
+    rakipListe.appendChild(satir);
+  }
+}
+
 
 function tabloyuCiz(secilenTarih) {
   const gununDegerleri = gunlukVeri[secilenTarih] || {};
@@ -200,6 +224,7 @@ function tabloyuCiz(secilenTarih) {
   enCokArtanlariDoldur(raporVerisi.top_gainers);
   pastaGrafiginiCiz(gecerliUnis, siraliListe, odakUni);
   tabloyuDoldur(unis);
+  rakipleriDoldur(raporVerisi.closest_rivals);
 }
 
 
