@@ -104,22 +104,33 @@ def calculate_momentum(change_10: dict, change_30: dict) -> dict:
 
 
 def get_closest_rivals(universities: list, n: int = 3) -> dict:
-    kocaeli = next((u for u in universities if u["university"] == "Kocaeli Üniversitesi"), None)
+    kocaeli = None
+    for uni in universities:
+        if uni["university"] == "Kocaeli Üniversitesi":
+            kocaeli = uni
+            break
+
     if kocaeli is None:
         return {"kocaeli": None, "above": [], "below": []}
 
-    sirali = sorted(universities, key=lambda u: u["new_value"], reverse=True)
-    kocaeli_index = next(i for i, u in enumerate(sirali) if u["university"] == "Kocaeli Üniversitesi")
+    sirali_liste = sorted(universities, key=lambda uni: uni["new_value"], reverse=True)
 
-    ustundekiler = sirali[max(0, kocaeli_index - n):kocaeli_index]
-    altındakiler = sirali[kocaeli_index + 1: kocaeli_index + 1 + n]
+    kocaeli_konumu = None
+    for konum in range(len(sirali_liste)):
+        if sirali_liste[konum]["university"] == "Kocaeli Üniversitesi":
+            kocaeli_konumu = konum
+            break
+
+    baslangic = max(0, kocaeli_konumu - n)
+    ustundekiler = sirali_liste[baslangic:kocaeli_konumu]
+    altındakiler = sirali_liste[kocaeli_konumu + 1 : kocaeli_konumu + 1 + n]
 
     return {
         "kocaeli": kocaeli,
-        "above": list(reversed(ustundekiler)),  # en yakın üstteki en başta
+        "above": list(reversed(ustundekiler)),
         "below": altındakiler,
-        "sira": kocaeli_index + 1,
-        "toplam": len(sirali),
+        "sira": kocaeli_konumu + 1,
+        "toplam": len(sirali_liste),
     }
 
 
