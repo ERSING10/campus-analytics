@@ -50,6 +50,7 @@ h1 { color: #1e3a5f; margin-bottom: 4px; }
 .top-list li:last-child { border-bottom: none; }
 .top-list li.kocaeli-satir { background: #f0fdf4; font-weight: 600; padding-left: 8px; border-radius: 6px; }
 .top-list .rozet { background: #ecfdf5; color: #16a34a; padding: 2px 8px; border-radius: 6px; font-weight: 600; font-size: 13px; }
+.top-list .rozet-notr { background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 6px; font-weight: 600; font-size: 13px; }
 
 table { border-collapse: collapse; width: 100%; background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
 th, td { padding: 12px 16px; text-align: left; font-size: 14px; }

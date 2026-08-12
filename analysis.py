@@ -1,4 +1,10 @@
 import pandas as pd
+import logging
+
+logging.basicConfig(
+    level=logging.INFO, 
+    format="%(asctime)s - %(levelname)s - %(message)s"
+)
 
 # veri okuma
 
@@ -139,6 +145,7 @@ def get_closest_rivals(universities: list, n: int = 3) -> dict:
 
 def generate_report(df: pd.DataFrame, months_back: int = 3) -> dict:
     university_names = df["university"].unique()
+    logging.info(f"Rapor uretimi basladi, {len(university_names)} universite islenecek")
 
     results = []
     for uni in university_names:
@@ -152,6 +159,7 @@ def generate_report(df: pd.DataFrame, months_back: int = 3) -> dict:
     ranked = sorted(results, key=lambda r: r["change_pct"], reverse=True)
     closest_rivals = get_closest_rivals(results, n=3)
 
+    logging.info(f"Rapor uretimi tamamlandi, {len(results)} universite islendi")
 
     return {
         "universities": results,
