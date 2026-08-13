@@ -9,10 +9,20 @@ logging.basicConfig(
 # veri okuma
 
 def load_gunluk_ozet(filepath: str = "data/gunluk_ozet.csv") -> pd.DataFrame:
-    df = pd.read_csv(filepath)
+    try:
+        df = pd.read_csv(filepath)
+    except FileNotFoundError:
+        logging.error(f"Veri dosyasi bulunamadi: {filepath}")
+        raise
+    except pd.errors.EmptyDataError:
+        logging.error(f"Veri dosyasi bos: {filepath}")
+        raise
+
+    if df.empty:
+        logging.warning(f"Veri dosyasi okundu ama icinde hic satir yok: {filepath}")
+
     df["date"] = pd.to_datetime(df["date"])
     return df
-
 
 # veri isleme
 

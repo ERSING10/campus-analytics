@@ -10,9 +10,18 @@ from reportlab.graphics.shapes import Drawing
 from reportlab.graphics.charts.piecharts import Pie
 from reportlab.graphics.charts.legends import Legend
 from datetime import datetime
+import logging
 
-pdfmetrics.registerFont(TTFont("TimesNewRoman", "fonts/DejaVuSerif.ttf"))
-pdfmetrics.registerFont(TTFont("TimesNewRoman-Bold", "fonts/DejaVuSerif-Bold.ttf"))
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s"
+)
+
+try:
+    pdfmetrics.registerFont(TTFont("TimesNewRoman", "fonts/DejaVuSerif.ttf"))
+    pdfmetrics.registerFont(TTFont("TimesNewRoman-Bold", "fonts/DejaVuSerif-Bold.ttf"))
+except Exception as hata:
+    logging.error(f"Font dosyalari yuklenemedi, varsayilan font kullanilacak: {hata}")
 
 SIYAH = colors.black
 GRI = colors.HexColor("#4b5563")
@@ -206,4 +215,9 @@ def save_report_pdf(report: dict, filepath: str = "report.pdf", months_back: int
     top_table.setStyle(TableStyle(base_style))
     elements.append(top_table)
 
-    doc.build(elements)
+    try:
+        doc.build(elements)
+        logging.info(f"PDF basariyla olusturuldu: {filepath}")
+    except Exception as hata:
+        logging.error(f"PDF olusturulurken hata olustu: {hata}")
+        raise

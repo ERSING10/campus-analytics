@@ -28,8 +28,18 @@ def get_scopus_publication_count_for_year(affiliation_id: str, year: str, api_ke
         "apiKey": api_key,
         "httpAccept": "application/json"
     }
-    response = requests.get(url, params=params)
-    data = response.json()
+
+    try:
+        response = requests.get(url, params=params, timeout=15)
+    except requests.exceptions.RequestException as hata:
+        logging.error(f"Scopus'a baglanilamadi, affiliation_id={affiliation_id}: {hata}")
+        raise
+
+    try:
+        data = response.json()
+    except ValueError:
+        logging.error(f"Scopus gecersiz JSON dondu, affiliation_id={affiliation_id}: {response.text[:200]}")
+        raise
 
     if "search-results" not in data:
         logging.error(f"Scopus beklenmeyen cevap dondu, affiliation_id={affiliation_id}: {data}")
@@ -72,16 +82,28 @@ if __name__ == "__main__":
     timestamp_str = now.strftime("%Y-%m-%d %H:%M:%S")
 
     records = []
+    basarisiz_universiteler = []
+
     for uni_name, affiliation_id in university_ids.items():
-        count = get_scopus_publication_count_for_year(affiliation_id, "2026", api_key)
-        records.append({
-            "timestamp": timestamp_str,
-            "university": uni_name,
-            "value": count,
-        })
-        logging.info(f"{uni_name}: {count} yayin")
+        try:
+            count = get_scopus_publication_count_for_year(affiliation_id, "2026", api_key)
+            records.append({
+                "timestamp": timestamp_str,
+                "university": uni_name,
+                "value": count,
+            })
+            logging.info(f"{uni_name}: {count} yayin")
+        except Exception as hata:
+            logging.warning(f"{uni_name} icin veri cekilemedi, atlaniyor: {hata}")
+            basarisiz_universiteler.append(uni_name)
+
+    if not records:
+        logging.error("Hicbir universite icin veri cekilemedi, islem durduruluyor")
+        raise SystemExit(1)
 
     append_to_ham_log(records)
     update_gunluk_ozet(records, today_str)
 
     logging.info(f"{len(records)} universite icin veri guncellendi. Zaman: {timestamp_str}")
+    if basarisiz_universiteler:
+        logging.warning(f"Su universiteler icin veri alinamadi: {basarisiz_universiteler}")
