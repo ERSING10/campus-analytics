@@ -1,7 +1,7 @@
 import pandas as pd
 import pytest
 
-from analysis import (
+from campus_analytics.processing.analysis import (
     get_monthly_averages,
     calculate_change_pct,
     get_value_n_days_ago,
@@ -102,6 +102,7 @@ def test_kocaeli_bulunur():
         {"university": "Fırat Üniversitesi", "new_value": 950},
     ]
     sonuc = get_closest_rivals(universities, n=3)
+    print("DEBUG sonuc:", sonuc)
     assert sonuc["kocaeli"]["university"] == "Kocaeli Üniversitesi"
     assert sonuc["sira"] == 2
     assert sonuc["toplam"] == 3

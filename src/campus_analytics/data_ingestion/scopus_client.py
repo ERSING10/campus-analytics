@@ -1,19 +1,21 @@
+import sys
+import os
+
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", ".."))
+
 import requests
 import pandas as pd
-import os
 import logging
 from datetime import datetime
+
+from campus_analytics.config import HAM_LOG_PATH, GUNLUK_OZET_PATH, UNIVERSITY_IDS_PATH
 
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
-HAM_LOG_PATH = "data/ham_log.csv"
-GUNLUK_OZET_PATH = "data/gunluk_ozet.csv"
-
-
-def load_university_ids(filepath: str = "data/university_ids.csv") -> dict:
+def load_university_ids(filepath: str = UNIVERSITY_IDS_PATH) -> dict:
     df = pd.read_csv(filepath)
     university_ids = {}
     for _, row in df.iterrows():

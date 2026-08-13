@@ -1,5 +1,6 @@
 import pandas as pd
 import logging
+from campus_analytics.config import KOCAELI_ADI, GUNLUK_OZET_PATH
 
 logging.basicConfig(
     level=logging.INFO, 
@@ -8,18 +9,18 @@ logging.basicConfig(
 
 # veri okuma
 
-def load_gunluk_ozet(filepath: str = "data/gunluk_ozet.csv") -> pd.DataFrame:
+def load_gunluk_ozet(GUNLUK_OZET_PATH: str = "data/gunluk_ozet.csv") -> pd.DataFrame:
     try:
-        df = pd.read_csv(filepath)
+        df = pd.read_csv(GUNLUK_OZET_PATH)
     except FileNotFoundError:
-        logging.error(f"Veri dosyasi bulunamadi: {filepath}")
+        logging.error(f"Veri dosyasi bulunamadi: {GUNLUK_OZET_PATH}")
         raise
     except pd.errors.EmptyDataError:
-        logging.error(f"Veri dosyasi bos: {filepath}")
+        logging.error(f"Veri dosyasi bos: {GUNLUK_OZET_PATH}")
         raise
 
     if df.empty:
-        logging.warning(f"Veri dosyasi okundu ama icinde hic satir yok: {filepath}")
+        logging.warning(f"Veri dosyasi okundu ama icinde hic satir yok: {GUNLUK_OZET_PATH}")
 
     df["date"] = pd.to_datetime(df["date"])
     return df
@@ -122,7 +123,7 @@ def calculate_momentum(change_10: dict, change_30: dict) -> dict:
 def get_closest_rivals(universities: list, n: int = 3) -> dict:
     kocaeli = None
     for uni in universities:
-        if uni["university"] == "Kocaeli Üniversitesi":
+        if uni["university"] == KOCAELI_ADI:
             kocaeli = uni
             break
 
@@ -133,7 +134,7 @@ def get_closest_rivals(universities: list, n: int = 3) -> dict:
 
     kocaeli_konumu = None
     for konum in range(len(sirali_liste)):
-        if sirali_liste[konum]["university"] == "Kocaeli Üniversitesi":
+        if sirali_liste[konum]["university"] == KOCAELI_ADI:
             kocaeli_konumu = konum
             break
 

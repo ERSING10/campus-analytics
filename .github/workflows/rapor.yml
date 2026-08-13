@@ -21,12 +21,15 @@ jobs:
           python-version: '3.13'
 
       - name: Kutuphaneleri kur
-        run: pip install pandas requests reportlab
+        run: pip install -r requirements.txt
+
+      - name: Testleri calistir
+        run: pytest -v
 
       - name: Veriyi guncelle
         env:
           SCOPUS_API_KEY: ${{ secrets.SCOPUS_API_KEY }}
-        run: python fetch_and_update.py
+        run: python src/campus_analytics/data_ingestion/scopus_client.py
 
       - name: Raporu uret
         run: python main.py

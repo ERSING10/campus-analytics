@@ -12,51 +12,35 @@ from reportlab.graphics.charts.legends import Legend
 from datetime import datetime
 import logging
 
+from campus_analytics.config import (
+    KOCAELI_ADI,
+    RENK_KOCAELI,
+    RENK_DIGER,
+    UNI_RENKLERI,
+    SIYAH,
+    GRI,
+    ACIK_GRI,
+    FONT_REGULAR_PATH,
+    FONT_BOLD_PATH,
+    REPORT_JSON_PATH,
+    REPORT_PDF_PATH,
+    DEFAULT_MONTHS_BACK,
+)
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
+SIYAH_RENK = colors.HexColor(SIYAH)
+GRI_RENK = colors.HexColor(GRI)
+ACIK_GRI_RENK = colors.HexColor(ACIK_GRI)
+
 try:
-    pdfmetrics.registerFont(TTFont("TimesNewRoman", "fonts/DejaVuSerif.ttf"))
-    pdfmetrics.registerFont(TTFont("TimesNewRoman-Bold", "fonts/DejaVuSerif-Bold.ttf"))
+    pdfmetrics.registerFont(TTFont("TimesNewRoman", FONT_REGULAR_PATH))
+    pdfmetrics.registerFont(TTFont("TimesNewRoman-Bold", FONT_BOLD_PATH))
 except Exception as hata:
     logging.error(f"Font dosyalari yuklenemedi, varsayilan font kullanilacak: {hata}")
-
-SIYAH = colors.black
-GRI = colors.HexColor("#4b5563")
-ACIK_GRI = colors.HexColor("#f3f4f6")
-KOCAELI_ADI = "Kocaeli Üniversitesi"
-RENK_KOCAELI = "#16a34a"
-RENK_DIGER = ["#1e3a5f", "#2563eb", "#3b82f6", "#60a5fa", "#93c5fd", "#0ea5e9", "#0891b2", "#06b6d4", "#22d3ee"]
-
-# script.js'deki UNI_RENKLERI ile birebir aynı
-UNI_RENKLERI = {
-    "Boğaziçi Üniversitesi": "#0f2a52",
-    "Koç Üniversitesi": "#a6192e",
-    "Bilkent Üniversitesi": "#00205b",
-    "Hacettepe Üniversitesi": "#f7b500",
-    "Ankara Üniversitesi": "#c8102e",
-    "İstanbul Teknik Üniversitesi": "#00325a",
-    "Istanbul Üniversitesi": "#c8102e",
-    "Orta Doğu Teknik Üniversitesi (ODTÜ)": "#00543c",
-    "Gazi Üniversitesi": "#c8102e",
-    "Sağlık Bilimleri Üniversitesi": "#d21f3c",
-    "Ege Üniversitesi": "#003865",
-    "Atatürk Üniversitesi": "#00274d",
-    "Dokuz Eylül Üniversitesi": "#002d56",
-    "Marmara Üniversitesi": "#00337a",
-    "Yıldız Teknik Üniversitesi": "#d21f3c",
-    "Selçuk Üniversitesi": "#1a7a3c",
-    "Erciyes Üniversitesi": "#c8102e",
-    "Çukurova Üniversitesi": "#1a7a3c",
-    "Ondokuz Mayıs Üniversitesi": "#c8102e",
-    "Karadeniz Teknik Üniversitesi": "#0a6e6e",
-    "Bursa Uludağ Üniversitesi": "#1a7a3c",
-    "Akdeniz Üniversitesi": "#0e8a9c",
-    "Fırat Üniversitesi": "#1f4e8c",
-    "İstanbul Üniversitesi-Cerrahpaşa": "#8c1c2e",
-}
 
 
 def uni_rengi(university_name: str, yedek_index: int) -> str:
@@ -67,7 +51,7 @@ def uni_rengi(university_name: str, yedek_index: int) -> str:
     return RENK_DIGER[yedek_index % len(RENK_DIGER)]
 
 
-def save_report_json(report: dict, filepath: str = "report.json") -> None:
+def save_report_json(report: dict, filepath: str = REPORT_JSON_PATH) -> None:
     with open(filepath, "w", encoding="utf-8") as f:
         json.dump(report, f, ensure_ascii=False, indent=2)
 
@@ -134,13 +118,14 @@ def build_pasta_grafik(universities: list) -> Drawing:
     drawing.add(legend)
     return drawing
 
-def save_report_pdf(report: dict, filepath: str = "report.pdf", months_back: int = 3) -> None:
+
+def save_report_pdf(report: dict, filepath: str = REPORT_PDF_PATH, months_back: int = DEFAULT_MONTHS_BACK) -> None:
     doc = SimpleDocTemplate(filepath, pagesize=A4, topMargin=1.5 * cm, bottomMargin=1.5 * cm)
     elements = []
 
-    title_style = ParagraphStyle("TitleTR", fontName="TimesNewRoman-Bold", fontSize=18, textColor=SIYAH, spaceAfter=4)
-    subtitle_style = ParagraphStyle("SubtitleTR", fontName="TimesNewRoman", fontSize=9, textColor=GRI, spaceAfter=16)
-    section_style = ParagraphStyle("SectionTR", fontName="TimesNewRoman-Bold", fontSize=13, textColor=SIYAH, spaceBefore=16, spaceAfter=8)
+    title_style = ParagraphStyle("TitleTR", fontName="TimesNewRoman-Bold", fontSize=18, textColor=SIYAH_RENK, spaceAfter=4)
+    subtitle_style = ParagraphStyle("SubtitleTR", fontName="TimesNewRoman", fontSize=9, textColor=GRI_RENK, spaceAfter=16)
+    section_style = ParagraphStyle("SectionTR", fontName="TimesNewRoman-Bold", fontSize=13, textColor=SIYAH_RENK, spaceBefore=16, spaceAfter=8)
 
     universities = report["universities"]
     sirali_liste = sorted(universities, key=lambda u: u["new_value"], reverse=True)
@@ -150,10 +135,13 @@ def save_report_pdf(report: dict, filepath: str = "report.pdf", months_back: int
     simdi = datetime.now().strftime("%d.%m.%Y %H:%M")
 
     elements.append(Paragraph("Üniversite Değişim Raporu", title_style))
-    elements.append(Paragraph(f"{toplam_uni} üniversite izleniyor · Oluşturulma: {simdi}", subtitle_style))
+    elements.append(Paragraph(
+        f"{toplam_uni} üniversite izleniyor · {months_back} aylık karşılaştırma · Oluşturulma: {simdi}",
+        subtitle_style
+    ))
 
-    ozet_style = ParagraphStyle("OzetBaslik", fontName="TimesNewRoman", fontSize=8, textColor=GRI)
-    ozet_deger_style = ParagraphStyle("OzetDeger", fontName="TimesNewRoman-Bold", fontSize=14, textColor=SIYAH)
+    ozet_style = ParagraphStyle("OzetBaslik", fontName="TimesNewRoman", fontSize=8, textColor=GRI_RENK)
+    ozet_deger_style = ParagraphStyle("OzetDeger", fontName="TimesNewRoman-Bold", fontSize=14, textColor=SIYAH_RENK)
 
     ozet_data = [[
         [Paragraph("TOPLAM ÜNİVERSİTE", ozet_style), Paragraph(str(toplam_uni), ozet_deger_style)],
@@ -162,7 +150,7 @@ def save_report_pdf(report: dict, filepath: str = "report.pdf", months_back: int
     ]]
     ozet_table = Table(ozet_data, colWidths=[5.7 * cm, 5.7 * cm, 5.7 * cm])
     ozet_table.setStyle(TableStyle([
-        ("BACKGROUND", (0, 0), (-1, -1), ACIK_GRI),
+        ("BACKGROUND", (0, 0), (-1, -1), ACIK_GRI_RENK),
         ("BOX", (0, 0), (-1, -1), 0.5, colors.HexColor("#d1d5db")),
         ("LINEAFTER", (0, 0), (0, 0), 0.5, colors.HexColor("#d1d5db")),
         ("LINEAFTER", (1, 0), (1, 0), 0.5, colors.HexColor("#d1d5db")),
@@ -181,9 +169,9 @@ def save_report_pdf(report: dict, filepath: str = "report.pdf", months_back: int
         ("FONTNAME", (0, 0), (-1, -1), "TimesNewRoman"),
         ("FONTNAME", (0, 0), (-1, 0), "TimesNewRoman-Bold"),
         ("TEXTCOLOR", (0, 0), (-1, 0), colors.white),
-        ("TEXTCOLOR", (0, 1), (-1, -1), SIYAH),
-        ("BACKGROUND", (0, 0), (-1, 0), SIYAH),
-        ("ROWBACKGROUNDS", (0, 1), (-1, -1), [colors.white, ACIK_GRI]),
+        ("TEXTCOLOR", (0, 1), (-1, -1), SIYAH_RENK),
+        ("BACKGROUND", (0, 0), (-1, 0), SIYAH_RENK),
+        ("ROWBACKGROUNDS", (0, 1), (-1, -1), [colors.white, ACIK_GRI_RENK]),
         ("FONTSIZE", (0, 0), (-1, -1), 8),
         ("GRID", (0, 0), (-1, -1), 0.5, colors.HexColor("#d1d5db")),
         ("ALIGN", (1, 0), (-1, -1), "CENTER"),
