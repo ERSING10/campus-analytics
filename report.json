@@ -819,8 +819,8 @@
       "old_month": "2026-07",
       "old_value": 1299.67,
       "new_month": "2026-08",
-      "new_value": 1397.76,
-      "change_pct": 7.55,
+      "new_value": 1401.36,
+      "change_pct": 7.82,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -829,14 +829,14 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1397.76,
-          "day_count": 21
+          "avg_value": 1401.36,
+          "day_count": 22
         }
       ],
       "change_10d": {
-        "change_pct": 4.1281,
-        "old_value": 1405.0,
-        "new_value": 1463.0
+        "change_pct": 4.3816,
+        "old_value": 1415.0,
+        "new_value": 1477.0
       },
       "change_30d": {
         "change_pct": null,
@@ -847,8 +847,8 @@
         "note": "yetersiz veri"
       },
       "latest": {
-        "date": "2026-08-22",
-        "value": 1463
+        "date": "2026-08-23",
+        "value": 1477
       }
     },
     {
@@ -1076,28 +1076,28 @@
       }
     },
     {
-      "university": "Kocaeli Üniversitesi",
+      "university": "Koç Üniversitesi",
       "old_month": "2026-07",
-      "old_value": 1199.33,
+      "old_value": 1299.67,
       "new_month": "2026-08",
-      "new_value": 1293.09,
+      "new_value": 1401.36,
       "change_pct": 7.82,
       "monthly_breakdown": [
         {
           "month": "2026-07",
-          "avg_value": 1199.33,
+          "avg_value": 1299.67,
           "day_count": 3
         },
         {
           "month": "2026-08",
-          "avg_value": 1293.09,
+          "avg_value": 1401.36,
           "day_count": 22
         }
       ],
       "change_10d": {
-        "change_pct": 4.9847,
-        "old_value": 1304.0,
-        "new_value": 1369.0
+        "change_pct": 4.3816,
+        "old_value": 1415.0,
+        "new_value": 1477.0
       },
       "change_30d": {
         "change_pct": null,
@@ -1109,7 +1109,7 @@
       },
       "latest": {
         "date": "2026-08-23",
-        "value": 1369
+        "value": 1477
       }
     }
   ],
