@@ -42,8 +42,8 @@
       "old_month": "2026-07",
       "old_value": 2524.67,
       "new_month": "2026-08",
-      "new_value": 2718.84,
-      "change_pct": 7.69,
+      "new_value": 2724.77,
+      "change_pct": 7.93,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -52,13 +52,13 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 2718.84,
-          "day_count": 25
+          "avg_value": 2724.77,
+          "day_count": 26
         }
       ],
       "change_10d": {
-        "change_pct": 4.5107,
-        "old_value": 2749.0,
+        "change_pct": 4.4348,
+        "old_value": 2751.0,
         "new_value": 2873.0
       },
       "change_30d": {
@@ -70,7 +70,7 @@
         "note": "yetersiz veri"
       },
       "latest": {
-        "date": "2026-08-26",
+        "date": "2026-08-27",
         "value": 2873
       }
     },
@@ -79,8 +79,8 @@
       "old_month": "2026-07",
       "old_value": 1988.67,
       "new_month": "2026-08",
-      "new_value": 2160.68,
-      "change_pct": 8.65,
+      "new_value": 2165.15,
+      "change_pct": 8.87,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -89,13 +89,13 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 2160.68,
-          "day_count": 25
+          "avg_value": 2165.15,
+          "day_count": 26
         }
       ],
       "change_10d": {
-        "change_pct": 3.6413,
-        "old_value": 2197.0,
+        "change_pct": 3.5942,
+        "old_value": 2198.0,
         "new_value": 2277.0
       },
       "change_30d": {
@@ -107,7 +107,7 @@
         "note": "yetersiz veri"
       },
       "latest": {
-        "date": "2026-08-26",
+        "date": "2026-08-27",
         "value": 2277
       }
     },
@@ -116,8 +116,8 @@
       "old_month": "2026-07",
       "old_value": 1910.33,
       "new_month": "2026-08",
-      "new_value": 2069.48,
-      "change_pct": 8.33,
+      "new_value": 2074.73,
+      "change_pct": 8.61,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -126,13 +126,13 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 2069.48,
-          "day_count": 25
+          "avg_value": 2074.73,
+          "day_count": 26
         }
       ],
       "change_10d": {
-        "change_pct": 5.2983,
-        "old_value": 2095.0,
+        "change_pct": 5.2481,
+        "old_value": 2096.0,
         "new_value": 2206.0
       },
       "change_30d": {
@@ -144,7 +144,7 @@
         "note": "yetersiz veri"
       },
       "latest": {
-        "date": "2026-08-26",
+        "date": "2026-08-27",
         "value": 2206
       }
     },
@@ -153,8 +153,8 @@
       "old_month": "2026-07",
       "old_value": 1045.33,
       "new_month": "2026-08",
-      "new_value": 1126.56,
-      "change_pct": 7.77,
+      "new_value": 1129.08,
+      "change_pct": 8.01,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -163,13 +163,13 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1126.56,
-          "day_count": 25
+          "avg_value": 1129.08,
+          "day_count": 26
         }
       ],
       "change_10d": {
-        "change_pct": 4.1048,
-        "old_value": 1145.0,
+        "change_pct": 4.014,
+        "old_value": 1146.0,
         "new_value": 1192.0
       },
       "change_30d": {
@@ -181,7 +181,7 @@
         "note": "yetersiz veri"
       },
       "latest": {
-        "date": "2026-08-26",
+        "date": "2026-08-27",
         "value": 1192
       }
     },
@@ -190,8 +190,8 @@
       "old_month": "2026-07",
       "old_value": 1899.67,
       "new_month": "2026-08",
-      "new_value": 2060.16,
-      "change_pct": 8.45,
+      "new_value": 2064.85,
+      "change_pct": 8.7,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -200,13 +200,13 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 2060.16,
-          "day_count": 25
+          "avg_value": 2064.85,
+          "day_count": 26
         }
       ],
       "change_10d": {
-        "change_pct": 4.552,
-        "old_value": 2087.0,
+        "change_pct": 4.4519,
+        "old_value": 2089.0,
         "new_value": 2182.0
       },
       "change_30d": {
@@ -218,7 +218,7 @@
         "note": "yetersiz veri"
       },
       "latest": {
-        "date": "2026-08-26",
+        "date": "2026-08-27",
         "value": 2182
       }
     },
@@ -227,8 +227,8 @@
       "old_month": "2026-07",
       "old_value": 4489.67,
       "new_month": "2026-08",
-      "new_value": 4881.96,
-      "change_pct": 8.74,
+      "new_value": 4893.85,
+      "change_pct": 9.0,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -237,8 +237,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 4881.96,
-          "day_count": 25
+          "avg_value": 4893.85,
+          "day_count": 26
         }
       ],
       "change_10d": {
@@ -255,7 +255,7 @@
         "note": "yetersiz veri"
       },
       "latest": {
-        "date": "2026-08-26",
+        "date": "2026-08-27",
         "value": 5191
       }
     },
@@ -264,8 +264,8 @@
       "old_month": "2026-07",
       "old_value": 1541.0,
       "new_month": "2026-08",
-      "new_value": 1652.32,
-      "change_pct": 7.22,
+      "new_value": 1656.38,
+      "change_pct": 7.49,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -274,8 +274,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1652.32,
-          "day_count": 25
+          "avg_value": 1656.38,
+          "day_count": 26
         }
       ],
       "change_10d": {
@@ -292,7 +292,7 @@
         "note": "yetersiz veri"
       },
       "latest": {
-        "date": "2026-08-26",
+        "date": "2026-08-27",
         "value": 1758
       }
     },
@@ -301,8 +301,8 @@
       "old_month": "2026-07",
       "old_value": 1810.33,
       "new_month": "2026-08",
-      "new_value": 1942.28,
-      "change_pct": 7.29,
+      "new_value": 1946.27,
+      "change_pct": 7.51,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -311,13 +311,13 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1942.28,
-          "day_count": 25
+          "avg_value": 1946.27,
+          "day_count": 26
         }
       ],
       "change_10d": {
-        "change_pct": 4.441,
-        "old_value": 1959.0,
+        "change_pct": 4.3878,
+        "old_value": 1960.0,
         "new_value": 2046.0
       },
       "change_30d": {
@@ -329,7 +329,7 @@
         "note": "yetersiz veri"
       },
       "latest": {
-        "date": "2026-08-26",
+        "date": "2026-08-27",
         "value": 2046
       }
     },
@@ -338,8 +338,8 @@
       "old_month": "2026-07",
       "old_value": 1435.0,
       "new_month": "2026-08",
-      "new_value": 1557.52,
-      "change_pct": 8.54,
+      "new_value": 1561.12,
+      "change_pct": 8.79,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -348,8 +348,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1557.52,
-          "day_count": 25
+          "avg_value": 1561.12,
+          "day_count": 26
         }
       ],
       "change_10d": {
@@ -366,7 +366,7 @@
         "note": "yetersiz veri"
       },
       "latest": {
-        "date": "2026-08-26",
+        "date": "2026-08-27",
         "value": 1651
       }
     },
@@ -375,8 +375,8 @@
       "old_month": "2026-07",
       "old_value": 1501.0,
       "new_month": "2026-08",
-      "new_value": 1612.24,
-      "change_pct": 7.41,
+      "new_value": 1616.08,
+      "change_pct": 7.67,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -385,8 +385,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1612.24,
-          "day_count": 25
+          "avg_value": 1616.08,
+          "day_count": 26
         }
       ],
       "change_10d": {
@@ -403,7 +403,7 @@
         "note": "yetersiz veri"
       },
       "latest": {
-        "date": "2026-08-26",
+        "date": "2026-08-27",
         "value": 1712
       }
     },
@@ -412,8 +412,8 @@
       "old_month": "2026-07",
       "old_value": 1603.67,
       "new_month": "2026-08",
-      "new_value": 1715.32,
-      "change_pct": 6.96,
+      "new_value": 1719.04,
+      "change_pct": 7.19,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -422,8 +422,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1715.32,
-          "day_count": 25
+          "avg_value": 1719.04,
+          "day_count": 26
         }
       ],
       "change_10d": {
@@ -440,7 +440,7 @@
         "note": "yetersiz veri"
       },
       "latest": {
-        "date": "2026-08-26",
+        "date": "2026-08-27",
         "value": 1812
       }
     },
@@ -449,8 +449,8 @@
       "old_month": "2026-07",
       "old_value": 1314.0,
       "new_month": "2026-08",
-      "new_value": 1404.2,
-      "change_pct": 6.86,
+      "new_value": 1407.42,
+      "change_pct": 7.11,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -459,13 +459,13 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1404.2,
-          "day_count": 25
+          "avg_value": 1407.42,
+          "day_count": 26
         }
       ],
       "change_10d": {
-        "change_pct": 5.159,
-        "old_value": 1415.0,
+        "change_pct": 5.0847,
+        "old_value": 1416.0,
         "new_value": 1488.0
       },
       "change_30d": {
@@ -477,7 +477,7 @@
         "note": "yetersiz veri"
       },
       "latest": {
-        "date": "2026-08-26",
+        "date": "2026-08-27",
         "value": 1488
       }
     },
@@ -486,8 +486,8 @@
       "old_month": "2026-07",
       "old_value": 1237.0,
       "new_month": "2026-08",
-      "new_value": 1332.28,
-      "change_pct": 7.7,
+      "new_value": 1334.96,
+      "change_pct": 7.92,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -496,8 +496,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1332.28,
-          "day_count": 25
+          "avg_value": 1334.96,
+          "day_count": 26
         }
       ],
       "change_10d": {
@@ -514,7 +514,7 @@
         "note": "yetersiz veri"
       },
       "latest": {
-        "date": "2026-08-26",
+        "date": "2026-08-27",
         "value": 1402
       }
     },
@@ -523,8 +523,8 @@
       "old_month": "2026-07",
       "old_value": 561.33,
       "new_month": "2026-08",
-      "new_value": 612.92,
-      "change_pct": 9.19,
+      "new_value": 614.35,
+      "change_pct": 9.45,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -533,13 +533,13 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 612.92,
-          "day_count": 25
+          "avg_value": 614.35,
+          "day_count": 26
         }
       ],
       "change_10d": {
-        "change_pct": 5.5195,
-        "old_value": 616.0,
+        "change_pct": 5.178,
+        "old_value": 618.0,
         "new_value": 650.0
       },
       "change_30d": {
@@ -551,7 +551,7 @@
         "note": "yetersiz veri"
       },
       "latest": {
-        "date": "2026-08-26",
+        "date": "2026-08-27",
         "value": 650
       }
     },
@@ -560,8 +560,8 @@
       "old_month": "2026-07",
       "old_value": 1118.67,
       "new_month": "2026-08",
-      "new_value": 1203.64,
-      "change_pct": 7.6,
+      "new_value": 1207.23,
+      "change_pct": 7.92,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -570,8 +570,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1203.64,
-          "day_count": 25
+          "avg_value": 1207.23,
+          "day_count": 26
         }
       ],
       "change_10d": {
@@ -588,7 +588,7 @@
         "note": "yetersiz veri"
       },
       "latest": {
-        "date": "2026-08-26",
+        "date": "2026-08-27",
         "value": 1297
       }
     },
@@ -597,8 +597,8 @@
       "old_month": "2026-07",
       "old_value": 1184.67,
       "new_month": "2026-08",
-      "new_value": 1273.92,
-      "change_pct": 7.53,
+      "new_value": 1276.77,
+      "change_pct": 7.77,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -607,13 +607,13 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1273.92,
-          "day_count": 25
+          "avg_value": 1276.77,
+          "day_count": 26
         }
       ],
       "change_10d": {
-        "change_pct": 4.7397,
-        "old_value": 1287.0,
+        "change_pct": 4.6584,
+        "old_value": 1288.0,
         "new_value": 1348.0
       },
       "change_30d": {
@@ -625,7 +625,7 @@
         "note": "yetersiz veri"
       },
       "latest": {
-        "date": "2026-08-26",
+        "date": "2026-08-27",
         "value": 1348
       }
     },
@@ -634,8 +634,8 @@
       "old_month": "2026-07",
       "old_value": 1271.33,
       "new_month": "2026-08",
-      "new_value": 1369.96,
-      "change_pct": 7.76,
+      "new_value": 1373.0,
+      "change_pct": 8.0,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -644,13 +644,13 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1369.96,
-          "day_count": 25
+          "avg_value": 1373.0,
+          "day_count": 26
         }
       ],
       "change_10d": {
-        "change_pct": 4.4701,
-        "old_value": 1387.0,
+        "change_pct": 4.3948,
+        "old_value": 1388.0,
         "new_value": 1449.0
       },
       "change_30d": {
@@ -662,7 +662,7 @@
         "note": "yetersiz veri"
       },
       "latest": {
-        "date": "2026-08-26",
+        "date": "2026-08-27",
         "value": 1449
       }
     },
@@ -671,8 +671,8 @@
       "old_month": "2026-07",
       "old_value": 1178.67,
       "new_month": "2026-08",
-      "new_value": 1276.28,
-      "change_pct": 8.28,
+      "new_value": 1279.08,
+      "change_pct": 8.52,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -681,8 +681,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1276.28,
-          "day_count": 25
+          "avg_value": 1279.08,
+          "day_count": 26
         }
       ],
       "change_10d": {
@@ -699,7 +699,7 @@
         "note": "yetersiz veri"
       },
       "latest": {
-        "date": "2026-08-26",
+        "date": "2026-08-27",
         "value": 1349
       }
     },
@@ -708,8 +708,8 @@
       "old_month": "2026-07",
       "old_value": 1213.67,
       "new_month": "2026-08",
-      "new_value": 1302.44,
-      "change_pct": 7.31,
+      "new_value": 1305.12,
+      "change_pct": 7.53,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -718,8 +718,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1302.44,
-          "day_count": 25
+          "avg_value": 1305.12,
+          "day_count": 26
         }
       ],
       "change_10d": {
@@ -736,7 +736,7 @@
         "note": "yetersiz veri"
       },
       "latest": {
-        "date": "2026-08-26",
+        "date": "2026-08-27",
         "value": 1372
       }
     },
@@ -745,8 +745,8 @@
       "old_month": "2026-07",
       "old_value": 1188.0,
       "new_month": "2026-08",
-      "new_value": 1311.08,
-      "change_pct": 10.36,
+      "new_value": 1314.19,
+      "change_pct": 10.62,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -755,8 +755,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1311.08,
-          "day_count": 25
+          "avg_value": 1314.19,
+          "day_count": 26
         }
       ],
       "change_10d": {
@@ -773,7 +773,7 @@
         "note": "yetersiz veri"
       },
       "latest": {
-        "date": "2026-08-26",
+        "date": "2026-08-27",
         "value": 1392
       }
     },
@@ -782,8 +782,8 @@
       "old_month": "2026-07",
       "old_value": 1716.67,
       "new_month": "2026-08",
-      "new_value": 1828.96,
-      "change_pct": 6.54,
+      "new_value": 1832.65,
+      "change_pct": 6.76,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -792,8 +792,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1828.96,
-          "day_count": 25
+          "avg_value": 1832.65,
+          "day_count": 26
         }
       ],
       "change_10d": {
@@ -810,7 +810,7 @@
         "note": "yetersiz veri"
       },
       "latest": {
-        "date": "2026-08-26",
+        "date": "2026-08-27",
         "value": 1925
       }
     },
@@ -819,8 +819,8 @@
       "old_month": "2026-07",
       "old_value": 1299.67,
       "new_month": "2026-08",
-      "new_value": 1411.4,
-      "change_pct": 8.6,
+      "new_value": 1414.38,
+      "change_pct": 8.83,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -829,8 +829,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1411.4,
-          "day_count": 25
+          "avg_value": 1414.38,
+          "day_count": 26
         }
       ],
       "change_10d": {
@@ -847,7 +847,7 @@
         "note": "yetersiz veri"
       },
       "latest": {
-        "date": "2026-08-26",
+        "date": "2026-08-27",
         "value": 1489
       }
     },
@@ -856,8 +856,8 @@
       "old_month": "2026-07",
       "old_value": 519.67,
       "new_month": "2026-08",
-      "new_value": 553.68,
-      "change_pct": 6.54,
+      "new_value": 554.62,
+      "change_pct": 6.73,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -866,13 +866,13 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 553.68,
-          "day_count": 25
+          "avg_value": 554.62,
+          "day_count": 26
         }
       ],
       "change_10d": {
-        "change_pct": 2.847,
-        "old_value": 562.0,
+        "change_pct": 2.6643,
+        "old_value": 563.0,
         "new_value": 578.0
       },
       "change_30d": {
@@ -884,7 +884,7 @@
         "note": "yetersiz veri"
       },
       "latest": {
-        "date": "2026-08-26",
+        "date": "2026-08-27",
         "value": 578
       }
     },
@@ -893,8 +893,8 @@
       "old_month": "2026-07",
       "old_value": 1199.33,
       "new_month": "2026-08",
-      "new_value": 1303.24,
-      "change_pct": 8.66,
+      "new_value": 1306.27,
+      "change_pct": 8.92,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -903,8 +903,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1303.24,
-          "day_count": 25
+          "avg_value": 1306.27,
+          "day_count": 26
         }
       ],
       "change_10d": {
@@ -921,7 +921,7 @@
         "note": "yetersiz veri"
       },
       "latest": {
-        "date": "2026-08-26",
+        "date": "2026-08-27",
         "value": 1382
       }
     }
@@ -932,8 +932,8 @@
       "old_month": "2026-07",
       "old_value": 1188.0,
       "new_month": "2026-08",
-      "new_value": 1311.08,
-      "change_pct": 10.36,
+      "new_value": 1314.19,
+      "change_pct": 10.62,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -942,8 +942,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1311.08,
-          "day_count": 25
+          "avg_value": 1314.19,
+          "day_count": 26
         }
       ],
       "change_10d": {
@@ -960,7 +960,7 @@
         "note": "yetersiz veri"
       },
       "latest": {
-        "date": "2026-08-26",
+        "date": "2026-08-27",
         "value": 1392
       }
     },
@@ -969,8 +969,8 @@
       "old_month": "2026-07",
       "old_value": 561.33,
       "new_month": "2026-08",
-      "new_value": 612.92,
-      "change_pct": 9.19,
+      "new_value": 614.35,
+      "change_pct": 9.45,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -979,13 +979,13 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 612.92,
-          "day_count": 25
+          "avg_value": 614.35,
+          "day_count": 26
         }
       ],
       "change_10d": {
-        "change_pct": 5.5195,
-        "old_value": 616.0,
+        "change_pct": 5.178,
+        "old_value": 618.0,
         "new_value": 650.0
       },
       "change_30d": {
@@ -997,7 +997,7 @@
         "note": "yetersiz veri"
       },
       "latest": {
-        "date": "2026-08-26",
+        "date": "2026-08-27",
         "value": 650
       }
     },
@@ -1006,8 +1006,8 @@
       "old_month": "2026-07",
       "old_value": 4489.67,
       "new_month": "2026-08",
-      "new_value": 4881.96,
-      "change_pct": 8.74,
+      "new_value": 4893.85,
+      "change_pct": 9.0,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -1016,8 +1016,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 4881.96,
-          "day_count": 25
+          "avg_value": 4893.85,
+          "day_count": 26
         }
       ],
       "change_10d": {
@@ -1034,7 +1034,7 @@
         "note": "yetersiz veri"
       },
       "latest": {
-        "date": "2026-08-26",
+        "date": "2026-08-27",
         "value": 5191
       }
     },
@@ -1043,8 +1043,8 @@
       "old_month": "2026-07",
       "old_value": 1199.33,
       "new_month": "2026-08",
-      "new_value": 1303.24,
-      "change_pct": 8.66,
+      "new_value": 1306.27,
+      "change_pct": 8.92,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -1053,8 +1053,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1303.24,
-          "day_count": 25
+          "avg_value": 1306.27,
+          "day_count": 26
         }
       ],
       "change_10d": {
@@ -1071,7 +1071,7 @@
         "note": "yetersiz veri"
       },
       "latest": {
-        "date": "2026-08-26",
+        "date": "2026-08-27",
         "value": 1382
       }
     },
@@ -1080,8 +1080,8 @@
       "old_month": "2026-07",
       "old_value": 1988.67,
       "new_month": "2026-08",
-      "new_value": 2160.68,
-      "change_pct": 8.65,
+      "new_value": 2165.15,
+      "change_pct": 8.87,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -1090,13 +1090,13 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 2160.68,
-          "day_count": 25
+          "avg_value": 2165.15,
+          "day_count": 26
         }
       ],
       "change_10d": {
-        "change_pct": 3.6413,
-        "old_value": 2197.0,
+        "change_pct": 3.5942,
+        "old_value": 2198.0,
         "new_value": 2277.0
       },
       "change_30d": {
@@ -1108,7 +1108,7 @@
         "note": "yetersiz veri"
       },
       "latest": {
-        "date": "2026-08-26",
+        "date": "2026-08-27",
         "value": 2277
       }
     }
@@ -1119,8 +1119,8 @@
       "old_month": "2026-07",
       "old_value": 1541.0,
       "new_month": "2026-08",
-      "new_value": 1652.32,
-      "change_pct": 7.22,
+      "new_value": 1656.38,
+      "change_pct": 7.49,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -1129,8 +1129,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1652.32,
-          "day_count": 25
+          "avg_value": 1656.38,
+          "day_count": 26
         }
       ],
       "change_10d": {
@@ -1147,7 +1147,7 @@
         "note": "yetersiz veri"
       },
       "latest": {
-        "date": "2026-08-26",
+        "date": "2026-08-27",
         "value": 1758
       }
     },
@@ -1156,8 +1156,8 @@
       "old_month": "2026-07",
       "old_value": 1603.67,
       "new_month": "2026-08",
-      "new_value": 1715.32,
-      "change_pct": 6.96,
+      "new_value": 1719.04,
+      "change_pct": 7.19,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -1166,8 +1166,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1715.32,
-          "day_count": 25
+          "avg_value": 1719.04,
+          "day_count": 26
         }
       ],
       "change_10d": {
@@ -1184,7 +1184,7 @@
         "note": "yetersiz veri"
       },
       "latest": {
-        "date": "2026-08-26",
+        "date": "2026-08-27",
         "value": 1812
       }
     },
@@ -1193,8 +1193,8 @@
       "old_month": "2026-07",
       "old_value": 1314.0,
       "new_month": "2026-08",
-      "new_value": 1404.2,
-      "change_pct": 6.86,
+      "new_value": 1407.42,
+      "change_pct": 7.11,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -1203,13 +1203,13 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1404.2,
-          "day_count": 25
+          "avg_value": 1407.42,
+          "day_count": 26
         }
       ],
       "change_10d": {
-        "change_pct": 5.159,
-        "old_value": 1415.0,
+        "change_pct": 5.0847,
+        "old_value": 1416.0,
         "new_value": 1488.0
       },
       "change_30d": {
@@ -1221,7 +1221,7 @@
         "note": "yetersiz veri"
       },
       "latest": {
-        "date": "2026-08-26",
+        "date": "2026-08-27",
         "value": 1488
       }
     },
@@ -1230,8 +1230,8 @@
       "old_month": "2026-07",
       "old_value": 1716.67,
       "new_month": "2026-08",
-      "new_value": 1828.96,
-      "change_pct": 6.54,
+      "new_value": 1832.65,
+      "change_pct": 6.76,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -1240,8 +1240,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1828.96,
-          "day_count": 25
+          "avg_value": 1832.65,
+          "day_count": 26
         }
       ],
       "change_10d": {
@@ -1258,7 +1258,7 @@
         "note": "yetersiz veri"
       },
       "latest": {
-        "date": "2026-08-26",
+        "date": "2026-08-27",
         "value": 1925
       }
     },
@@ -1267,8 +1267,8 @@
       "old_month": "2026-07",
       "old_value": 519.67,
       "new_month": "2026-08",
-      "new_value": 553.68,
-      "change_pct": 6.54,
+      "new_value": 554.62,
+      "change_pct": 6.73,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -1277,13 +1277,13 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 553.68,
-          "day_count": 25
+          "avg_value": 554.62,
+          "day_count": 26
         }
       ],
       "change_10d": {
-        "change_pct": 2.847,
-        "old_value": 562.0,
+        "change_pct": 2.6643,
+        "old_value": 563.0,
         "new_value": 578.0
       },
       "change_30d": {
@@ -1295,7 +1295,7 @@
         "note": "yetersiz veri"
       },
       "latest": {
-        "date": "2026-08-26",
+        "date": "2026-08-27",
         "value": 578
       }
     }
@@ -1306,8 +1306,8 @@
       "old_month": "2026-07",
       "old_value": 1199.33,
       "new_month": "2026-08",
-      "new_value": 1303.24,
-      "change_pct": 8.66,
+      "new_value": 1306.27,
+      "change_pct": 8.92,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -1316,8 +1316,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1303.24,
-          "day_count": 25
+          "avg_value": 1306.27,
+          "day_count": 26
         }
       ],
       "change_10d": {
@@ -1334,7 +1334,7 @@
         "note": "yetersiz veri"
       },
       "latest": {
-        "date": "2026-08-26",
+        "date": "2026-08-27",
         "value": 1382
       }
     },
@@ -1344,8 +1344,8 @@
         "old_month": "2026-07",
         "old_value": 1188.0,
         "new_month": "2026-08",
-        "new_value": 1311.08,
-        "change_pct": 10.36,
+        "new_value": 1314.19,
+        "change_pct": 10.62,
         "monthly_breakdown": [
           {
             "month": "2026-07",
@@ -1354,8 +1354,8 @@
           },
           {
             "month": "2026-08",
-            "avg_value": 1311.08,
-            "day_count": 25
+            "avg_value": 1314.19,
+            "day_count": 26
           }
         ],
         "change_10d": {
@@ -1372,7 +1372,7 @@
           "note": "yetersiz veri"
         },
         "latest": {
-          "date": "2026-08-26",
+          "date": "2026-08-27",
           "value": 1392
         }
       },
@@ -1381,8 +1381,8 @@
         "old_month": "2026-07",
         "old_value": 1237.0,
         "new_month": "2026-08",
-        "new_value": 1332.28,
-        "change_pct": 7.7,
+        "new_value": 1334.96,
+        "change_pct": 7.92,
         "monthly_breakdown": [
           {
             "month": "2026-07",
@@ -1391,8 +1391,8 @@
           },
           {
             "month": "2026-08",
-            "avg_value": 1332.28,
-            "day_count": 25
+            "avg_value": 1334.96,
+            "day_count": 26
           }
         ],
         "change_10d": {
@@ -1409,7 +1409,7 @@
           "note": "yetersiz veri"
         },
         "latest": {
-          "date": "2026-08-26",
+          "date": "2026-08-27",
           "value": 1402
         }
       },
@@ -1418,8 +1418,8 @@
         "old_month": "2026-07",
         "old_value": 1271.33,
         "new_month": "2026-08",
-        "new_value": 1369.96,
-        "change_pct": 7.76,
+        "new_value": 1373.0,
+        "change_pct": 8.0,
         "monthly_breakdown": [
           {
             "month": "2026-07",
@@ -1428,13 +1428,13 @@
           },
           {
             "month": "2026-08",
-            "avg_value": 1369.96,
-            "day_count": 25
+            "avg_value": 1373.0,
+            "day_count": 26
           }
         ],
         "change_10d": {
-          "change_pct": 4.4701,
-          "old_value": 1387.0,
+          "change_pct": 4.3948,
+          "old_value": 1388.0,
           "new_value": 1449.0
         },
         "change_30d": {
@@ -1446,7 +1446,7 @@
           "note": "yetersiz veri"
         },
         "latest": {
-          "date": "2026-08-26",
+          "date": "2026-08-27",
           "value": 1449
         }
       }
@@ -1457,8 +1457,8 @@
         "old_month": "2026-07",
         "old_value": 1213.67,
         "new_month": "2026-08",
-        "new_value": 1302.44,
-        "change_pct": 7.31,
+        "new_value": 1305.12,
+        "change_pct": 7.53,
         "monthly_breakdown": [
           {
             "month": "2026-07",
@@ -1467,8 +1467,8 @@
           },
           {
             "month": "2026-08",
-            "avg_value": 1302.44,
-            "day_count": 25
+            "avg_value": 1305.12,
+            "day_count": 26
           }
         ],
         "change_10d": {
@@ -1485,7 +1485,7 @@
           "note": "yetersiz veri"
         },
         "latest": {
-          "date": "2026-08-26",
+          "date": "2026-08-27",
           "value": 1372
         }
       },
@@ -1494,8 +1494,8 @@
         "old_month": "2026-07",
         "old_value": 1178.67,
         "new_month": "2026-08",
-        "new_value": 1276.28,
-        "change_pct": 8.28,
+        "new_value": 1279.08,
+        "change_pct": 8.52,
         "monthly_breakdown": [
           {
             "month": "2026-07",
@@ -1504,8 +1504,8 @@
           },
           {
             "month": "2026-08",
-            "avg_value": 1276.28,
-            "day_count": 25
+            "avg_value": 1279.08,
+            "day_count": 26
           }
         ],
         "change_10d": {
@@ -1522,7 +1522,7 @@
           "note": "yetersiz veri"
         },
         "latest": {
-          "date": "2026-08-26",
+          "date": "2026-08-27",
           "value": 1349
         }
       },
@@ -1531,8 +1531,8 @@
         "old_month": "2026-07",
         "old_value": 1184.67,
         "new_month": "2026-08",
-        "new_value": 1273.92,
-        "change_pct": 7.53,
+        "new_value": 1276.77,
+        "change_pct": 7.77,
         "monthly_breakdown": [
           {
             "month": "2026-07",
@@ -1541,13 +1541,13 @@
           },
           {
             "month": "2026-08",
-            "avg_value": 1273.92,
-            "day_count": 25
+            "avg_value": 1276.77,
+            "day_count": 26
           }
         ],
         "change_10d": {
-          "change_pct": 4.7397,
-          "old_value": 1287.0,
+          "change_pct": 4.6584,
+          "old_value": 1288.0,
           "new_value": 1348.0
         },
         "change_30d": {
@@ -1559,7 +1559,7 @@
           "note": "yetersiz veri"
         },
         "latest": {
-          "date": "2026-08-26",
+          "date": "2026-08-27",
           "value": 1348
         }
       }
