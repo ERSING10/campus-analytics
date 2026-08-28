@@ -5,8 +5,8 @@
       "old_month": "2026-07",
       "old_value": 2800.33,
       "new_month": "2026-08",
-      "new_value": 3012.96,
-      "change_pct": 7.59,
+      "new_value": 3020.35,
+      "change_pct": 7.86,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -15,26 +15,26 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 3012.96,
-          "day_count": 25
+          "avg_value": 3020.35,
+          "day_count": 26
         }
       ],
       "change_10d": {
-        "change_pct": 4.8773,
-        "old_value": 3055.0,
-        "new_value": 3204.0
+        "change_pct": 4.8757,
+        "old_value": 3056.0,
+        "new_value": 3205.0
       },
       "change_30d": {
-        "change_pct": null,
-        "note": "30 günlük veri henüz yetersiz"
+        "change_pct": 14.7923,
+        "old_value": 2792.0,
+        "new_value": 3205.0
       },
       "momentum": {
-        "momentum": null,
-        "note": "yetersiz veri"
+        "momentum": -9.9166
       },
       "latest": {
-        "date": "2026-08-26",
-        "value": 3204
+        "date": "2026-08-28",
+        "value": 3205
       }
     },
     {
@@ -42,8 +42,8 @@
       "old_month": "2026-07",
       "old_value": 2524.67,
       "new_month": "2026-08",
-      "new_value": 2724.77,
-      "change_pct": 7.93,
+      "new_value": 2730.26,
+      "change_pct": 8.14,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -52,25 +52,25 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 2724.77,
-          "day_count": 26
+          "avg_value": 2730.26,
+          "day_count": 27
         }
       ],
       "change_10d": {
-        "change_pct": 4.4348,
-        "old_value": 2751.0,
+        "change_pct": 4.3968,
+        "old_value": 2752.0,
         "new_value": 2873.0
       },
       "change_30d": {
-        "change_pct": null,
-        "note": "30 günlük veri henüz yetersiz"
+        "change_pct": 14.2346,
+        "old_value": 2515.0,
+        "new_value": 2873.0
       },
       "momentum": {
-        "momentum": null,
-        "note": "yetersiz veri"
+        "momentum": -9.8378
       },
       "latest": {
-        "date": "2026-08-27",
+        "date": "2026-08-28",
         "value": 2873
       }
     },
@@ -79,8 +79,8 @@
       "old_month": "2026-07",
       "old_value": 1988.67,
       "new_month": "2026-08",
-      "new_value": 2165.15,
-      "change_pct": 8.87,
+      "new_value": 2169.3,
+      "change_pct": 9.08,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -89,8 +89,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 2165.15,
-          "day_count": 26
+          "avg_value": 2169.3,
+          "day_count": 27
         }
       ],
       "change_10d": {
@@ -99,15 +99,15 @@
         "new_value": 2277.0
       },
       "change_30d": {
-        "change_pct": null,
-        "note": "30 günlük veri henüz yetersiz"
+        "change_pct": 15.0,
+        "old_value": 1980.0,
+        "new_value": 2277.0
       },
       "momentum": {
-        "momentum": null,
-        "note": "yetersiz veri"
+        "momentum": -11.4058
       },
       "latest": {
-        "date": "2026-08-27",
+        "date": "2026-08-28",
         "value": 2277
       }
     },
@@ -116,8 +116,8 @@
       "old_month": "2026-07",
       "old_value": 1910.33,
       "new_month": "2026-08",
-      "new_value": 2074.73,
-      "change_pct": 8.61,
+      "new_value": 2079.59,
+      "change_pct": 8.86,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -126,25 +126,25 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 2074.73,
-          "day_count": 26
+          "avg_value": 2079.59,
+          "day_count": 27
         }
       ],
       "change_10d": {
-        "change_pct": 5.2481,
-        "old_value": 2096.0,
+        "change_pct": 5.1979,
+        "old_value": 2097.0,
         "new_value": 2206.0
       },
       "change_30d": {
-        "change_pct": null,
-        "note": "30 günlük veri henüz yetersiz"
+        "change_pct": 15.8005,
+        "old_value": 1905.0,
+        "new_value": 2206.0
       },
       "momentum": {
-        "momentum": null,
-        "note": "yetersiz veri"
+        "momentum": -10.6026
       },
       "latest": {
-        "date": "2026-08-27",
+        "date": "2026-08-28",
         "value": 2206
       }
     },
@@ -153,8 +153,8 @@
       "old_month": "2026-07",
       "old_value": 1045.33,
       "new_month": "2026-08",
-      "new_value": 1129.08,
-      "change_pct": 8.01,
+      "new_value": 1131.41,
+      "change_pct": 8.23,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -163,8 +163,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1129.08,
-          "day_count": 26
+          "avg_value": 1131.41,
+          "day_count": 27
         }
       ],
       "change_10d": {
@@ -173,15 +173,15 @@
         "new_value": 1192.0
       },
       "change_30d": {
-        "change_pct": null,
-        "note": "30 günlük veri henüz yetersiz"
+        "change_pct": 14.1762,
+        "old_value": 1044.0,
+        "new_value": 1192.0
       },
       "momentum": {
-        "momentum": null,
-        "note": "yetersiz veri"
+        "momentum": -10.1622
       },
       "latest": {
-        "date": "2026-08-27",
+        "date": "2026-08-28",
         "value": 1192
       }
     },
@@ -190,8 +190,8 @@
       "old_month": "2026-07",
       "old_value": 1899.67,
       "new_month": "2026-08",
-      "new_value": 2064.85,
-      "change_pct": 8.7,
+      "new_value": 2069.19,
+      "change_pct": 8.92,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -200,25 +200,25 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 2064.85,
-          "day_count": 26
+          "avg_value": 2069.19,
+          "day_count": 27
         }
       ],
       "change_10d": {
-        "change_pct": 4.4519,
-        "old_value": 2089.0,
+        "change_pct": 4.4019,
+        "old_value": 2090.0,
         "new_value": 2182.0
       },
       "change_30d": {
-        "change_pct": null,
-        "note": "30 günlük veri henüz yetersiz"
+        "change_pct": 15.2668,
+        "old_value": 1893.0,
+        "new_value": 2182.0
       },
       "momentum": {
-        "momentum": null,
-        "note": "yetersiz veri"
+        "momentum": -10.8649
       },
       "latest": {
-        "date": "2026-08-27",
+        "date": "2026-08-28",
         "value": 2182
       }
     },
@@ -227,8 +227,8 @@
       "old_month": "2026-07",
       "old_value": 4489.67,
       "new_month": "2026-08",
-      "new_value": 4893.85,
-      "change_pct": 9.0,
+      "new_value": 4904.93,
+      "change_pct": 9.25,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -237,26 +237,26 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 4893.85,
-          "day_count": 26
+          "avg_value": 4904.93,
+          "day_count": 27
         }
       ],
       "change_10d": {
-        "change_pct": 5.081,
-        "old_value": 4940.0,
-        "new_value": 5191.0
+        "change_pct": 5.1002,
+        "old_value": 4941.0,
+        "new_value": 5193.0
       },
       "change_30d": {
-        "change_pct": null,
-        "note": "30 günlük veri henüz yetersiz"
+        "change_pct": 15.9411,
+        "old_value": 4479.0,
+        "new_value": 5193.0
       },
       "momentum": {
-        "momentum": null,
-        "note": "yetersiz veri"
+        "momentum": -10.8409
       },
       "latest": {
-        "date": "2026-08-27",
-        "value": 5191
+        "date": "2026-08-28",
+        "value": 5193
       }
     },
     {
@@ -264,8 +264,8 @@
       "old_month": "2026-07",
       "old_value": 1541.0,
       "new_month": "2026-08",
-      "new_value": 1656.38,
-      "change_pct": 7.49,
+      "new_value": 1660.15,
+      "change_pct": 7.73,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -274,25 +274,25 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1656.38,
-          "day_count": 26
+          "avg_value": 1660.15,
+          "day_count": 27
         }
       ],
       "change_10d": {
-        "change_pct": 5.3957,
-        "old_value": 1668.0,
+        "change_pct": 5.2695,
+        "old_value": 1670.0,
         "new_value": 1758.0
       },
       "change_30d": {
-        "change_pct": null,
-        "note": "30 günlük veri henüz yetersiz"
+        "change_pct": 14.3787,
+        "old_value": 1537.0,
+        "new_value": 1758.0
       },
       "momentum": {
-        "momentum": null,
-        "note": "yetersiz veri"
+        "momentum": -9.1092
       },
       "latest": {
-        "date": "2026-08-27",
+        "date": "2026-08-28",
         "value": 1758
       }
     },
@@ -301,8 +301,8 @@
       "old_month": "2026-07",
       "old_value": 1810.33,
       "new_month": "2026-08",
-      "new_value": 1946.27,
-      "change_pct": 7.51,
+      "new_value": 1949.96,
+      "change_pct": 7.71,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -311,25 +311,25 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1946.27,
-          "day_count": 26
+          "avg_value": 1949.96,
+          "day_count": 27
         }
       ],
       "change_10d": {
-        "change_pct": 4.3878,
-        "old_value": 1960.0,
+        "change_pct": 4.3345,
+        "old_value": 1961.0,
         "new_value": 2046.0
       },
       "change_30d": {
-        "change_pct": null,
-        "note": "30 günlük veri henüz yetersiz"
+        "change_pct": 13.1637,
+        "old_value": 1808.0,
+        "new_value": 2046.0
       },
       "momentum": {
-        "momentum": null,
-        "note": "yetersiz veri"
+        "momentum": -8.8292
       },
       "latest": {
-        "date": "2026-08-27",
+        "date": "2026-08-28",
         "value": 2046
       }
     },
@@ -338,8 +338,8 @@
       "old_month": "2026-07",
       "old_value": 1435.0,
       "new_month": "2026-08",
-      "new_value": 1561.12,
-      "change_pct": 8.79,
+      "new_value": 1564.44,
+      "change_pct": 9.02,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -348,8 +348,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1561.12,
-          "day_count": 26
+          "avg_value": 1564.44,
+          "day_count": 27
         }
       ],
       "change_10d": {
@@ -358,15 +358,15 @@
         "new_value": 1651.0
       },
       "change_30d": {
-        "change_pct": null,
-        "note": "30 günlük veri henüz yetersiz"
+        "change_pct": 15.3739,
+        "old_value": 1431.0,
+        "new_value": 1651.0
       },
       "momentum": {
-        "momentum": null,
-        "note": "yetersiz veri"
+        "momentum": -10.7478
       },
       "latest": {
-        "date": "2026-08-27",
+        "date": "2026-08-28",
         "value": 1651
       }
     },
@@ -375,8 +375,8 @@
       "old_month": "2026-07",
       "old_value": 1501.0,
       "new_month": "2026-08",
-      "new_value": 1616.08,
-      "change_pct": 7.67,
+      "new_value": 1619.63,
+      "change_pct": 7.9,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -385,8 +385,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1616.08,
-          "day_count": 26
+          "avg_value": 1619.63,
+          "day_count": 27
         }
       ],
       "change_10d": {
@@ -395,15 +395,15 @@
         "new_value": 1712.0
       },
       "change_30d": {
-        "change_pct": null,
-        "note": "30 günlük veri henüz yetersiz"
+        "change_pct": 14.5151,
+        "old_value": 1495.0,
+        "new_value": 1712.0
       },
       "momentum": {
-        "momentum": null,
-        "note": "yetersiz veri"
+        "momentum": -9.226
       },
       "latest": {
-        "date": "2026-08-27",
+        "date": "2026-08-28",
         "value": 1712
       }
     },
@@ -412,8 +412,8 @@
       "old_month": "2026-07",
       "old_value": 1603.67,
       "new_month": "2026-08",
-      "new_value": 1719.04,
-      "change_pct": 7.19,
+      "new_value": 1722.48,
+      "change_pct": 7.41,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -422,8 +422,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1719.04,
-          "day_count": 26
+          "avg_value": 1722.48,
+          "day_count": 27
         }
       ],
       "change_10d": {
@@ -432,15 +432,15 @@
         "new_value": 1812.0
       },
       "change_30d": {
-        "change_pct": null,
-        "note": "30 günlük veri henüz yetersiz"
+        "change_pct": 13.3208,
+        "old_value": 1599.0,
+        "new_value": 1812.0
       },
       "momentum": {
-        "momentum": null,
-        "note": "yetersiz veri"
+        "momentum": -9.123
       },
       "latest": {
-        "date": "2026-08-27",
+        "date": "2026-08-28",
         "value": 1812
       }
     },
@@ -449,8 +449,8 @@
       "old_month": "2026-07",
       "old_value": 1314.0,
       "new_month": "2026-08",
-      "new_value": 1407.42,
-      "change_pct": 7.11,
+      "new_value": 1410.41,
+      "change_pct": 7.34,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -459,8 +459,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1407.42,
-          "day_count": 26
+          "avg_value": 1410.41,
+          "day_count": 27
         }
       ],
       "change_10d": {
@@ -469,15 +469,15 @@
         "new_value": 1488.0
       },
       "change_30d": {
-        "change_pct": null,
-        "note": "30 günlük veri henüz yetersiz"
+        "change_pct": 13.6746,
+        "old_value": 1309.0,
+        "new_value": 1488.0
       },
       "momentum": {
-        "momentum": null,
-        "note": "yetersiz veri"
+        "momentum": -8.5899
       },
       "latest": {
-        "date": "2026-08-27",
+        "date": "2026-08-28",
         "value": 1488
       }
     },
@@ -486,8 +486,8 @@
       "old_month": "2026-07",
       "old_value": 1237.0,
       "new_month": "2026-08",
-      "new_value": 1334.96,
-      "change_pct": 7.92,
+      "new_value": 1337.44,
+      "change_pct": 8.12,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -496,8 +496,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1334.96,
-          "day_count": 26
+          "avg_value": 1337.44,
+          "day_count": 27
         }
       ],
       "change_10d": {
@@ -506,15 +506,15 @@
         "new_value": 1402.0
       },
       "change_30d": {
-        "change_pct": null,
-        "note": "30 günlük veri henüz yetersiz"
+        "change_pct": 13.5223,
+        "old_value": 1235.0,
+        "new_value": 1402.0
       },
       "momentum": {
-        "momentum": null,
-        "note": "yetersiz veri"
+        "momentum": -10.2822
       },
       "latest": {
-        "date": "2026-08-27",
+        "date": "2026-08-28",
         "value": 1402
       }
     },
@@ -523,8 +523,8 @@
       "old_month": "2026-07",
       "old_value": 561.33,
       "new_month": "2026-08",
-      "new_value": 614.35,
-      "change_pct": 9.45,
+      "new_value": 615.67,
+      "change_pct": 9.68,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -533,8 +533,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 614.35,
-          "day_count": 26
+          "avg_value": 615.67,
+          "day_count": 27
         }
       ],
       "change_10d": {
@@ -543,15 +543,15 @@
         "new_value": 650.0
       },
       "change_30d": {
-        "change_pct": null,
-        "note": "30 günlük veri henüz yetersiz"
+        "change_pct": 16.2791,
+        "old_value": 559.0,
+        "new_value": 650.0
       },
       "momentum": {
-        "momentum": null,
-        "note": "yetersiz veri"
+        "momentum": -11.1011
       },
       "latest": {
-        "date": "2026-08-27",
+        "date": "2026-08-28",
         "value": 650
       }
     },
@@ -560,8 +560,8 @@
       "old_month": "2026-07",
       "old_value": 1118.67,
       "new_month": "2026-08",
-      "new_value": 1207.23,
-      "change_pct": 7.92,
+      "new_value": 1210.56,
+      "change_pct": 8.21,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -570,8 +570,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1207.23,
-          "day_count": 26
+          "avg_value": 1210.56,
+          "day_count": 27
         }
       ],
       "change_10d": {
@@ -580,15 +580,15 @@
         "new_value": 1297.0
       },
       "change_30d": {
-        "change_pct": null,
-        "note": "30 günlük veri henüz yetersiz"
+        "change_pct": 16.1146,
+        "old_value": 1117.0,
+        "new_value": 1297.0
       },
       "momentum": {
-        "momentum": null,
-        "note": "yetersiz veri"
+        "momentum": -9.3656
       },
       "latest": {
-        "date": "2026-08-27",
+        "date": "2026-08-28",
         "value": 1297
       }
     },
@@ -597,8 +597,8 @@
       "old_month": "2026-07",
       "old_value": 1184.67,
       "new_month": "2026-08",
-      "new_value": 1276.77,
-      "change_pct": 7.77,
+      "new_value": 1279.41,
+      "change_pct": 8.0,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -607,8 +607,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1276.77,
-          "day_count": 26
+          "avg_value": 1279.41,
+          "day_count": 27
         }
       ],
       "change_10d": {
@@ -617,15 +617,15 @@
         "new_value": 1348.0
       },
       "change_30d": {
-        "change_pct": null,
-        "note": "30 günlük veri henüz yetersiz"
+        "change_pct": 14.2373,
+        "old_value": 1180.0,
+        "new_value": 1348.0
       },
       "momentum": {
-        "momentum": null,
-        "note": "yetersiz veri"
+        "momentum": -9.5789
       },
       "latest": {
-        "date": "2026-08-27",
+        "date": "2026-08-28",
         "value": 1348
       }
     },
@@ -634,8 +634,8 @@
       "old_month": "2026-07",
       "old_value": 1271.33,
       "new_month": "2026-08",
-      "new_value": 1373.0,
-      "change_pct": 8.0,
+      "new_value": 1375.81,
+      "change_pct": 8.22,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -644,8 +644,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1373.0,
-          "day_count": 26
+          "avg_value": 1375.81,
+          "day_count": 27
         }
       ],
       "change_10d": {
@@ -654,15 +654,15 @@
         "new_value": 1449.0
       },
       "change_30d": {
-        "change_pct": null,
-        "note": "30 günlük veri henüz yetersiz"
+        "change_pct": 14.455,
+        "old_value": 1266.0,
+        "new_value": 1449.0
       },
       "momentum": {
-        "momentum": null,
-        "note": "yetersiz veri"
+        "momentum": -10.0602
       },
       "latest": {
-        "date": "2026-08-27",
+        "date": "2026-08-28",
         "value": 1449
       }
     },
@@ -671,8 +671,8 @@
       "old_month": "2026-07",
       "old_value": 1178.67,
       "new_month": "2026-08",
-      "new_value": 1279.08,
-      "change_pct": 8.52,
+      "new_value": 1281.7,
+      "change_pct": 8.74,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -681,26 +681,26 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1279.08,
-          "day_count": 26
+          "avg_value": 1281.7,
+          "day_count": 27
         }
       ],
       "change_10d": {
-        "change_pct": 4.331,
+        "change_pct": 4.4084,
         "old_value": 1293.0,
-        "new_value": 1349.0
+        "new_value": 1350.0
       },
       "change_30d": {
-        "change_pct": null,
-        "note": "30 günlük veri henüz yetersiz"
+        "change_pct": 14.6984,
+        "old_value": 1177.0,
+        "new_value": 1350.0
       },
       "momentum": {
-        "momentum": null,
-        "note": "yetersiz veri"
+        "momentum": -10.29
       },
       "latest": {
-        "date": "2026-08-27",
-        "value": 1349
+        "date": "2026-08-28",
+        "value": 1350
       }
     },
     {
@@ -708,8 +708,8 @@
       "old_month": "2026-07",
       "old_value": 1213.67,
       "new_month": "2026-08",
-      "new_value": 1305.12,
-      "change_pct": 7.53,
+      "new_value": 1307.59,
+      "change_pct": 7.74,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -718,8 +718,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1305.12,
-          "day_count": 26
+          "avg_value": 1307.59,
+          "day_count": 27
         }
       ],
       "change_10d": {
@@ -728,15 +728,15 @@
         "new_value": 1372.0
       },
       "change_30d": {
-        "change_pct": null,
-        "note": "30 günlük veri henüz yetersiz"
+        "change_pct": 13.3884,
+        "old_value": 1210.0,
+        "new_value": 1372.0
       },
       "momentum": {
-        "momentum": null,
-        "note": "yetersiz veri"
+        "momentum": -9.2122
       },
       "latest": {
-        "date": "2026-08-27",
+        "date": "2026-08-28",
         "value": 1372
       }
     },
@@ -745,8 +745,8 @@
       "old_month": "2026-07",
       "old_value": 1188.0,
       "new_month": "2026-08",
-      "new_value": 1314.19,
-      "change_pct": 10.62,
+      "new_value": 1317.07,
+      "change_pct": 10.86,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -755,8 +755,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1314.19,
-          "day_count": 26
+          "avg_value": 1317.07,
+          "day_count": 27
         }
       ],
       "change_10d": {
@@ -765,15 +765,15 @@
         "new_value": 1392.0
       },
       "change_30d": {
-        "change_pct": null,
-        "note": "30 günlük veri henüz yetersiz"
+        "change_pct": 17.4684,
+        "old_value": 1185.0,
+        "new_value": 1392.0
       },
       "momentum": {
-        "momentum": null,
-        "note": "yetersiz veri"
+        "momentum": -12.728
       },
       "latest": {
-        "date": "2026-08-27",
+        "date": "2026-08-28",
         "value": 1392
       }
     },
@@ -782,8 +782,8 @@
       "old_month": "2026-07",
       "old_value": 1716.67,
       "new_month": "2026-08",
-      "new_value": 1832.65,
-      "change_pct": 6.76,
+      "new_value": 1836.07,
+      "change_pct": 6.96,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -792,8 +792,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1832.65,
-          "day_count": 26
+          "avg_value": 1836.07,
+          "day_count": 27
         }
       ],
       "change_10d": {
@@ -802,15 +802,15 @@
         "new_value": 1925.0
       },
       "change_30d": {
-        "change_pct": null,
-        "note": "30 günlük veri henüz yetersiz"
+        "change_pct": 12.3759,
+        "old_value": 1713.0,
+        "new_value": 1925.0
       },
       "momentum": {
-        "momentum": null,
-        "note": "yetersiz veri"
+        "momentum": -8.0399
       },
       "latest": {
-        "date": "2026-08-27",
+        "date": "2026-08-28",
         "value": 1925
       }
     },
@@ -819,8 +819,8 @@
       "old_month": "2026-07",
       "old_value": 1299.67,
       "new_month": "2026-08",
-      "new_value": 1414.38,
-      "change_pct": 8.83,
+      "new_value": 1417.11,
+      "change_pct": 9.04,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -829,26 +829,26 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1414.38,
-          "day_count": 26
+          "avg_value": 1417.11,
+          "day_count": 27
         }
       ],
       "change_10d": {
-        "change_pct": 3.9079,
+        "change_pct": 3.8381,
         "old_value": 1433.0,
-        "new_value": 1489.0
+        "new_value": 1488.0
       },
       "change_30d": {
-        "change_pct": null,
-        "note": "30 günlük veri henüz yetersiz"
+        "change_pct": 14.9035,
+        "old_value": 1295.0,
+        "new_value": 1488.0
       },
       "momentum": {
-        "momentum": null,
-        "note": "yetersiz veri"
+        "momentum": -11.0654
       },
       "latest": {
-        "date": "2026-08-27",
-        "value": 1489
+        "date": "2026-08-28",
+        "value": 1488
       }
     },
     {
@@ -856,8 +856,8 @@
       "old_month": "2026-07",
       "old_value": 519.67,
       "new_month": "2026-08",
-      "new_value": 554.62,
-      "change_pct": 6.73,
+      "new_value": 555.48,
+      "change_pct": 6.89,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -866,8 +866,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 554.62,
-          "day_count": 26
+          "avg_value": 555.48,
+          "day_count": 27
         }
       ],
       "change_10d": {
@@ -876,15 +876,15 @@
         "new_value": 578.0
       },
       "change_30d": {
-        "change_pct": null,
-        "note": "30 günlük veri henüz yetersiz"
+        "change_pct": 11.583,
+        "old_value": 518.0,
+        "new_value": 578.0
       },
       "momentum": {
-        "momentum": null,
-        "note": "yetersiz veri"
+        "momentum": -8.9187
       },
       "latest": {
-        "date": "2026-08-27",
+        "date": "2026-08-28",
         "value": 578
       }
     },
@@ -893,8 +893,8 @@
       "old_month": "2026-07",
       "old_value": 1199.33,
       "new_month": "2026-08",
-      "new_value": 1306.27,
-      "change_pct": 8.92,
+      "new_value": 1309.07,
+      "change_pct": 9.15,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -903,8 +903,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1306.27,
-          "day_count": 26
+          "avg_value": 1309.07,
+          "day_count": 27
         }
       ],
       "change_10d": {
@@ -913,15 +913,15 @@
         "new_value": 1382.0
       },
       "change_30d": {
-        "change_pct": null,
-        "note": "30 günlük veri henüz yetersiz"
+        "change_pct": 15.5518,
+        "old_value": 1196.0,
+        "new_value": 1382.0
       },
       "momentum": {
-        "momentum": null,
-        "note": "yetersiz veri"
+        "momentum": -11.0132
       },
       "latest": {
-        "date": "2026-08-27",
+        "date": "2026-08-28",
         "value": 1382
       }
     }
@@ -932,8 +932,8 @@
       "old_month": "2026-07",
       "old_value": 1188.0,
       "new_month": "2026-08",
-      "new_value": 1314.19,
-      "change_pct": 10.62,
+      "new_value": 1317.07,
+      "change_pct": 10.86,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -942,8 +942,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1314.19,
-          "day_count": 26
+          "avg_value": 1317.07,
+          "day_count": 27
         }
       ],
       "change_10d": {
@@ -952,15 +952,15 @@
         "new_value": 1392.0
       },
       "change_30d": {
-        "change_pct": null,
-        "note": "30 günlük veri henüz yetersiz"
+        "change_pct": 17.4684,
+        "old_value": 1185.0,
+        "new_value": 1392.0
       },
       "momentum": {
-        "momentum": null,
-        "note": "yetersiz veri"
+        "momentum": -12.728
       },
       "latest": {
-        "date": "2026-08-27",
+        "date": "2026-08-28",
         "value": 1392
       }
     },
@@ -969,8 +969,8 @@
       "old_month": "2026-07",
       "old_value": 561.33,
       "new_month": "2026-08",
-      "new_value": 614.35,
-      "change_pct": 9.45,
+      "new_value": 615.67,
+      "change_pct": 9.68,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -979,8 +979,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 614.35,
-          "day_count": 26
+          "avg_value": 615.67,
+          "day_count": 27
         }
       ],
       "change_10d": {
@@ -989,15 +989,15 @@
         "new_value": 650.0
       },
       "change_30d": {
-        "change_pct": null,
-        "note": "30 günlük veri henüz yetersiz"
+        "change_pct": 16.2791,
+        "old_value": 559.0,
+        "new_value": 650.0
       },
       "momentum": {
-        "momentum": null,
-        "note": "yetersiz veri"
+        "momentum": -11.1011
       },
       "latest": {
-        "date": "2026-08-27",
+        "date": "2026-08-28",
         "value": 650
       }
     },
@@ -1006,8 +1006,8 @@
       "old_month": "2026-07",
       "old_value": 4489.67,
       "new_month": "2026-08",
-      "new_value": 4893.85,
-      "change_pct": 9.0,
+      "new_value": 4904.93,
+      "change_pct": 9.25,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -1016,26 +1016,26 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 4893.85,
-          "day_count": 26
+          "avg_value": 4904.93,
+          "day_count": 27
         }
       ],
       "change_10d": {
-        "change_pct": 5.081,
-        "old_value": 4940.0,
-        "new_value": 5191.0
+        "change_pct": 5.1002,
+        "old_value": 4941.0,
+        "new_value": 5193.0
       },
       "change_30d": {
-        "change_pct": null,
-        "note": "30 günlük veri henüz yetersiz"
+        "change_pct": 15.9411,
+        "old_value": 4479.0,
+        "new_value": 5193.0
       },
       "momentum": {
-        "momentum": null,
-        "note": "yetersiz veri"
+        "momentum": -10.8409
       },
       "latest": {
-        "date": "2026-08-27",
-        "value": 5191
+        "date": "2026-08-28",
+        "value": 5193
       }
     },
     {
@@ -1043,8 +1043,8 @@
       "old_month": "2026-07",
       "old_value": 1199.33,
       "new_month": "2026-08",
-      "new_value": 1306.27,
-      "change_pct": 8.92,
+      "new_value": 1309.07,
+      "change_pct": 9.15,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -1053,8 +1053,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1306.27,
-          "day_count": 26
+          "avg_value": 1309.07,
+          "day_count": 27
         }
       ],
       "change_10d": {
@@ -1063,15 +1063,15 @@
         "new_value": 1382.0
       },
       "change_30d": {
-        "change_pct": null,
-        "note": "30 günlük veri henüz yetersiz"
+        "change_pct": 15.5518,
+        "old_value": 1196.0,
+        "new_value": 1382.0
       },
       "momentum": {
-        "momentum": null,
-        "note": "yetersiz veri"
+        "momentum": -11.0132
       },
       "latest": {
-        "date": "2026-08-27",
+        "date": "2026-08-28",
         "value": 1382
       }
     },
@@ -1080,8 +1080,8 @@
       "old_month": "2026-07",
       "old_value": 1988.67,
       "new_month": "2026-08",
-      "new_value": 2165.15,
-      "change_pct": 8.87,
+      "new_value": 2169.3,
+      "change_pct": 9.08,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -1090,8 +1090,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 2165.15,
-          "day_count": 26
+          "avg_value": 2169.3,
+          "day_count": 27
         }
       ],
       "change_10d": {
@@ -1100,55 +1100,55 @@
         "new_value": 2277.0
       },
       "change_30d": {
-        "change_pct": null,
-        "note": "30 günlük veri henüz yetersiz"
+        "change_pct": 15.0,
+        "old_value": 1980.0,
+        "new_value": 2277.0
       },
       "momentum": {
-        "momentum": null,
-        "note": "yetersiz veri"
+        "momentum": -11.4058
       },
       "latest": {
-        "date": "2026-08-27",
+        "date": "2026-08-28",
         "value": 2277
       }
     }
   ],
   "bottom_gainers": [
     {
-      "university": "Ege Üniversitesi",
+      "university": "Atatürk Üniversitesi",
       "old_month": "2026-07",
-      "old_value": 1541.0,
+      "old_value": 1810.33,
       "new_month": "2026-08",
-      "new_value": 1656.38,
-      "change_pct": 7.49,
+      "new_value": 1949.96,
+      "change_pct": 7.71,
       "monthly_breakdown": [
         {
           "month": "2026-07",
-          "avg_value": 1541.0,
+          "avg_value": 1810.33,
           "day_count": 3
         },
         {
           "month": "2026-08",
-          "avg_value": 1656.38,
-          "day_count": 26
+          "avg_value": 1949.96,
+          "day_count": 27
         }
       ],
       "change_10d": {
-        "change_pct": 5.3957,
-        "old_value": 1668.0,
-        "new_value": 1758.0
+        "change_pct": 4.3345,
+        "old_value": 1961.0,
+        "new_value": 2046.0
       },
       "change_30d": {
-        "change_pct": null,
-        "note": "30 günlük veri henüz yetersiz"
+        "change_pct": 13.1637,
+        "old_value": 1808.0,
+        "new_value": 2046.0
       },
       "momentum": {
-        "momentum": null,
-        "note": "yetersiz veri"
+        "momentum": -8.8292
       },
       "latest": {
-        "date": "2026-08-27",
-        "value": 1758
+        "date": "2026-08-28",
+        "value": 2046
       }
     },
     {
@@ -1156,8 +1156,8 @@
       "old_month": "2026-07",
       "old_value": 1603.67,
       "new_month": "2026-08",
-      "new_value": 1719.04,
-      "change_pct": 7.19,
+      "new_value": 1722.48,
+      "change_pct": 7.41,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -1166,8 +1166,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1719.04,
-          "day_count": 26
+          "avg_value": 1722.48,
+          "day_count": 27
         }
       ],
       "change_10d": {
@@ -1176,15 +1176,15 @@
         "new_value": 1812.0
       },
       "change_30d": {
-        "change_pct": null,
-        "note": "30 günlük veri henüz yetersiz"
+        "change_pct": 13.3208,
+        "old_value": 1599.0,
+        "new_value": 1812.0
       },
       "momentum": {
-        "momentum": null,
-        "note": "yetersiz veri"
+        "momentum": -9.123
       },
       "latest": {
-        "date": "2026-08-27",
+        "date": "2026-08-28",
         "value": 1812
       }
     },
@@ -1193,8 +1193,8 @@
       "old_month": "2026-07",
       "old_value": 1314.0,
       "new_month": "2026-08",
-      "new_value": 1407.42,
-      "change_pct": 7.11,
+      "new_value": 1410.41,
+      "change_pct": 7.34,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -1203,8 +1203,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1407.42,
-          "day_count": 26
+          "avg_value": 1410.41,
+          "day_count": 27
         }
       ],
       "change_10d": {
@@ -1213,15 +1213,15 @@
         "new_value": 1488.0
       },
       "change_30d": {
-        "change_pct": null,
-        "note": "30 günlük veri henüz yetersiz"
+        "change_pct": 13.6746,
+        "old_value": 1309.0,
+        "new_value": 1488.0
       },
       "momentum": {
-        "momentum": null,
-        "note": "yetersiz veri"
+        "momentum": -8.5899
       },
       "latest": {
-        "date": "2026-08-27",
+        "date": "2026-08-28",
         "value": 1488
       }
     },
@@ -1230,8 +1230,8 @@
       "old_month": "2026-07",
       "old_value": 1716.67,
       "new_month": "2026-08",
-      "new_value": 1832.65,
-      "change_pct": 6.76,
+      "new_value": 1836.07,
+      "change_pct": 6.96,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -1240,8 +1240,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1832.65,
-          "day_count": 26
+          "avg_value": 1836.07,
+          "day_count": 27
         }
       ],
       "change_10d": {
@@ -1250,15 +1250,15 @@
         "new_value": 1925.0
       },
       "change_30d": {
-        "change_pct": null,
-        "note": "30 günlük veri henüz yetersiz"
+        "change_pct": 12.3759,
+        "old_value": 1713.0,
+        "new_value": 1925.0
       },
       "momentum": {
-        "momentum": null,
-        "note": "yetersiz veri"
+        "momentum": -8.0399
       },
       "latest": {
-        "date": "2026-08-27",
+        "date": "2026-08-28",
         "value": 1925
       }
     },
@@ -1267,8 +1267,8 @@
       "old_month": "2026-07",
       "old_value": 519.67,
       "new_month": "2026-08",
-      "new_value": 554.62,
-      "change_pct": 6.73,
+      "new_value": 555.48,
+      "change_pct": 6.89,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -1277,8 +1277,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 554.62,
-          "day_count": 26
+          "avg_value": 555.48,
+          "day_count": 27
         }
       ],
       "change_10d": {
@@ -1287,15 +1287,15 @@
         "new_value": 578.0
       },
       "change_30d": {
-        "change_pct": null,
-        "note": "30 günlük veri henüz yetersiz"
+        "change_pct": 11.583,
+        "old_value": 518.0,
+        "new_value": 578.0
       },
       "momentum": {
-        "momentum": null,
-        "note": "yetersiz veri"
+        "momentum": -8.9187
       },
       "latest": {
-        "date": "2026-08-27",
+        "date": "2026-08-28",
         "value": 578
       }
     }
@@ -1306,8 +1306,8 @@
       "old_month": "2026-07",
       "old_value": 1199.33,
       "new_month": "2026-08",
-      "new_value": 1306.27,
-      "change_pct": 8.92,
+      "new_value": 1309.07,
+      "change_pct": 9.15,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -1316,8 +1316,8 @@
         },
         {
           "month": "2026-08",
-          "avg_value": 1306.27,
-          "day_count": 26
+          "avg_value": 1309.07,
+          "day_count": 27
         }
       ],
       "change_10d": {
@@ -1326,15 +1326,15 @@
         "new_value": 1382.0
       },
       "change_30d": {
-        "change_pct": null,
-        "note": "30 günlük veri henüz yetersiz"
+        "change_pct": 15.5518,
+        "old_value": 1196.0,
+        "new_value": 1382.0
       },
       "momentum": {
-        "momentum": null,
-        "note": "yetersiz veri"
+        "momentum": -11.0132
       },
       "latest": {
-        "date": "2026-08-27",
+        "date": "2026-08-28",
         "value": 1382
       }
     },
@@ -1344,8 +1344,8 @@
         "old_month": "2026-07",
         "old_value": 1188.0,
         "new_month": "2026-08",
-        "new_value": 1314.19,
-        "change_pct": 10.62,
+        "new_value": 1317.07,
+        "change_pct": 10.86,
         "monthly_breakdown": [
           {
             "month": "2026-07",
@@ -1354,8 +1354,8 @@
           },
           {
             "month": "2026-08",
-            "avg_value": 1314.19,
-            "day_count": 26
+            "avg_value": 1317.07,
+            "day_count": 27
           }
         ],
         "change_10d": {
@@ -1364,15 +1364,15 @@
           "new_value": 1392.0
         },
         "change_30d": {
-          "change_pct": null,
-          "note": "30 günlük veri henüz yetersiz"
+          "change_pct": 17.4684,
+          "old_value": 1185.0,
+          "new_value": 1392.0
         },
         "momentum": {
-          "momentum": null,
-          "note": "yetersiz veri"
+          "momentum": -12.728
         },
         "latest": {
-          "date": "2026-08-27",
+          "date": "2026-08-28",
           "value": 1392
         }
       },
@@ -1381,8 +1381,8 @@
         "old_month": "2026-07",
         "old_value": 1237.0,
         "new_month": "2026-08",
-        "new_value": 1334.96,
-        "change_pct": 7.92,
+        "new_value": 1337.44,
+        "change_pct": 8.12,
         "monthly_breakdown": [
           {
             "month": "2026-07",
@@ -1391,8 +1391,8 @@
           },
           {
             "month": "2026-08",
-            "avg_value": 1334.96,
-            "day_count": 26
+            "avg_value": 1337.44,
+            "day_count": 27
           }
         ],
         "change_10d": {
@@ -1401,15 +1401,15 @@
           "new_value": 1402.0
         },
         "change_30d": {
-          "change_pct": null,
-          "note": "30 günlük veri henüz yetersiz"
+          "change_pct": 13.5223,
+          "old_value": 1235.0,
+          "new_value": 1402.0
         },
         "momentum": {
-          "momentum": null,
-          "note": "yetersiz veri"
+          "momentum": -10.2822
         },
         "latest": {
-          "date": "2026-08-27",
+          "date": "2026-08-28",
           "value": 1402
         }
       },
@@ -1418,8 +1418,8 @@
         "old_month": "2026-07",
         "old_value": 1271.33,
         "new_month": "2026-08",
-        "new_value": 1373.0,
-        "change_pct": 8.0,
+        "new_value": 1375.81,
+        "change_pct": 8.22,
         "monthly_breakdown": [
           {
             "month": "2026-07",
@@ -1428,8 +1428,8 @@
           },
           {
             "month": "2026-08",
-            "avg_value": 1373.0,
-            "day_count": 26
+            "avg_value": 1375.81,
+            "day_count": 27
           }
         ],
         "change_10d": {
@@ -1438,15 +1438,15 @@
           "new_value": 1449.0
         },
         "change_30d": {
-          "change_pct": null,
-          "note": "30 günlük veri henüz yetersiz"
+          "change_pct": 14.455,
+          "old_value": 1266.0,
+          "new_value": 1449.0
         },
         "momentum": {
-          "momentum": null,
-          "note": "yetersiz veri"
+          "momentum": -10.0602
         },
         "latest": {
-          "date": "2026-08-27",
+          "date": "2026-08-28",
           "value": 1449
         }
       }
@@ -1457,8 +1457,8 @@
         "old_month": "2026-07",
         "old_value": 1213.67,
         "new_month": "2026-08",
-        "new_value": 1305.12,
-        "change_pct": 7.53,
+        "new_value": 1307.59,
+        "change_pct": 7.74,
         "monthly_breakdown": [
           {
             "month": "2026-07",
@@ -1467,8 +1467,8 @@
           },
           {
             "month": "2026-08",
-            "avg_value": 1305.12,
-            "day_count": 26
+            "avg_value": 1307.59,
+            "day_count": 27
           }
         ],
         "change_10d": {
@@ -1477,15 +1477,15 @@
           "new_value": 1372.0
         },
         "change_30d": {
-          "change_pct": null,
-          "note": "30 günlük veri henüz yetersiz"
+          "change_pct": 13.3884,
+          "old_value": 1210.0,
+          "new_value": 1372.0
         },
         "momentum": {
-          "momentum": null,
-          "note": "yetersiz veri"
+          "momentum": -9.2122
         },
         "latest": {
-          "date": "2026-08-27",
+          "date": "2026-08-28",
           "value": 1372
         }
       },
@@ -1494,8 +1494,8 @@
         "old_month": "2026-07",
         "old_value": 1178.67,
         "new_month": "2026-08",
-        "new_value": 1279.08,
-        "change_pct": 8.52,
+        "new_value": 1281.7,
+        "change_pct": 8.74,
         "monthly_breakdown": [
           {
             "month": "2026-07",
@@ -1504,26 +1504,26 @@
           },
           {
             "month": "2026-08",
-            "avg_value": 1279.08,
-            "day_count": 26
+            "avg_value": 1281.7,
+            "day_count": 27
           }
         ],
         "change_10d": {
-          "change_pct": 4.331,
+          "change_pct": 4.4084,
           "old_value": 1293.0,
-          "new_value": 1349.0
+          "new_value": 1350.0
         },
         "change_30d": {
-          "change_pct": null,
-          "note": "30 günlük veri henüz yetersiz"
+          "change_pct": 14.6984,
+          "old_value": 1177.0,
+          "new_value": 1350.0
         },
         "momentum": {
-          "momentum": null,
-          "note": "yetersiz veri"
+          "momentum": -10.29
         },
         "latest": {
-          "date": "2026-08-27",
-          "value": 1349
+          "date": "2026-08-28",
+          "value": 1350
         }
       },
       {
@@ -1531,8 +1531,8 @@
         "old_month": "2026-07",
         "old_value": 1184.67,
         "new_month": "2026-08",
-        "new_value": 1276.77,
-        "change_pct": 7.77,
+        "new_value": 1279.41,
+        "change_pct": 8.0,
         "monthly_breakdown": [
           {
             "month": "2026-07",
@@ -1541,8 +1541,8 @@
           },
           {
             "month": "2026-08",
-            "avg_value": 1276.77,
-            "day_count": 26
+            "avg_value": 1279.41,
+            "day_count": 27
           }
         ],
         "change_10d": {
@@ -1551,15 +1551,15 @@
           "new_value": 1348.0
         },
         "change_30d": {
-          "change_pct": null,
-          "note": "30 günlük veri henüz yetersiz"
+          "change_pct": 14.2373,
+          "old_value": 1180.0,
+          "new_value": 1348.0
         },
         "momentum": {
-          "momentum": null,
-          "note": "yetersiz veri"
+          "momentum": -9.5789
         },
         "latest": {
-          "date": "2026-08-27",
+          "date": "2026-08-28",
           "value": 1348
         }
       }
