@@ -5,8 +5,8 @@
       "old_month": "2026-07",
       "old_value": 2800.33,
       "new_month": "2026-09",
-      "new_value": 3316.67,
-      "change_pct": 18.44,
+      "new_value": 3325.57,
+      "change_pct": 18.76,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -20,26 +20,26 @@
         },
         {
           "month": "2026-09",
-          "avg_value": 3316.67,
-          "day_count": 6
+          "avg_value": 3325.57,
+          "day_count": 7
         }
       ],
       "change_10d": {
-        "change_pct": 5.4307,
-        "old_value": 3204.0,
-        "new_value": 3378.0
+        "change_pct": 5.429,
+        "old_value": 3205.0,
+        "new_value": 3379.0
       },
       "change_30d": {
-        "change_pct": 16.8454,
-        "old_value": 2891.0,
-        "new_value": 3378.0
+        "change_pct": 15.7192,
+        "old_value": 2920.0,
+        "new_value": 3379.0
       },
       "momentum": {
-        "momentum": -11.4147
+        "momentum": -10.2902
       },
       "latest": {
-        "date": "2026-09-06",
-        "value": 3378
+        "date": "2026-09-07",
+        "value": 3379
       }
     },
     {
@@ -47,8 +47,8 @@
       "old_month": "2026-07",
       "old_value": 2524.67,
       "new_month": "2026-09",
-      "new_value": 2963.83,
-      "change_pct": 17.39,
+      "new_value": 2971.43,
+      "change_pct": 17.7,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -62,26 +62,26 @@
         },
         {
           "month": "2026-09",
-          "avg_value": 2963.83,
-          "day_count": 6
+          "avg_value": 2971.43,
+          "day_count": 7
         }
       ],
       "change_10d": {
-        "change_pct": 4.9774,
-        "old_value": 2873.0,
-        "new_value": 3016.0
+        "change_pct": 4.9756,
+        "old_value": 2874.0,
+        "new_value": 3017.0
       },
       "change_30d": {
-        "change_pct": 14.8952,
-        "old_value": 2625.0,
-        "new_value": 3016.0
+        "change_pct": 13.9781,
+        "old_value": 2647.0,
+        "new_value": 3017.0
       },
       "momentum": {
-        "momentum": -9.9178
+        "momentum": -9.0025
       },
       "latest": {
-        "date": "2026-09-06",
-        "value": 3016
+        "date": "2026-09-07",
+        "value": 3017
       }
     },
     {
@@ -89,8 +89,8 @@
       "old_month": "2026-07",
       "old_value": 1988.67,
       "new_month": "2026-09",
-      "new_value": 2356.17,
-      "change_pct": 18.48,
+      "new_value": 2367.0,
+      "change_pct": 19.02,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -104,26 +104,26 @@
         },
         {
           "month": "2026-09",
-          "avg_value": 2356.17,
-          "day_count": 6
+          "avg_value": 2367.0,
+          "day_count": 7
         }
       ],
       "change_10d": {
-        "change_pct": 6.7194,
+        "change_pct": 6.8072,
         "old_value": 2277.0,
-        "new_value": 2430.0
+        "new_value": 2432.0
       },
       "change_30d": {
-        "change_pct": 16.8831,
-        "old_value": 2079.0,
-        "new_value": 2430.0
+        "change_pct": 15.8647,
+        "old_value": 2099.0,
+        "new_value": 2432.0
       },
       "momentum": {
-        "momentum": -10.1637
+        "momentum": -9.0575
       },
       "latest": {
-        "date": "2026-09-06",
-        "value": 2430
+        "date": "2026-09-07",
+        "value": 2432
       }
     },
     {
@@ -131,8 +131,8 @@
       "old_month": "2026-07",
       "old_value": 1910.33,
       "new_month": "2026-09",
-      "new_value": 2289.33,
-      "change_pct": 19.84,
+      "new_value": 2293.71,
+      "change_pct": 20.07,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -146,8 +146,8 @@
         },
         {
           "month": "2026-09",
-          "avg_value": 2289.33,
-          "day_count": 6
+          "avg_value": 2293.71,
+          "day_count": 7
         }
       ],
       "change_10d": {
@@ -156,15 +156,15 @@
         "new_value": 2320.0
       },
       "change_30d": {
-        "change_pct": 16.5829,
-        "old_value": 1990.0,
+        "change_pct": 15.653,
+        "old_value": 2006.0,
         "new_value": 2320.0
       },
       "momentum": {
-        "momentum": -11.4152
+        "momentum": -10.4853
       },
       "latest": {
-        "date": "2026-09-06",
+        "date": "2026-09-07",
         "value": 2320
       }
     },
@@ -173,8 +173,8 @@
       "old_month": "2026-07",
       "old_value": 1045.33,
       "new_month": "2026-09",
-      "new_value": 1231.5,
-      "change_pct": 17.81,
+      "new_value": 1238.43,
+      "change_pct": 18.47,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -188,26 +188,26 @@
         },
         {
           "month": "2026-09",
-          "avg_value": 1231.5,
-          "day_count": 6
+          "avg_value": 1238.43,
+          "day_count": 7
         }
       ],
       "change_10d": {
-        "change_pct": 7.1309,
-        "old_value": 1192.0,
-        "new_value": 1277.0
+        "change_pct": 7.2925,
+        "old_value": 1193.0,
+        "new_value": 1280.0
       },
       "change_30d": {
-        "change_pct": 18.1314,
-        "old_value": 1081.0,
-        "new_value": 1277.0
+        "change_pct": 16.6819,
+        "old_value": 1097.0,
+        "new_value": 1280.0
       },
       "momentum": {
-        "momentum": -11.0005
+        "momentum": -9.3894
       },
       "latest": {
-        "date": "2026-09-06",
-        "value": 1277
+        "date": "2026-09-07",
+        "value": 1280
       }
     },
     {
@@ -215,8 +215,8 @@
       "old_month": "2026-07",
       "old_value": 1899.67,
       "new_month": "2026-09",
-      "new_value": 2253.83,
-      "change_pct": 18.64,
+      "new_value": 2259.57,
+      "change_pct": 18.95,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -230,8 +230,8 @@
         },
         {
           "month": "2026-09",
-          "avg_value": 2253.83,
-          "day_count": 6
+          "avg_value": 2259.57,
+          "day_count": 7
         }
       ],
       "change_10d": {
@@ -240,15 +240,15 @@
         "new_value": 2294.0
       },
       "change_30d": {
-        "change_pct": 15.9757,
-        "old_value": 1978.0,
+        "change_pct": 14.5854,
+        "old_value": 2002.0,
         "new_value": 2294.0
       },
       "momentum": {
-        "momentum": -10.8428
+        "momentum": -9.4525
       },
       "latest": {
-        "date": "2026-09-06",
+        "date": "2026-09-07",
         "value": 2294
       }
     },
@@ -257,8 +257,8 @@
       "old_month": "2026-07",
       "old_value": 4489.67,
       "new_month": "2026-09",
-      "new_value": 5415.83,
-      "change_pct": 20.63,
+      "new_value": 5430.14,
+      "change_pct": 20.95,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -272,25 +272,25 @@
         },
         {
           "month": "2026-09",
-          "avg_value": 5415.83,
-          "day_count": 6
+          "avg_value": 5430.14,
+          "day_count": 7
         }
       ],
       "change_10d": {
-        "change_pct": 6.2608,
-        "old_value": 5191.0,
+        "change_pct": 6.1995,
+        "old_value": 5194.0,
         "new_value": 5516.0
       },
       "change_30d": {
-        "change_pct": 17.1623,
-        "old_value": 4708.0,
+        "change_pct": 16.3713,
+        "old_value": 4740.0,
         "new_value": 5516.0
       },
       "momentum": {
-        "momentum": -10.9015
+        "momentum": -10.1718
       },
       "latest": {
-        "date": "2026-09-06",
+        "date": "2026-09-07",
         "value": 5516
       }
     },
@@ -299,8 +299,8 @@
       "old_month": "2026-07",
       "old_value": 1541.0,
       "new_month": "2026-09",
-      "new_value": 1815.83,
-      "change_pct": 17.83,
+      "new_value": 1820.29,
+      "change_pct": 18.12,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -314,26 +314,26 @@
         },
         {
           "month": "2026-09",
-          "avg_value": 1815.83,
-          "day_count": 6
+          "avg_value": 1820.29,
+          "day_count": 7
         }
       ],
       "change_10d": {
-        "change_pct": 4.9488,
+        "change_pct": 5.0626,
         "old_value": 1758.0,
-        "new_value": 1845.0
+        "new_value": 1847.0
       },
       "change_30d": {
-        "change_pct": 15.892,
-        "old_value": 1592.0,
-        "new_value": 1845.0
+        "change_pct": 15.0062,
+        "old_value": 1606.0,
+        "new_value": 1847.0
       },
       "momentum": {
-        "momentum": -10.9432
+        "momentum": -9.9436
       },
       "latest": {
-        "date": "2026-09-06",
-        "value": 1845
+        "date": "2026-09-07",
+        "value": 1847
       }
     },
     {
@@ -341,8 +341,8 @@
       "old_month": "2026-07",
       "old_value": 1810.33,
       "new_month": "2026-09",
-      "new_value": 2132.5,
-      "change_pct": 17.8,
+      "new_value": 2137.86,
+      "change_pct": 18.09,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -356,8 +356,8 @@
         },
         {
           "month": "2026-09",
-          "avg_value": 2132.5,
-          "day_count": 6
+          "avg_value": 2137.86,
+          "day_count": 7
         }
       ],
       "change_10d": {
@@ -366,15 +366,15 @@
         "new_value": 2170.0
       },
       "change_30d": {
-        "change_pct": 15.3642,
-        "old_value": 1881.0,
+        "change_pct": 14.3911,
+        "old_value": 1897.0,
         "new_value": 2170.0
       },
       "momentum": {
-        "momentum": -9.3036
+        "momentum": -8.3305
       },
       "latest": {
-        "date": "2026-09-06",
+        "date": "2026-09-07",
         "value": 2170
       }
     },
@@ -383,8 +383,8 @@
       "old_month": "2026-07",
       "old_value": 1435.0,
       "new_month": "2026-09",
-      "new_value": 1713.0,
-      "change_pct": 19.37,
+      "new_value": 1717.0,
+      "change_pct": 19.65,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -398,26 +398,26 @@
         },
         {
           "month": "2026-09",
-          "avg_value": 1713.0,
-          "day_count": 6
+          "avg_value": 1717.0,
+          "day_count": 7
         }
       ],
       "change_10d": {
-        "change_pct": 5.3907,
+        "change_pct": 5.4512,
         "old_value": 1651.0,
-        "new_value": 1740.0
+        "new_value": 1741.0
       },
       "change_30d": {
-        "change_pct": 16.0774,
-        "old_value": 1499.0,
-        "new_value": 1740.0
+        "change_pct": 14.389,
+        "old_value": 1522.0,
+        "new_value": 1741.0
       },
       "momentum": {
-        "momentum": -10.6867
+        "momentum": -8.9378
       },
       "latest": {
-        "date": "2026-09-06",
-        "value": 1740
+        "date": "2026-09-07",
+        "value": 1741
       }
     },
     {
@@ -425,8 +425,8 @@
       "old_month": "2026-07",
       "old_value": 1501.0,
       "new_month": "2026-09",
-      "new_value": 1783.17,
-      "change_pct": 18.8,
+      "new_value": 1788.14,
+      "change_pct": 19.13,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -440,26 +440,26 @@
         },
         {
           "month": "2026-09",
-          "avg_value": 1783.17,
-          "day_count": 6
+          "avg_value": 1788.14,
+          "day_count": 7
         }
       ],
       "change_10d": {
-        "change_pct": 6.1332,
-        "old_value": 1712.0,
-        "new_value": 1817.0
+        "change_pct": 6.1296,
+        "old_value": 1713.0,
+        "new_value": 1818.0
       },
       "change_30d": {
-        "change_pct": 16.6988,
-        "old_value": 1557.0,
-        "new_value": 1817.0
+        "change_pct": 16.1661,
+        "old_value": 1565.0,
+        "new_value": 1818.0
       },
       "momentum": {
-        "momentum": -10.5656
+        "momentum": -10.0365
       },
       "latest": {
-        "date": "2026-09-06",
-        "value": 1817
+        "date": "2026-09-07",
+        "value": 1818
       }
     },
     {
@@ -467,8 +467,8 @@
       "old_month": "2026-07",
       "old_value": 1603.67,
       "new_month": "2026-09",
-      "new_value": 1880.67,
-      "change_pct": 17.27,
+      "new_value": 1888.86,
+      "change_pct": 17.78,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -482,25 +482,25 @@
         },
         {
           "month": "2026-09",
-          "avg_value": 1880.67,
-          "day_count": 6
+          "avg_value": 1888.86,
+          "day_count": 7
         }
       ],
       "change_10d": {
-        "change_pct": 6.9536,
-        "old_value": 1812.0,
+        "change_pct": 6.8946,
+        "old_value": 1813.0,
         "new_value": 1938.0
       },
       "change_30d": {
-        "change_pct": 17.3123,
-        "old_value": 1652.0,
+        "change_pct": 15.9091,
+        "old_value": 1672.0,
         "new_value": 1938.0
       },
       "momentum": {
-        "momentum": -10.3587
+        "momentum": -9.0145
       },
       "latest": {
-        "date": "2026-09-06",
+        "date": "2026-09-07",
         "value": 1938
       }
     },
@@ -509,8 +509,8 @@
       "old_month": "2026-07",
       "old_value": 1314.0,
       "new_month": "2026-09",
-      "new_value": 1556.0,
-      "change_pct": 18.42,
+      "new_value": 1559.43,
+      "change_pct": 18.68,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -524,25 +524,25 @@
         },
         {
           "month": "2026-09",
-          "avg_value": 1556.0,
-          "day_count": 6
+          "avg_value": 1559.43,
+          "day_count": 7
         }
       ],
       "change_10d": {
-        "change_pct": 6.1828,
-        "old_value": 1488.0,
+        "change_pct": 6.0403,
+        "old_value": 1490.0,
         "new_value": 1580.0
       },
       "change_30d": {
-        "change_pct": 16.262,
-        "old_value": 1359.0,
+        "change_pct": 15.5816,
+        "old_value": 1367.0,
         "new_value": 1580.0
       },
       "momentum": {
-        "momentum": -10.0792
+        "momentum": -9.5413
       },
       "latest": {
-        "date": "2026-09-06",
+        "date": "2026-09-07",
         "value": 1580
       }
     },
@@ -551,8 +551,8 @@
       "old_month": "2026-07",
       "old_value": 1237.0,
       "new_month": "2026-09",
-      "new_value": 1447.33,
-      "change_pct": 17.0,
+      "new_value": 1451.14,
+      "change_pct": 17.31,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -566,8 +566,8 @@
         },
         {
           "month": "2026-09",
-          "avg_value": 1447.33,
-          "day_count": 6
+          "avg_value": 1451.14,
+          "day_count": 7
         }
       ],
       "change_10d": {
@@ -576,15 +576,15 @@
         "new_value": 1474.0
       },
       "change_30d": {
-        "change_pct": 14.887,
-        "old_value": 1283.0,
+        "change_pct": 14.2636,
+        "old_value": 1290.0,
         "new_value": 1474.0
       },
       "momentum": {
-        "momentum": -9.7515
+        "momentum": -9.1281
       },
       "latest": {
-        "date": "2026-09-06",
+        "date": "2026-09-07",
         "value": 1474
       }
     },
@@ -593,8 +593,8 @@
       "old_month": "2026-07",
       "old_value": 561.33,
       "new_month": "2026-09",
-      "new_value": 669.0,
-      "change_pct": 19.18,
+      "new_value": 672.29,
+      "change_pct": 19.77,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -608,26 +608,26 @@
         },
         {
           "month": "2026-09",
-          "avg_value": 669.0,
-          "day_count": 6
+          "avg_value": 672.29,
+          "day_count": 7
         }
       ],
       "change_10d": {
-        "change_pct": 6.3077,
-        "old_value": 650.0,
-        "new_value": 691.0
+        "change_pct": 6.298,
+        "old_value": 651.0,
+        "new_value": 692.0
       },
       "change_30d": {
-        "change_pct": 16.9205,
-        "old_value": 591.0,
-        "new_value": 691.0
+        "change_pct": 15.1414,
+        "old_value": 601.0,
+        "new_value": 692.0
       },
       "momentum": {
-        "momentum": -10.6128
+        "momentum": -8.8434
       },
       "latest": {
-        "date": "2026-09-06",
-        "value": 691
+        "date": "2026-09-07",
+        "value": 692
       }
     },
     {
@@ -635,8 +635,8 @@
       "old_month": "2026-07",
       "old_value": 1118.67,
       "new_month": "2026-09",
-      "new_value": 1339.5,
-      "change_pct": 19.74,
+      "new_value": 1341.71,
+      "change_pct": 19.94,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -650,26 +650,26 @@
         },
         {
           "month": "2026-09",
-          "avg_value": 1339.5,
-          "day_count": 6
+          "avg_value": 1341.71,
+          "day_count": 7
         }
       ],
       "change_10d": {
-        "change_pct": 4.3948,
+        "change_pct": 4.4719,
         "old_value": 1297.0,
-        "new_value": 1354.0
+        "new_value": 1355.0
       },
       "change_30d": {
-        "change_pct": 16.7241,
-        "old_value": 1160.0,
-        "new_value": 1354.0
+        "change_pct": 15.911,
+        "old_value": 1169.0,
+        "new_value": 1355.0
       },
       "momentum": {
-        "momentum": -12.3293
+        "momentum": -11.4391
       },
       "latest": {
-        "date": "2026-09-06",
-        "value": 1354
+        "date": "2026-09-07",
+        "value": 1355
       }
     },
     {
@@ -677,8 +677,8 @@
       "old_month": "2026-07",
       "old_value": 1184.67,
       "new_month": "2026-09",
-      "new_value": 1395.33,
-      "change_pct": 17.78,
+      "new_value": 1399.0,
+      "change_pct": 18.09,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -692,25 +692,25 @@
         },
         {
           "month": "2026-09",
-          "avg_value": 1395.33,
-          "day_count": 6
+          "avg_value": 1399.0,
+          "day_count": 7
         }
       ],
       "change_10d": {
-        "change_pct": 5.4154,
-        "old_value": 1348.0,
+        "change_pct": 5.3373,
+        "old_value": 1349.0,
         "new_value": 1421.0
       },
       "change_30d": {
-        "change_pct": 15.6225,
-        "old_value": 1229.0,
+        "change_pct": 14.2283,
+        "old_value": 1244.0,
         "new_value": 1421.0
       },
       "momentum": {
-        "momentum": -10.2071
+        "momentum": -8.891
       },
       "latest": {
-        "date": "2026-09-06",
+        "date": "2026-09-07",
         "value": 1421
       }
     },
@@ -719,8 +719,8 @@
       "old_month": "2026-07",
       "old_value": 1271.33,
       "new_month": "2026-09",
-      "new_value": 1500.0,
-      "change_pct": 17.99,
+      "new_value": 1503.29,
+      "change_pct": 18.25,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -734,26 +734,26 @@
         },
         {
           "month": "2026-09",
-          "avg_value": 1500.0,
-          "day_count": 6
+          "avg_value": 1503.29,
+          "day_count": 7
         }
       ],
       "change_10d": {
-        "change_pct": 5.038,
-        "old_value": 1449.0,
-        "new_value": 1522.0
+        "change_pct": 5.0345,
+        "old_value": 1450.0,
+        "new_value": 1523.0
       },
       "change_30d": {
-        "change_pct": 15.1286,
-        "old_value": 1322.0,
-        "new_value": 1522.0
+        "change_pct": 14.0824,
+        "old_value": 1335.0,
+        "new_value": 1523.0
       },
       "momentum": {
-        "momentum": -10.0906
+        "momentum": -9.0479
       },
       "latest": {
-        "date": "2026-09-06",
-        "value": 1522
+        "date": "2026-09-07",
+        "value": 1523
       }
     },
     {
@@ -761,8 +761,8 @@
       "old_month": "2026-07",
       "old_value": 1178.67,
       "new_month": "2026-09",
-      "new_value": 1421.33,
-      "change_pct": 20.59,
+      "new_value": 1427.71,
+      "change_pct": 21.13,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -776,25 +776,25 @@
         },
         {
           "month": "2026-09",
-          "avg_value": 1421.33,
-          "day_count": 6
+          "avg_value": 1427.71,
+          "day_count": 7
         }
       ],
       "change_10d": {
-        "change_pct": 8.6731,
-        "old_value": 1349.0,
+        "change_pct": 8.5122,
+        "old_value": 1351.0,
         "new_value": 1466.0
       },
       "change_30d": {
-        "change_pct": 19.4784,
-        "old_value": 1227.0,
+        "change_pct": 17.6565,
+        "old_value": 1246.0,
         "new_value": 1466.0
       },
       "momentum": {
-        "momentum": -10.8053
+        "momentum": -9.1443
       },
       "latest": {
-        "date": "2026-09-06",
+        "date": "2026-09-07",
         "value": 1466
       }
     },
@@ -803,8 +803,8 @@
       "old_month": "2026-07",
       "old_value": 1213.67,
       "new_month": "2026-09",
-      "new_value": 1425.17,
-      "change_pct": 17.43,
+      "new_value": 1428.71,
+      "change_pct": 17.72,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -818,8 +818,8 @@
         },
         {
           "month": "2026-09",
-          "avg_value": 1425.17,
-          "day_count": 6
+          "avg_value": 1428.71,
+          "day_count": 7
         }
       ],
       "change_10d": {
@@ -828,15 +828,15 @@
         "new_value": 1450.0
       },
       "change_30d": {
-        "change_pct": 14.897,
-        "old_value": 1262.0,
+        "change_pct": 13.9042,
+        "old_value": 1273.0,
         "new_value": 1450.0
       },
       "momentum": {
-        "momentum": -9.2119
+        "momentum": -8.2191
       },
       "latest": {
-        "date": "2026-09-06",
+        "date": "2026-09-07",
         "value": 1450
       }
     },
@@ -845,8 +845,8 @@
       "old_month": "2026-07",
       "old_value": 1188.0,
       "new_month": "2026-09",
-      "new_value": 1439.83,
-      "change_pct": 21.2,
+      "new_value": 1444.29,
+      "change_pct": 21.57,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -860,26 +860,26 @@
         },
         {
           "month": "2026-09",
-          "avg_value": 1439.83,
-          "day_count": 6
+          "avg_value": 1444.29,
+          "day_count": 7
         }
       ],
       "change_10d": {
-        "change_pct": 5.6034,
-        "old_value": 1392.0,
-        "new_value": 1470.0
+        "change_pct": 5.5994,
+        "old_value": 1393.0,
+        "new_value": 1471.0
       },
       "change_30d": {
-        "change_pct": 15.8392,
-        "old_value": 1269.0,
-        "new_value": 1470.0
+        "change_pct": 14.9219,
+        "old_value": 1280.0,
+        "new_value": 1471.0
       },
       "momentum": {
-        "momentum": -10.2358
+        "momentum": -9.3225
       },
       "latest": {
-        "date": "2026-09-06",
-        "value": 1470
+        "date": "2026-09-07",
+        "value": 1471
       }
     },
     {
@@ -887,8 +887,8 @@
       "old_month": "2026-07",
       "old_value": 1716.67,
       "new_month": "2026-09",
-      "new_value": 1984.33,
-      "change_pct": 15.59,
+      "new_value": 1989.43,
+      "change_pct": 15.89,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -902,8 +902,8 @@
         },
         {
           "month": "2026-09",
-          "avg_value": 1984.33,
-          "day_count": 6
+          "avg_value": 1989.43,
+          "day_count": 7
         }
       ],
       "change_10d": {
@@ -912,15 +912,15 @@
         "new_value": 2020.0
       },
       "change_30d": {
-        "change_pct": 14.0599,
-        "old_value": 1771.0,
+        "change_pct": 13.1019,
+        "old_value": 1786.0,
         "new_value": 2020.0
       },
       "momentum": {
-        "momentum": -9.1248
+        "momentum": -8.1668
       },
       "latest": {
-        "date": "2026-09-06",
+        "date": "2026-09-07",
         "value": 2020
       }
     },
@@ -929,8 +929,8 @@
       "old_month": "2026-07",
       "old_value": 1299.67,
       "new_month": "2026-09",
-      "new_value": 1546.83,
-      "change_pct": 19.02,
+      "new_value": 1551.86,
+      "change_pct": 19.4,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -944,25 +944,25 @@
         },
         {
           "month": "2026-09",
-          "avg_value": 1546.83,
-          "day_count": 6
+          "avg_value": 1551.86,
+          "day_count": 7
         }
       ],
       "change_10d": {
-        "change_pct": 6.2458,
-        "old_value": 1489.0,
+        "change_pct": 6.3172,
+        "old_value": 1488.0,
         "new_value": 1582.0
       },
       "change_30d": {
-        "change_pct": 16.9254,
-        "old_value": 1353.0,
+        "change_pct": 15.5588,
+        "old_value": 1369.0,
         "new_value": 1582.0
       },
       "momentum": {
-        "momentum": -10.6796
+        "momentum": -9.2416
       },
       "latest": {
-        "date": "2026-09-06",
+        "date": "2026-09-07",
         "value": 1582
       }
     },
@@ -971,8 +971,8 @@
       "old_month": "2026-07",
       "old_value": 519.67,
       "new_month": "2026-09",
-      "new_value": 594.0,
-      "change_pct": 14.3,
+      "new_value": 598.29,
+      "change_pct": 15.13,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -986,25 +986,25 @@
         },
         {
           "month": "2026-09",
-          "avg_value": 594.0,
-          "day_count": 6
+          "avg_value": 598.29,
+          "day_count": 7
         }
       ],
       "change_10d": {
-        "change_pct": 7.9585,
-        "old_value": 578.0,
+        "change_pct": 7.772,
+        "old_value": 579.0,
         "new_value": 624.0
       },
       "change_30d": {
-        "change_pct": 17.0732,
-        "old_value": 533.0,
+        "change_pct": 15.1292,
+        "old_value": 542.0,
         "new_value": 624.0
       },
       "momentum": {
-        "momentum": -9.1147
+        "momentum": -7.3572
       },
       "latest": {
-        "date": "2026-09-06",
+        "date": "2026-09-07",
         "value": 624
       }
     },
@@ -1013,8 +1013,8 @@
       "old_month": "2026-07",
       "old_value": 1199.33,
       "new_month": "2026-09",
-      "new_value": 1431.0,
-      "change_pct": 19.32,
+      "new_value": 1435.71,
+      "change_pct": 19.71,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -1028,8 +1028,8 @@
         },
         {
           "month": "2026-09",
-          "avg_value": 1431.0,
-          "day_count": 6
+          "avg_value": 1435.71,
+          "day_count": 7
         }
       ],
       "change_10d": {
@@ -1038,15 +1038,15 @@
         "new_value": 1464.0
       },
       "change_30d": {
-        "change_pct": 17.0264,
-        "old_value": 1251.0,
+        "change_pct": 15.7312,
+        "old_value": 1265.0,
         "new_value": 1464.0
       },
       "momentum": {
-        "momentum": -11.093
+        "momentum": -9.7978
       },
       "latest": {
-        "date": "2026-09-06",
+        "date": "2026-09-07",
         "value": 1464
       }
     }
@@ -1057,8 +1057,8 @@
       "old_month": "2026-07",
       "old_value": 1188.0,
       "new_month": "2026-09",
-      "new_value": 1439.83,
-      "change_pct": 21.2,
+      "new_value": 1444.29,
+      "change_pct": 21.57,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -1072,68 +1072,26 @@
         },
         {
           "month": "2026-09",
-          "avg_value": 1439.83,
-          "day_count": 6
+          "avg_value": 1444.29,
+          "day_count": 7
         }
       ],
       "change_10d": {
-        "change_pct": 5.6034,
-        "old_value": 1392.0,
-        "new_value": 1470.0
+        "change_pct": 5.5994,
+        "old_value": 1393.0,
+        "new_value": 1471.0
       },
       "change_30d": {
-        "change_pct": 15.8392,
-        "old_value": 1269.0,
-        "new_value": 1470.0
+        "change_pct": 14.9219,
+        "old_value": 1280.0,
+        "new_value": 1471.0
       },
       "momentum": {
-        "momentum": -10.2358
+        "momentum": -9.3225
       },
       "latest": {
-        "date": "2026-09-06",
-        "value": 1470
-      }
-    },
-    {
-      "university": "Sağlık Bilimleri Üniversitesi",
-      "old_month": "2026-07",
-      "old_value": 4489.67,
-      "new_month": "2026-09",
-      "new_value": 5415.83,
-      "change_pct": 20.63,
-      "monthly_breakdown": [
-        {
-          "month": "2026-07",
-          "avg_value": 4489.67,
-          "day_count": 3
-        },
-        {
-          "month": "2026-08",
-          "avg_value": 4941.07,
-          "day_count": 30
-        },
-        {
-          "month": "2026-09",
-          "avg_value": 5415.83,
-          "day_count": 6
-        }
-      ],
-      "change_10d": {
-        "change_pct": 6.2608,
-        "old_value": 5191.0,
-        "new_value": 5516.0
-      },
-      "change_30d": {
-        "change_pct": 17.1623,
-        "old_value": 4708.0,
-        "new_value": 5516.0
-      },
-      "momentum": {
-        "momentum": -10.9015
-      },
-      "latest": {
-        "date": "2026-09-06",
-        "value": 5516
+        "date": "2026-09-07",
+        "value": 1471
       }
     },
     {
@@ -1141,8 +1099,8 @@
       "old_month": "2026-07",
       "old_value": 1178.67,
       "new_month": "2026-09",
-      "new_value": 1421.33,
-      "change_pct": 20.59,
+      "new_value": 1427.71,
+      "change_pct": 21.13,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -1156,26 +1114,68 @@
         },
         {
           "month": "2026-09",
-          "avg_value": 1421.33,
-          "day_count": 6
+          "avg_value": 1427.71,
+          "day_count": 7
         }
       ],
       "change_10d": {
-        "change_pct": 8.6731,
-        "old_value": 1349.0,
+        "change_pct": 8.5122,
+        "old_value": 1351.0,
         "new_value": 1466.0
       },
       "change_30d": {
-        "change_pct": 19.4784,
-        "old_value": 1227.0,
+        "change_pct": 17.6565,
+        "old_value": 1246.0,
         "new_value": 1466.0
       },
       "momentum": {
-        "momentum": -10.8053
+        "momentum": -9.1443
       },
       "latest": {
-        "date": "2026-09-06",
+        "date": "2026-09-07",
         "value": 1466
+      }
+    },
+    {
+      "university": "Sağlık Bilimleri Üniversitesi",
+      "old_month": "2026-07",
+      "old_value": 4489.67,
+      "new_month": "2026-09",
+      "new_value": 5430.14,
+      "change_pct": 20.95,
+      "monthly_breakdown": [
+        {
+          "month": "2026-07",
+          "avg_value": 4489.67,
+          "day_count": 3
+        },
+        {
+          "month": "2026-08",
+          "avg_value": 4941.07,
+          "day_count": 30
+        },
+        {
+          "month": "2026-09",
+          "avg_value": 5430.14,
+          "day_count": 7
+        }
+      ],
+      "change_10d": {
+        "change_pct": 6.1995,
+        "old_value": 5194.0,
+        "new_value": 5516.0
+      },
+      "change_30d": {
+        "change_pct": 16.3713,
+        "old_value": 4740.0,
+        "new_value": 5516.0
+      },
+      "momentum": {
+        "momentum": -10.1718
+      },
+      "latest": {
+        "date": "2026-09-07",
+        "value": 5516
       }
     },
     {
@@ -1183,8 +1183,8 @@
       "old_month": "2026-07",
       "old_value": 1910.33,
       "new_month": "2026-09",
-      "new_value": 2289.33,
-      "change_pct": 19.84,
+      "new_value": 2293.71,
+      "change_pct": 20.07,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -1198,8 +1198,8 @@
         },
         {
           "month": "2026-09",
-          "avg_value": 2289.33,
-          "day_count": 6
+          "avg_value": 2293.71,
+          "day_count": 7
         }
       ],
       "change_10d": {
@@ -1208,15 +1208,15 @@
         "new_value": 2320.0
       },
       "change_30d": {
-        "change_pct": 16.5829,
-        "old_value": 1990.0,
+        "change_pct": 15.653,
+        "old_value": 2006.0,
         "new_value": 2320.0
       },
       "momentum": {
-        "momentum": -11.4152
+        "momentum": -10.4853
       },
       "latest": {
-        "date": "2026-09-06",
+        "date": "2026-09-07",
         "value": 2320
       }
     },
@@ -1225,8 +1225,8 @@
       "old_month": "2026-07",
       "old_value": 1118.67,
       "new_month": "2026-09",
-      "new_value": 1339.5,
-      "change_pct": 19.74,
+      "new_value": 1341.71,
+      "change_pct": 19.94,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -1240,37 +1240,79 @@
         },
         {
           "month": "2026-09",
-          "avg_value": 1339.5,
-          "day_count": 6
+          "avg_value": 1341.71,
+          "day_count": 7
         }
       ],
       "change_10d": {
-        "change_pct": 4.3948,
+        "change_pct": 4.4719,
         "old_value": 1297.0,
-        "new_value": 1354.0
+        "new_value": 1355.0
       },
       "change_30d": {
-        "change_pct": 16.7241,
-        "old_value": 1160.0,
-        "new_value": 1354.0
+        "change_pct": 15.911,
+        "old_value": 1169.0,
+        "new_value": 1355.0
       },
       "momentum": {
-        "momentum": -12.3293
+        "momentum": -11.4391
       },
       "latest": {
-        "date": "2026-09-06",
-        "value": 1354
+        "date": "2026-09-07",
+        "value": 1355
       }
     }
   ],
   "bottom_gainers": [
     {
+      "university": "Akdeniz Üniversitesi",
+      "old_month": "2026-07",
+      "old_value": 1213.67,
+      "new_month": "2026-09",
+      "new_value": 1428.71,
+      "change_pct": 17.72,
+      "monthly_breakdown": [
+        {
+          "month": "2026-07",
+          "avg_value": 1213.67,
+          "day_count": 3
+        },
+        {
+          "month": "2026-08",
+          "avg_value": 1316.17,
+          "day_count": 30
+        },
+        {
+          "month": "2026-09",
+          "avg_value": 1428.71,
+          "day_count": 7
+        }
+      ],
+      "change_10d": {
+        "change_pct": 5.6851,
+        "old_value": 1372.0,
+        "new_value": 1450.0
+      },
+      "change_30d": {
+        "change_pct": 13.9042,
+        "old_value": 1273.0,
+        "new_value": 1450.0
+      },
+      "momentum": {
+        "momentum": -8.2191
+      },
+      "latest": {
+        "date": "2026-09-07",
+        "value": 1450
+      }
+    },
+    {
       "university": "Ankara Üniversitesi",
       "old_month": "2026-07",
       "old_value": 2524.67,
       "new_month": "2026-09",
-      "new_value": 2963.83,
-      "change_pct": 17.39,
+      "new_value": 2971.43,
+      "change_pct": 17.7,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -1284,68 +1326,26 @@
         },
         {
           "month": "2026-09",
-          "avg_value": 2963.83,
-          "day_count": 6
+          "avg_value": 2971.43,
+          "day_count": 7
         }
       ],
       "change_10d": {
-        "change_pct": 4.9774,
-        "old_value": 2873.0,
-        "new_value": 3016.0
+        "change_pct": 4.9756,
+        "old_value": 2874.0,
+        "new_value": 3017.0
       },
       "change_30d": {
-        "change_pct": 14.8952,
-        "old_value": 2625.0,
-        "new_value": 3016.0
+        "change_pct": 13.9781,
+        "old_value": 2647.0,
+        "new_value": 3017.0
       },
       "momentum": {
-        "momentum": -9.9178
+        "momentum": -9.0025
       },
       "latest": {
-        "date": "2026-09-06",
-        "value": 3016
-      }
-    },
-    {
-      "university": "Yıldız Teknik Üniversitesi",
-      "old_month": "2026-07",
-      "old_value": 1603.67,
-      "new_month": "2026-09",
-      "new_value": 1880.67,
-      "change_pct": 17.27,
-      "monthly_breakdown": [
-        {
-          "month": "2026-07",
-          "avg_value": 1603.67,
-          "day_count": 3
-        },
-        {
-          "month": "2026-08",
-          "avg_value": 1733.3,
-          "day_count": 30
-        },
-        {
-          "month": "2026-09",
-          "avg_value": 1880.67,
-          "day_count": 6
-        }
-      ],
-      "change_10d": {
-        "change_pct": 6.9536,
-        "old_value": 1812.0,
-        "new_value": 1938.0
-      },
-      "change_30d": {
-        "change_pct": 17.3123,
-        "old_value": 1652.0,
-        "new_value": 1938.0
-      },
-      "momentum": {
-        "momentum": -10.3587
-      },
-      "latest": {
-        "date": "2026-09-06",
-        "value": 1938
+        "date": "2026-09-07",
+        "value": 3017
       }
     },
     {
@@ -1353,8 +1353,8 @@
       "old_month": "2026-07",
       "old_value": 1237.0,
       "new_month": "2026-09",
-      "new_value": 1447.33,
-      "change_pct": 17.0,
+      "new_value": 1451.14,
+      "change_pct": 17.31,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -1368,8 +1368,8 @@
         },
         {
           "month": "2026-09",
-          "avg_value": 1447.33,
-          "day_count": 6
+          "avg_value": 1451.14,
+          "day_count": 7
         }
       ],
       "change_10d": {
@@ -1378,15 +1378,15 @@
         "new_value": 1474.0
       },
       "change_30d": {
-        "change_pct": 14.887,
-        "old_value": 1283.0,
+        "change_pct": 14.2636,
+        "old_value": 1290.0,
         "new_value": 1474.0
       },
       "momentum": {
-        "momentum": -9.7515
+        "momentum": -9.1281
       },
       "latest": {
-        "date": "2026-09-06",
+        "date": "2026-09-07",
         "value": 1474
       }
     },
@@ -1395,8 +1395,8 @@
       "old_month": "2026-07",
       "old_value": 1716.67,
       "new_month": "2026-09",
-      "new_value": 1984.33,
-      "change_pct": 15.59,
+      "new_value": 1989.43,
+      "change_pct": 15.89,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -1410,8 +1410,8 @@
         },
         {
           "month": "2026-09",
-          "avg_value": 1984.33,
-          "day_count": 6
+          "avg_value": 1989.43,
+          "day_count": 7
         }
       ],
       "change_10d": {
@@ -1420,15 +1420,15 @@
         "new_value": 2020.0
       },
       "change_30d": {
-        "change_pct": 14.0599,
-        "old_value": 1771.0,
+        "change_pct": 13.1019,
+        "old_value": 1786.0,
         "new_value": 2020.0
       },
       "momentum": {
-        "momentum": -9.1248
+        "momentum": -8.1668
       },
       "latest": {
-        "date": "2026-09-06",
+        "date": "2026-09-07",
         "value": 2020
       }
     },
@@ -1437,8 +1437,8 @@
       "old_month": "2026-07",
       "old_value": 519.67,
       "new_month": "2026-09",
-      "new_value": 594.0,
-      "change_pct": 14.3,
+      "new_value": 598.29,
+      "change_pct": 15.13,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -1452,25 +1452,25 @@
         },
         {
           "month": "2026-09",
-          "avg_value": 594.0,
-          "day_count": 6
+          "avg_value": 598.29,
+          "day_count": 7
         }
       ],
       "change_10d": {
-        "change_pct": 7.9585,
-        "old_value": 578.0,
+        "change_pct": 7.772,
+        "old_value": 579.0,
         "new_value": 624.0
       },
       "change_30d": {
-        "change_pct": 17.0732,
-        "old_value": 533.0,
+        "change_pct": 15.1292,
+        "old_value": 542.0,
         "new_value": 624.0
       },
       "momentum": {
-        "momentum": -9.1147
+        "momentum": -7.3572
       },
       "latest": {
-        "date": "2026-09-06",
+        "date": "2026-09-07",
         "value": 624
       }
     }
@@ -1481,8 +1481,8 @@
       "old_month": "2026-07",
       "old_value": 1199.33,
       "new_month": "2026-09",
-      "new_value": 1431.0,
-      "change_pct": 19.32,
+      "new_value": 1435.71,
+      "change_pct": 19.71,
       "monthly_breakdown": [
         {
           "month": "2026-07",
@@ -1496,8 +1496,8 @@
         },
         {
           "month": "2026-09",
-          "avg_value": 1431.0,
-          "day_count": 6
+          "avg_value": 1435.71,
+          "day_count": 7
         }
       ],
       "change_10d": {
@@ -1506,15 +1506,15 @@
         "new_value": 1464.0
       },
       "change_30d": {
-        "change_pct": 17.0264,
-        "old_value": 1251.0,
+        "change_pct": 15.7312,
+        "old_value": 1265.0,
         "new_value": 1464.0
       },
       "momentum": {
-        "momentum": -11.093
+        "momentum": -9.7978
       },
       "latest": {
-        "date": "2026-09-06",
+        "date": "2026-09-07",
         "value": 1464
       }
     },
@@ -1524,8 +1524,8 @@
         "old_month": "2026-07",
         "old_value": 1188.0,
         "new_month": "2026-09",
-        "new_value": 1439.83,
-        "change_pct": 21.2,
+        "new_value": 1444.29,
+        "change_pct": 21.57,
         "monthly_breakdown": [
           {
             "month": "2026-07",
@@ -1539,26 +1539,26 @@
           },
           {
             "month": "2026-09",
-            "avg_value": 1439.83,
-            "day_count": 6
+            "avg_value": 1444.29,
+            "day_count": 7
           }
         ],
         "change_10d": {
-          "change_pct": 5.6034,
-          "old_value": 1392.0,
-          "new_value": 1470.0
+          "change_pct": 5.5994,
+          "old_value": 1393.0,
+          "new_value": 1471.0
         },
         "change_30d": {
-          "change_pct": 15.8392,
-          "old_value": 1269.0,
-          "new_value": 1470.0
+          "change_pct": 14.9219,
+          "old_value": 1280.0,
+          "new_value": 1471.0
         },
         "momentum": {
-          "momentum": -10.2358
+          "momentum": -9.3225
         },
         "latest": {
-          "date": "2026-09-06",
-          "value": 1470
+          "date": "2026-09-07",
+          "value": 1471
         }
       },
       {
@@ -1566,8 +1566,8 @@
         "old_month": "2026-07",
         "old_value": 1237.0,
         "new_month": "2026-09",
-        "new_value": 1447.33,
-        "change_pct": 17.0,
+        "new_value": 1451.14,
+        "change_pct": 17.31,
         "monthly_breakdown": [
           {
             "month": "2026-07",
@@ -1581,8 +1581,8 @@
           },
           {
             "month": "2026-09",
-            "avg_value": 1447.33,
-            "day_count": 6
+            "avg_value": 1451.14,
+            "day_count": 7
           }
         ],
         "change_10d": {
@@ -1591,15 +1591,15 @@
           "new_value": 1474.0
         },
         "change_30d": {
-          "change_pct": 14.887,
-          "old_value": 1283.0,
+          "change_pct": 14.2636,
+          "old_value": 1290.0,
           "new_value": 1474.0
         },
         "momentum": {
-          "momentum": -9.7515
+          "momentum": -9.1281
         },
         "latest": {
-          "date": "2026-09-06",
+          "date": "2026-09-07",
           "value": 1474
         }
       },
@@ -1608,8 +1608,8 @@
         "old_month": "2026-07",
         "old_value": 1271.33,
         "new_month": "2026-09",
-        "new_value": 1500.0,
-        "change_pct": 17.99,
+        "new_value": 1503.29,
+        "change_pct": 18.25,
         "monthly_breakdown": [
           {
             "month": "2026-07",
@@ -1623,26 +1623,26 @@
           },
           {
             "month": "2026-09",
-            "avg_value": 1500.0,
-            "day_count": 6
+            "avg_value": 1503.29,
+            "day_count": 7
           }
         ],
         "change_10d": {
-          "change_pct": 5.038,
-          "old_value": 1449.0,
-          "new_value": 1522.0
+          "change_pct": 5.0345,
+          "old_value": 1450.0,
+          "new_value": 1523.0
         },
         "change_30d": {
-          "change_pct": 15.1286,
-          "old_value": 1322.0,
-          "new_value": 1522.0
+          "change_pct": 14.0824,
+          "old_value": 1335.0,
+          "new_value": 1523.0
         },
         "momentum": {
-          "momentum": -10.0906
+          "momentum": -9.0479
         },
         "latest": {
-          "date": "2026-09-06",
-          "value": 1522
+          "date": "2026-09-07",
+          "value": 1523
         }
       }
     ],
@@ -1652,8 +1652,8 @@
         "old_month": "2026-07",
         "old_value": 1213.67,
         "new_month": "2026-09",
-        "new_value": 1425.17,
-        "change_pct": 17.43,
+        "new_value": 1428.71,
+        "change_pct": 17.72,
         "monthly_breakdown": [
           {
             "month": "2026-07",
@@ -1667,8 +1667,8 @@
           },
           {
             "month": "2026-09",
-            "avg_value": 1425.17,
-            "day_count": 6
+            "avg_value": 1428.71,
+            "day_count": 7
           }
         ],
         "change_10d": {
@@ -1677,15 +1677,15 @@
           "new_value": 1450.0
         },
         "change_30d": {
-          "change_pct": 14.897,
-          "old_value": 1262.0,
+          "change_pct": 13.9042,
+          "old_value": 1273.0,
           "new_value": 1450.0
         },
         "momentum": {
-          "momentum": -9.2119
+          "momentum": -8.2191
         },
         "latest": {
-          "date": "2026-09-06",
+          "date": "2026-09-07",
           "value": 1450
         }
       },
@@ -1694,8 +1694,8 @@
         "old_month": "2026-07",
         "old_value": 1178.67,
         "new_month": "2026-09",
-        "new_value": 1421.33,
-        "change_pct": 20.59,
+        "new_value": 1427.71,
+        "change_pct": 21.13,
         "monthly_breakdown": [
           {
             "month": "2026-07",
@@ -1709,25 +1709,25 @@
           },
           {
             "month": "2026-09",
-            "avg_value": 1421.33,
-            "day_count": 6
+            "avg_value": 1427.71,
+            "day_count": 7
           }
         ],
         "change_10d": {
-          "change_pct": 8.6731,
-          "old_value": 1349.0,
+          "change_pct": 8.5122,
+          "old_value": 1351.0,
           "new_value": 1466.0
         },
         "change_30d": {
-          "change_pct": 19.4784,
-          "old_value": 1227.0,
+          "change_pct": 17.6565,
+          "old_value": 1246.0,
           "new_value": 1466.0
         },
         "momentum": {
-          "momentum": -10.8053
+          "momentum": -9.1443
         },
         "latest": {
-          "date": "2026-09-06",
+          "date": "2026-09-07",
           "value": 1466
         }
       },
@@ -1736,8 +1736,8 @@
         "old_month": "2026-07",
         "old_value": 1184.67,
         "new_month": "2026-09",
-        "new_value": 1395.33,
-        "change_pct": 17.78,
+        "new_value": 1399.0,
+        "change_pct": 18.09,
         "monthly_breakdown": [
           {
             "month": "2026-07",
@@ -1751,25 +1751,25 @@
           },
           {
             "month": "2026-09",
-            "avg_value": 1395.33,
-            "day_count": 6
+            "avg_value": 1399.0,
+            "day_count": 7
           }
         ],
         "change_10d": {
-          "change_pct": 5.4154,
-          "old_value": 1348.0,
+          "change_pct": 5.3373,
+          "old_value": 1349.0,
           "new_value": 1421.0
         },
         "change_30d": {
-          "change_pct": 15.6225,
-          "old_value": 1229.0,
+          "change_pct": 14.2283,
+          "old_value": 1244.0,
           "new_value": 1421.0
         },
         "momentum": {
-          "momentum": -10.2071
+          "momentum": -8.891
         },
         "latest": {
-          "date": "2026-09-06",
+          "date": "2026-09-07",
           "value": 1421
         }
       }
