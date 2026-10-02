@@ -26,24 +26,24 @@
         {
           "month": "2026-10",
           "avg_value": 3703.0,
-          "day_count": 1
+          "day_count": 2
         }
       ],
       "change_10d": {
-        "change_pct": 5.2886,
-        "old_value": 3517.0,
+        "change_pct": 4.9008,
+        "old_value": 3530.0,
         "new_value": 3703.0
       },
       "change_30d": {
-        "change_pct": 13.1724,
-        "old_value": 3272.0,
+        "change_pct": 12.3142,
+        "old_value": 3297.0,
         "new_value": 3703.0
       },
       "momentum": {
-        "momentum": -7.8838
+        "momentum": -7.4134
       },
       "latest": {
-        "date": "2026-10-01",
+        "date": "2026-10-02",
         "value": 3703
       }
     },
